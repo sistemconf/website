@@ -353,7 +353,7 @@
             "name": "Premium",
             "info": "Premium ticket",
             "price": 20,
-            "soldOut": false,
+            "soldOut": true,
             "starts": "Feb 9",
             "url": "https://hopin.com/events/sistem-2022",
             "order": "2"
