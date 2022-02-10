@@ -64,12 +64,6 @@
                     "logoUrl": "../images/companies/accenture.png",
                     "name": "Accenture",
                     "url": "https://www.accenture.com"
-                },
-                {
-                    "order": 3,
-                    "logoUrl": "../images/companies/redhat.png",
-                    "name": "RedHat",
-                    "url": "https://www.redhat.com"
                 }
             ],
             "order": 2,
