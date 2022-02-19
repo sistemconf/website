@@ -88,6 +88,12 @@
                     "logoUrl": "../images/companies/hubspot.png",
                     "name": "HubSpot",
                     "url": "https://www.hubspot.com"
+                },
+                {
+                    "order": 2,
+                    "logoUrl": "../images/companies/tines.png",
+                    "name": "Tines",
+                    "url": "https://www.tines.com"
                 }
             ],
             "order": 3,
