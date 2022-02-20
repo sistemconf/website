@@ -229,6 +229,22 @@
             "order": 4,
             "title": "UX/UI Designer"
         },
+        "nadia_alramli": {
+            "bio": "Nadia Alramli is a Senior Director of Engineering at HubSpot, a marketing, sales, and service software company that helps businesses grow. She started her career working in the video games industry building backend services for the Call of Duty Franchise for over a decade before moving to HubSpot. Nadia knew she wanted to pursue a career in technology from the moment she first saw a computer at the age of sixteen. She was one of the first classes to ever graduate from Computer Science in Syria. She also has a Master’s in Software Engineering from University College Dublin. In her spare time, Nadia can be found crocheting miniature animals, or playing with squirrels in nearby parks.",
+            "company": "",
+            "companyLogo": "",
+            "companyLogoUrl": "",
+            "country": "Dublin, Ireland",
+            "featured": false,
+            "name": "Nadia Alramli",
+            "photo": "/images/people/nadia_alramli.jpeg",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fnadia_alramli.jpeg?alt=media",
+            "pronouns": "She/Her",
+            "shortBio": "Nadia Alramli is a Senior Director of Engineering at HubSpot, a marketing, sales, and service software company...",
+            "socials": [],
+            "order": 5,
+            "title": "Senior Director of Engineering, HubSpot"
+        },
         "chloe_thompson": {
             "bio": "Chloe is a Cognitive Science Engineer who recently graduated from Queen's University Belfast with a Master's degree in Software and Electronic Systems Engineering. She is passionate about all things AI/ML, Data analytics and research into new technology. Chloe is currently the director of Women Who Code Belfast, a Rural Ireland Tech Advocate and an organiser of Artificial Intelligence NI. She is enthusiastic about event organisation and the local tech community. She has a love for coffee after spending many years as a barista and prides herself on her talent of making a good flat white.",
             "company": "",
@@ -242,7 +258,7 @@
             "pronouns": "She/Her",
             "shortBio": "Chloe is a Cognitive Science Engineer who recently graduated from Queen's University Belfast with a Master's...",
             "socials": [],
-            "order": 5,
+            "order": 6,
             "title": "Cognitive Science Engineer @ AflacNI | Director of WWCode Belfast "
         },
         "karen_emelu": {
@@ -258,7 +274,7 @@
             "pronouns": "She/Her",
             "shortBio": "My name is Karen, a multifaceted individual with a curious mind. As a senior product designer I love creating...",
             "socials": [],
-            "order": 6,
+            "order": 7,
             "title": "Senior Product Designer"
         },
         "poppi_datta": {
@@ -274,7 +290,7 @@
             "pronouns": "She/Her",
             "shortBio": "Poppi Datta (she/her) originally joined IBM as a placement intern, but returned as a fully fledged graduate cybersecurity...",
             "socials": [],
-            "order": 7,
+            "order": 8,
             "title": "Cybersecurity Software Engineer"
         },
         "niamh_phillips": {
@@ -290,7 +306,7 @@
             "pronouns": "She/Her",
             "shortBio": "Hi There, my name is Niamh Phillips, I am a Senior Business & Integration Arch Analyst within Accenture with a Computer...",
             "socials": [],
-            "order": 8,
+            "order": 9,
             "title": "Senior Business & Integration Arch Analyst"
         },
         "ashleigh_lemon": {
@@ -306,8 +322,24 @@
             "pronouns": "She/Her",
             "shortBio": "Hello! My name is Ashleigh Lemon, I am an Application Development Analyst at Accenture. I studied Computing Technologies...",
             "socials": [],
-            "order": 9,
+            "order": 10,
             "title": "Application Development Analyst"
+        },
+        "thomas_cashman": {
+            "bio": "Thomas has over a decade technical experience building game engines, telecom systems and compilers. He specializes in high-performance and high-reliability. In 2017 he bootstrapped Viridian Software and has grown it into a game technology studio that focuses new IP development, porting and publishing. In 2022, they expect to launch 8 titles across all major game consoles.",
+            "company": "",
+            "companyLogo": "",
+            "companyLogoUrl": "",
+            "country": "Dublin, Ireland",
+            "featured": false,
+            "name": "Thomas Cashman",
+            "photo": "/images/people/thomas_cashman.jpg",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fthomas_cashman.jpg?alt=media",
+            "pronouns": "He/Him",
+            "shortBio": "Thomas has over a decade technical experience building game engines, telecom systems and compilers. He specializes in...",
+            "socials": [],
+            "order": 11,
+            "title": "Director / Technical Consultant"
         }
     },
     "team": [
