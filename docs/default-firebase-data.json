@@ -356,6 +356,22 @@
             "socials": [],
             "order": 12,
             "title": "Chief Architect, Red Hat Ireland"
+        },
+        "grania_ohare": {
+            "bio": "Grania O’Hare is the Co-lead of Mastercard PRIDE business resource group, and former LGBT leader with IBM. Graduate of UCD in law, and computer science. With extensive experience in technical communications and content operations, her career extends over several industries including aeronautics, telecoms, healthcare, and finance technology.",
+            "company": "",
+            "companyLogo": "",
+            "companyLogoUrl": "",
+            "country": "Dublin, Ireland",
+            "featured": false,
+            "name": "Grania O’Hare",
+            "photo": "/images/people/grania_ohare.jpg",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fgrania_ohare.jpg?alt=media",
+            "pronouns": "She/Her",
+            "shortBio": "Grania O’Hare is the Co-lead of Mastercard PRIDE business resource group, and former LGBT leader with IBM. Graduate of UCD...",
+            "socials": [],
+            "order": 13,
+            "title": "Co-lead of Mastercard PRIDE business resource group, and former LGBT leader with IBM"
         }
     },
     "team": [
