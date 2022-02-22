@@ -302,96 +302,112 @@
             "title": "An Introduction to SRE: Site Reliability Engineering",
             "description": "In this talk, Michael Mullen and Forum Mehta will be talking all about Site-Reliability Engineering including topics related to:<br>• Using SLIs and SLOs to measure user happiness.<br>• Error budgets.<br>• Difference between SRE and SWE work.<br>• The major aspects of SRE culture.<br>• An overview of technical opportunities at Google",
             "language": "English",
-            "speakers": ["michael_mullen", "forum_mehta"]
+            "speakers": ["michael_mullen", "forum_mehta"],
+            "tags": ["Talks"]
         },
         "102": {
             "title": "Main Track Speaker TBC",
             "description": "",
             "language": "English",
-            "speakers": ["tba"]
+            "speakers": ["tba"],
+            "tags": ["Talks"]
         },
         "103": {
             "title": "Me, Myself and The Tech Community",
             "description": "Take a journey with Vicky on how she got involved with the tech community and why community not only important for her, but for people curious about technology, and especially for those studying and interested in having a career in the industry.",
             "language": "English",
-            "speakers": ["vicky_twomey-lee"]
+            "speakers": ["vicky_twomey-lee"],
+            "tags": ["Talks"]
         },
         "104": {
             "title": "Speedrunning Management",
             "description": "How did I go from a lowly engineer to a Sigma Manager Elite? Come with me to the 3-month crucible of my first managerial position, the problems I inherited and the tools I used to solve them. Management is more than just spreadsheets and reports, there’s a psychology, and deliberate methodology, to team dynamics and how we deliver work. Tune in and discover a whole new area of engineering you may have never even considered.",
             "language": "English",
-            "speakers": ["evan_smith"]
+            "speakers": ["evan_smith"],
+            "tags": ["Talks"]
         },
         "105": {
             "title": "Main Track Speaker TBC",
             "description": "",
             "language": "English",
-            "speakers": ["tba"]
+            "speakers": ["tba"],
+            "tags": ["Talks"]
         },
         "106": {
             "title": "Building Things For Fun & Occasional Profit",
             "description": "James will discuss the journey of building CoderDojo and his newest venture Conjure, with an emphasis on refining your skills, not burning out and enjoying the adventure… he'll also share all the times he did none of that and burnt out.",
             "language": "English",
-            "speakers": ["james_whelton"]
+            "speakers": ["james_whelton"],
+            "tags": ["Talks"]
         },
         "107": {
             "title": "Main Track Speaker TBC",
             "description": "",
             "language": "English",
-            "speakers": ["tbc"]
+            "speakers": ["tbc"],
+            "tags": ["Talks"]
         },
         "201": {
             "title": "Irish Gaming Industry Panel",
             "description": "Join our panel of industry professionals as they discuss the ins and outs of the Irish gaming industry! We will talk about working in the gaming and creative industry, what their job is like, and how they got into the industry.",
             "language": "English",
-            "speakers": ["thomas_cashman"]
+            "speakers": ["thomas_cashman"],
+            "tags": ["Panels"]
         },
         "202": {
             "title": "Women in Tech Panel",
             "description": "",
             "language": "English",
-            "speakers": ["valerie_oyiki", "nadia_alramli", "chloe_thompson", "karen_emelu"]
+            "speakers": ["valerie_oyiki", "nadia_alramli", "chloe_thompson", "karen_emelu"],
+            "tags": ["Panels"]
         },
         "203": {
             "title": "LGBTQ in Tech Panel",
             "description": "Join our panel of getting to know more about the LGBTQ environment in the Tech industry! We will discuss working in the tech industry as a member of the LGBTQ community, also how companies and universities support equality.",
             "language": "English",
-            "speakers": ["poppi_datta", "grania_ohare"]
+            "speakers": ["poppi_datta", "grania_ohare"],
+            "tags": ["Panels"]
         },
         "204": {
             "title": "Mastercard Lightning Talks",
             "description": "",
-            "language": "English"
+            "language": "English",
+            "tags": ["Panels"]
         },
         "205": {
             "title": "Student Lightning Talks",
             "extend": 3,
             "description": "",
-            "language": "English"
+            "language": "English",
+            "tags": ["Panels"]
         },
         "301": {
             "title": "Accenture Workshop | That wasn’t very data- driven of you",
             "description": "Data, it's everywhere. The sheer volumes of untapped / unanalysed data surrounding us in our daily lives, can tell us a lot when collected, analysed and interpreted. This workshop will be a crash course into all things data with a focus on analytics and visualisation. We’ll be discussing the basic principles and processes in these areas, and how broad and interesting the field is for both technical and non-technical people alike. “Data is like people – interrogate it hard enough and it will tell you whatever you want to hear” - Christopher Doyle",
             "language": "English",
-            "speakers": ["niamh_phillips", "ashleigh_lemon"]
+            "speakers": ["niamh_phillips", "ashleigh_lemon"],
+            "tags": ["Workshops"]
         },
         "302": {
             "title": "Microsoft Workshop",
             "description": "",
             "language": "English",
-            "speakers": ["tba"]
+            "speakers": ["tba"],
+            "tags": ["Workshops"]
         },
         "303": {
             "title": "Workday Workshop",
             "description": "",
             "language": "English",
-            "speakers": ["tbc"]
+            "speakers": ["tbc"],
+            "tags": ["Workshops"]
         },
         "304": {
             "title": "Red Hat Workshop | Delivering an AI scheduling application in 60 days",
             "description": "Have you ever wondered what an actual project looks like and how it's being implemented from idea to delivery? In this workshop, we will give you an insight into how Red Hat delivered an AI scheduling application from idea to roll out in just 60 days.",
             "language": "English",
-            "speakers": ["david_murphy"]
+            "speakers": ["david_murphy"],
+            "tags": ["Workshops"]
         }
     },
     "speakers": {
