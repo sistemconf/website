@@ -198,20 +198,20 @@
             "title": "Coder/Tech Event Organiser"
         },
         "michael_mullen": {
-            "bio": "",
+            "bio": "Michael has been with Google fulltime since graduating from UCD Computer Science in 2019. Before that, he interned twice, once in Dublin with Hardware Ops SRE and once in Mountain View, California with the Payments team as a SWE. He works as an SRE with the Search Frontend team, keeping results reliable and users happy for Google's flagship product. ",
             "company": "",
             "companyLogo": "",
             "companyLogoUrl": "",
-            "country": "",
-            "featured": false,
+            "country": "Dublin, Ireland",
+            "featured": true,
             "name": "Michael Mullen",
-            "photo": "",
-            "photoUrl": "",
-            "pronouns": "",
-            "shortBio": "",
+            "photo": "/images/people/michael_mullen.jpg",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fmichael_mullen.jpg?alt=media",
+            "pronouns": "He/Him",
+            "shortBio": "Michael has been with Google fulltime since graduating from UCD Computer Science in 2019. Before that, he...",
             "socials": [],
             "order": 3,
-            "title": ""
+            "title": "Site Reliability Engineer"
         },
         "valerie_oyiki": {
             "bio": "Valerie is a UX/UI Designer and cofounder of Black Girls in Tech. She cares about opening more black women up to the career opportunities that lie in technology and making the industry a safer and more equitable environment for black women to thrive in.",
@@ -219,7 +219,7 @@
             "companyLogo": "",
             "companyLogoUrl": "",
             "country": "Dublin, Ireland",
-            "featured": true,
+            "featured": false,
             "name": "Valerie Oyiki",
             "photo": "/images/people/valerie_oyiki.jpg",
             "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fvalerie_oyiki.jpg?alt=media",
