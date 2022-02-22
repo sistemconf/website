@@ -299,10 +299,10 @@
             "language": "English"
         },
         "101": {
-            "title": "Introduction to SRE: Site Reliability Engineering",
-            "description": "• Using SLIs and SLOs to measure user happiness.<br>• Error budgets.<br>• Difference between SRE and SWE work.<br>• The major aspects of SRE culture.<br>• An overview of technical opportunities at Google",
+            "title": "An Introduction to SRE: Site Reliability Engineering",
+            "description": "In this talk, Michael Mullen and Forum Mehta will be talking all about Site-Reliability Engineering including topics related to:<br>• Using SLIs and SLOs to measure user happiness.<br>• Error budgets.<br>• Difference between SRE and SWE work.<br>• The major aspects of SRE culture.<br>• An overview of technical opportunities at Google",
             "language": "English",
-            "speakers": ["michael_mullen"]
+            "speakers": ["michael_mullen", "forum_mehta"]
         },
         "102": {
             "title": "Main Track Speaker TBC",
@@ -629,6 +629,22 @@
             "socials": [],
             "order": 13,
             "title": "Co-lead of Mastercard PRIDE business resource group, and former LGBT leader with IBM"
+        },
+        "forum_mehta": {
+            "bio": "Forum joined Google in November 2020 as a Technical Program Manager. Prior to that, she worked with GameStop and Blueface as Business Analyst. She completed her Masters in Information Systems from UCD in 2019. As a technical Program Manager, Forum is responsible for running a project from its inception to execution.",
+            "company": "",
+            "companyLogo": "",
+            "companyLogoUrl": "",
+            "country": "Dublin, Ireland",
+            "featured": false,
+            "name": "Forum Mehta",
+            "photo": "/images/people/forum_mehta.jpg",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fforum_mehta.jpg?alt=media",
+            "pronouns": "She/Her",
+            "shortBio": "Forum joined Google in November 2020 as a Technical Program Manager. Prior to that, she worked with GameStop and Blueface as...",
+            "socials": [],
+            "order": 14,
+            "title": "Technical Program Manager"
         }
     },
     "team": [
