@@ -351,7 +351,7 @@
             "title": "Irish Gaming Industry Panel",
             "description": "Join our panel of industry professionals as they discuss the ins and outs of the Irish gaming industry! We will talk about working in the gaming and creative industry, what their job is like, and how they got into the industry.",
             "language": "English",
-            "speakers": ["thomas_cashman"],
+            "speakers": ["thomas_cashman", "treasa_mccabe", "devon_wolfgang", "damien_marshall"],
             "tags": ["Panels"]
         },
         "202": {
@@ -661,6 +661,54 @@
             "socials": [],
             "order": 14,
             "title": "Technical Program Manager"
+        },
+        "treasa_mccabe": {
+            "bio": "Treasa is tech lead and game designer at Spooky Doorway, the Irish studio behind the award-winning series of games, The Darkside Detective and other up-coming projects. Before this Treasa worked in both indie and AAA studios and, before that, financial programming and other evil doings. Treasa is a graduate of Trinity College Dublin, has many hobbies and other personality facets, but none of those are relevant; just know they exist.",
+            "company": "",
+            "companyLogo": "",
+            "companyLogoUrl": "",
+            "country": "Dublin, Ireland",
+            "featured": false,
+            "name": "Treasa McCabe",
+            "photo": "/images/people/treasa_mccabe.jpeg",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Ftreasa_mccabe.jpeg?alt=media",
+            "pronouns": "She/Her",
+            "shortBio": "Treasa is tech lead and game designer at Spooky Doorway, the Irish studio behind the award-winning series of games, The Darkside...",
+            "socials": [],
+            "order": 15,
+            "title": "Tech Lead and Game Designer at Spooky Doorway"
+        },
+        "devon_wolfgang": {
+            "bio": "Originally hailing from Flint Michigan (USA), but now a resident (and citizen) of Dublin, Ireland. Currently a Lead Engineer at StoryToys (a wholly-owned subsidiary of Team17 Group PLC).",
+            "company": "",
+            "companyLogo": "",
+            "companyLogoUrl": "",
+            "country": "Dublin, Ireland",
+            "featured": false,
+            "name": "Devon Wolfgang",
+            "photo": "/images/people/devon_wolfgang.jpg",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fdevon_wolfgang.jpg?alt=media",
+            "pronouns": "He/Him",
+            "shortBio": "Originally hailing from Flint Michigan (USA), but now a resident (and citizen) of Dublin, Ireland. Currently a Lead Engineer at...",
+            "socials": [],
+            "order": 16,
+            "title": "Senior Unity Engineer"
+        },
+        "damien_marshall": {
+            "bio": "Damien is a Director at Demonware, where he helps shape the internal platform technologies that are used to support massive scalability requirements of Activision games. He has been involved with Call of Duty titles since Call of Duty: Modern Warfare 2. He has worked in News Media analytics and also in academia.",
+            "company": "",
+            "companyLogo": "",
+            "companyLogoUrl": "",
+            "country": "Dublin, Ireland",
+            "featured": false,
+            "name": "Damien Marshall",
+            "photo": "/images/people/damien_marshall.png",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fdamien_marshall.png?alt=media",
+            "pronouns": "He/Him",
+            "shortBio": "Damien is a Director at Demonware, where he helps shape the internal platform technologies that are used to support massive scalability...",
+            "socials": [],
+            "order": 17,
+            "title": "Technical Director @ Demonware"
         }
     },
     "team": [
