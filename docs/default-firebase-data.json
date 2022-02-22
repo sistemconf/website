@@ -306,17 +306,17 @@
             "tags": ["Talks"]
         },
         "102": {
-            "title": "Main Track Speaker TBC",
-            "description": "",
-            "language": "English",
-            "speakers": ["tba"],
-            "tags": ["Talks"]
-        },
-        "103": {
             "title": "Me, Myself and The Tech Community",
             "description": "Take a journey with Vicky on how she got involved with the tech community and why community not only important for her, but for people curious about technology, and especially for those studying and interested in having a career in the industry.",
             "language": "English",
             "speakers": ["vicky_twomey-lee"],
+            "tags": ["Talks"]
+        },
+        "103": {
+            "title": "Main Track Speaker TBC",
+            "description": "",
+            "language": "English",
+            "speakers": ["tba"],
             "tags": ["Talks"]
         },
         "104": {
