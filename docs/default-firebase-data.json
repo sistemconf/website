@@ -110,9 +110,146 @@
                     "endTime": "10:00",
                     "sessions": [
                         {
-                            "items": [
-                                "000"
-                            ]
+                            "items": ["000"]
+                        }
+                    ]
+                },
+                {
+                    "startTime": "10:00",
+                    "endTime": "11:00",
+                    "sessions": [
+                        {
+                            "items": ["001"]
+                        }
+                    ]
+                },
+                {
+                    "startTime": "11:00",
+                    "endTime": "11:45",
+                    "sessions": [
+                        {
+                            "items": ["101"]
+                        },
+                        {
+                            "items": ["201"]
+                        },
+                        {
+                            "items": ["301"]
+                        }
+                    ]
+                },
+                {
+                    "startTime": "11:45",
+                    "endTime": "12:30",
+                    "sessions": [
+                        {
+                            "items": ["102"]
+                        },
+                        {
+                            "items": ["202"]
+                        }
+                    ]
+                },
+                {
+                    "startTime": "12:30",
+                    "endTime": "13:00",
+                    "sessions": [
+                        {
+                            "items": ["002"]
+                        }
+                    ]
+                },
+                {
+                    "startTime": "13:00",
+                    "endTime": "13:45",
+                    "sessions": [
+                        {
+                            "items": ["103"]
+                        },
+                        {
+                            "items": ["203"]
+                        },
+                        {
+                            "items": ["302"]
+                        }
+                    ]
+                },
+                {
+                    "startTime": "13:45",
+                    "endTime": "14:30",
+                    "sessions": [
+                        {
+                            "items": ["104"]
+                        },
+                        {
+                            "items": ["204"]
+                        }
+                    ]
+                },
+                {
+                    "startTime": "14:30",
+                    "endTime": "15:15",
+                    "sessions": [
+                        {
+                            "items": ["105"]
+                        },
+                        {
+                            "items": ["003"]
+                        },
+                        {
+                            "items": ["303"]
+                        }
+                    ]
+                },
+                {
+                    "startTime": "15:15",
+                    "endTime": "15:30",
+                    "sessions": [
+                        {
+                            "items": ["004"]
+                        },
+                        {
+                            "extend": 3,
+                            "items": ["205"]
+                        },
+                        {
+                            "items": ["004"]
+                        }
+                    ]
+                },
+                {
+                    "startTime": "15:30",
+                    "endTime": "16:15",
+                    "sessions": [
+                        {
+                            "items": ["106"]
+                        },
+                        {
+                            "items": []
+                        },
+                        {
+                            "items": ["304"]
+                        }
+                    ]
+                },
+                {
+                    "startTime": "16:15",
+                    "endTime": "17:00",
+                    "sessions": [
+                        {
+                            "items": ["107"]
+                        },
+                        {
+                            "items": []
+                        }
+                    ]
+                },
+                {
+                    "startTime": "17:00",
+                    "endTime": "17:15",
+                    "sessions": [
+                        {
+                            "items": ["005"]
                         }
                     ]
                 }
@@ -132,9 +269,129 @@
     },
     "sessions": {
         "000": {
-            "title": "Schedule TBC",
-            "description": "Our full schedule will be released soon - keep an eye on our social media in the meantime!",
+            "title": "SISTEM Opening",
+            "description": "A welcome from this years SISTEM conference team!",
             "language": "English"
+        },
+        "001": {
+            "title": "Mastercard Opening",
+            "description": "",
+            "language": "English"
+        },
+        "002": {
+            "title": "Lunch",
+            "description": "Be back in 30 minutes!",
+            "language": "English"
+        },
+        "003": {
+            "title": "Break",
+            "description": "Be back in 45 minutes!",
+            "language": "English"
+        },
+        "004": {
+            "title": "Break",
+            "description": "Be back in 15 minutes!",
+            "language": "English"
+        },
+        "005": {
+            "title": "Closing Remarks",
+            "description": "The sad moment where we close off SISTEM for another year! ",
+            "language": "English"
+        },
+        "101": {
+            "title": "Introduction to SRE: Site Reliability Engineering",
+            "description": "• Using SLIs and SLOs to measure user happiness.<br>• Error budgets.<br>• Difference between SRE and SWE work.<br>• The major aspects of SRE culture.<br>• An overview of technical opportunities at Google",
+            "language": "English",
+            "speakers": ["michael_mullen"]
+        },
+        "102": {
+            "title": "Main Track Speaker TBC",
+            "description": "",
+            "language": "English",
+            "speakers": ["tba"]
+        },
+        "103": {
+            "title": "Me, Myself and The Tech Community",
+            "description": "Take a journey with Vicky on how she got involved with the tech community and why community not only important for her, but for people curious about technology, and especially for those studying and interested in having a career in the industry.",
+            "language": "English",
+            "speakers": ["vicky_twomey-lee"]
+        },
+        "104": {
+            "title": "Speedrunning Management",
+            "description": "How did I go from a lowly engineer to a Sigma Manager Elite? Come with me to the 3-month crucible of my first managerial position, the problems I inherited and the tools I used to solve them. Management is more than just spreadsheets and reports, there’s a psychology, and deliberate methodology, to team dynamics and how we deliver work. Tune in and discover a whole new area of engineering you may have never even considered.",
+            "language": "English",
+            "speakers": ["evan_smith"]
+        },
+        "105": {
+            "title": "Main Track Speaker TBC",
+            "description": "",
+            "language": "English",
+            "speakers": ["tba"]
+        },
+        "106": {
+            "title": "Building Things For Fun & Occasional Profit",
+            "description": "James will discuss the journey of building CoderDojo and his newest venture Conjure, with an emphasis on refining your skills, not burning out and enjoying the adventure… he'll also share all the times he did none of that and burnt out.",
+            "language": "English",
+            "speakers": ["james_whelton"]
+        },
+        "107": {
+            "title": "Main Track Speaker TBC",
+            "description": "",
+            "language": "English",
+            "speakers": ["tbc"]
+        },
+        "201": {
+            "title": "Irish Gaming Industry Panel",
+            "description": "",
+            "language": "English",
+            "speakers": ["thomas_cashman"]
+        },
+        "202": {
+            "title": "Women in Tech Panel",
+            "description": "",
+            "language": "English",
+            "speakers": ["valerie_oyiki", "nadia_alramli", "chloe_thompson", "karen_emelu"]
+        },
+        "203": {
+            "title": "LGBTQ in Tech Panel",
+            "description": "",
+            "language": "English",
+            "speakers": ["poppi_datta", "grania_ohare"]
+        },
+        "204": {
+            "title": "Mastercard Lightning Talks",
+            "description": "",
+            "language": "English"
+        },
+        "205": {
+            "title": "Student Lightning Talks",
+            "extend": 3,
+            "description": "",
+            "language": "English"
+        },
+        "301": {
+            "title": "Accenture Workshop | That wasn’t very data- driven of you",
+            "description": "Data, it's everywhere. The sheer volumes of untapped / unanalysed data surrounding us in our daily lives, can tell us a lot when collected, analysed and interpreted. This workshop will be a crash course into all things data with a focus on analytics and visualisation. We’ll be discussing the basic principles and processes in these areas, and how broad and interesting the field is for both technical and non-technical people alike. “Data is like people – interrogate it hard enough and it will tell you whatever you want to hear” - Christopher Doyle",
+            "language": "English",
+            "speakers": ["niamh_phillips", "ashleigh_lemon"]
+        },
+        "302": {
+            "title": "Microsoft Workshop",
+            "description": "",
+            "language": "English",
+            "speakers": ["tba"]
+        },
+        "303": {
+            "title": "Workday Workshop",
+            "description": "",
+            "language": "English",
+            "speakers": ["tbc"]
+        },
+        "304": {
+            "title": "Red Hat Workshop | Delivering an AI scheduling application in 60 days",
+            "description": "Have you ever wondered what an actual project looks like and how it's being implemented from idea to delivery? In this workshop, we will give you an insight into how Red Hat delivered an AI scheduling application from idea to roll out in just 60 days.",
+            "language": "English",
+            "speakers": ["david_murphy"]
         }
     },
     "speakers": {
