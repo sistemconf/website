@@ -314,10 +314,10 @@
             "tags": ["Talks"]
         },
         "103": {
-            "title": "Main Track Speaker TBC",
-            "description": "",
+            "title": "Breaking the stereotype of the video games industry as a “boy’s club” ",
+            "description": "Ariana will tell the story of how she got into the video games industry. She will also focus on the stereotype of video games being a “guy’s thing” and explain why it is so important to see more women amongst the employees. ",
             "language": "English",
-            "speakers": ["tba"],
+            "speakers": ["ariana_jez"],
             "tags": ["Talks"]
         },
         "104": {
@@ -742,6 +742,22 @@
             "socials": [],
             "order": 19,
             "title": "Director, People Business Partner"
+        },
+        "ariana_jez": {
+            "bio": "Ariana Jez is a senior producer at Virtuos-owned video game development company Black Shamrock, which is based in Dublin. Virtuos is headquartered in Singapore with studios in Asia, Europe, and the US. Over the course of her career, she has worked on multiple AAA games such as Call of Duty, Destiny 2, and Resident Evil.",
+            "company": "",
+            "companyLogo": "",
+            "companyLogoUrl": "",
+            "country": "Dublin, Ireland",
+            "featured": false,
+            "name": "Ariana Jez",
+            "photo": "/images/people/ariana_jez.png",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fariana_jez.png?alt=media",
+            "pronouns": "She/Her",
+            "shortBio": "Ariana Jez is a senior producer at Virtuos-owned video game development company Black Shamrock, which is based in Dublin. Virtuos is...",
+            "socials": [],
+            "order": 20,
+            "title": "Senior Producer at Black Shamrock"
         }
     },
     "team": [
