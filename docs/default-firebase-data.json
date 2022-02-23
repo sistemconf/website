@@ -276,7 +276,8 @@
         "001": {
             "title": "Mastercard Opening",
             "description": "",
-            "language": "English"
+            "language": "English",
+            "speakers": ["fran_carey"]
         },
         "002": {
             "title": "Lunch",
@@ -724,7 +725,23 @@
             "shortBio": "Hélène McArdle has over 20  years’ experience in recruitment, with a focus on the university space for over half of it. After 9 year...",
             "socials": [],
             "order": 18,
-            "title": "University Recruitment & Programmes, Sr. Manager "
+            "title": "University Recruitment & Programmes, Sr. Manager"
+        },
+        "fran_carey": {
+            "bio": "Working in the People & Capability team in the Mastercard Dublin Tech Hub, I am passionate about all areas of HR that support our employees and managers. I have over 13 years’ experience working in HR in many different industries and am very glad to be back in the Technology Industry again with Mastercard. The key areas of focus in my role include Diversity & Inclusion, High Performance Culture, Career Development and championing the Mastercard Way culture. In my free time I enjoy reading, yoga, music and live gigs (roll on summer 2022!). ",
+            "company": "",
+            "companyLogo": "",
+            "companyLogoUrl": "",
+            "country": "Dublin, Ireland",
+            "featured": false,
+            "name": "Fran Carey",
+            "photo": "/images/people/fran_carey.jpg",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Ffran_carey.jpg?alt=media",
+            "pronouns": "She/Her",
+            "shortBio": "Working in the People & Capability team in the Mastercard Dublin Tech Hub, I am passionate about all areas of HR that support our employees...",
+            "socials": [],
+            "order": 19,
+            "title": "Director, People Business Partner"
         }
     },
     "team": [
