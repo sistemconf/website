@@ -359,7 +359,7 @@
             "title": "Women in Tech Panel",
             "description": "The panel will discuss the current challenges of women in the tech industry, how to be an ally, and how we can encourage and support diversity! Come along to hear from our inspiring panel speakers.",
             "language": "English",
-            "speakers": ["valerie_oyiki", "nadia_alramli", "chloe_thompson", "karen_emelu"],
+            "speakers": ["valerie_oyiki", "nadia_alramli", "chloe_thompson", "karen_emelu", "susanne_manning"],
             "tags": ["Panels"]
         },
         "203": {
@@ -758,6 +758,22 @@
             "socials": [],
             "order": 20,
             "title": "Senior Producer at Black Shamrock"
+        },
+        "susanne_manning": {
+            "bio": "Sue is based in Dublin, Ireland and joined Mastercard in 2012 as a Platform Engineer and has spent her career supporting many different application teams. Sue is currently responsible for the A&T, Shared Components, Corp-Sec and other Internal programs IDE teams. Sue is well acquainted with the team growth and has spent the last 3 years building out IDE teams based across St Louis, Dublin, Pune and Shanghai. Sue has a wealth of knowledge in the delivery of the harness components for on soils efforts including India, China, Canada, and most recently IOS-ASAP. <br>Sues also recently completed the fellowship for Moral leaders where she was requested to return and support the current alumni as a moral leadership coach. <br>On a personal front Sue is a fitness fan who loves the gym, running and playing sports. In her “spare time” she enjoys spending it with her husband Will and two daughters Grace aged 6 an avid coder dojo enthusiastic and Beth aged 4 an Elsa fan. ",
+            "company": "",
+            "companyLogo": "",
+            "companyLogoUrl": "",
+            "country": "Dublin, Ireland",
+            "featured": false,
+            "name": "Susanne Manning",
+            "photo": "/images/people/susanne_manning.png",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fsusanne_manning.png?alt=media",
+            "pronouns": "She/Her",
+            "shortBio": "Sue is based in Dublin, Ireland and joined Mastercard in 2012 as a Platform Engineer and has spent her career supporting many different application...",
+            "socials": [],
+            "order": 21,
+            "title": "Vice President of Infrastructure Design Engineering"
         }
     },
     "team": [
