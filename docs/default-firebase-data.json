@@ -396,10 +396,10 @@
             "tags": ["Workshops"]
         },
         "303": {
-            "title": "Workday Workshop",
-            "description": "",
+            "title": "Workday CV Workshop",
+            "description": "Your CV – your first step into the company. What makes a CV truly stand out? Ever wondered what goes through the recruiter’s mind when reading a CV? Come prepared for a hands-on fast paste workshop and get all your real-life questions answered by an experienced recruiter. We will cover what to say on your CV and what to say at the interview.",
             "language": "English",
-            "speakers": ["tbc"],
+            "speakers": ["helene-mcardle"],
             "tags": ["Workshops"]
         },
         "304": {
@@ -709,6 +709,22 @@
             "socials": [],
             "order": 17,
             "title": "Technical Director @ Demonware"
+        },
+        "helene_mcardle": {
+            "bio": "Hélène McArdle has over 20  years’ experience in recruitment, with a focus on the university space for over half of it. After 9 year, touring European campuses, delivering career workshops and  running EMEA internship programmes; Hélène moved to Workday and took on the new challenge of creating the EMEA university strategy from scratch in 2015. Since then, Workday Ireland has received an array of awards ranging from Best Graduate Employer of the Year, Best Graduate Programme, Best Internship Programme to Best innovation on Campus. She strives to give people the opportunity of a strong career start, no matter their background. In her own words : ‘Career growth and skills development should know no bounds’. ",
+            "company": "",
+            "companyLogo": "",
+            "companyLogoUrl": "",
+            "country": "EMEA",
+            "featured": false,
+            "name": "Hélène McArdle",
+            "photo": "/images/people/helene_mcardle.png",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fhelene_mcardle.png?alt=media",
+            "pronouns": "She/Her",
+            "shortBio": "Hélène McArdle has over 20  years’ experience in recruitment, with a focus on the university space for over half of it. After 9 year...",
+            "socials": [],
+            "order": 18,
+            "title": "University Recruitment & Programmes, Sr. Manager "
         }
     },
     "team": [
