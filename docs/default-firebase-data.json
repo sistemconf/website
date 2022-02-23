@@ -401,7 +401,7 @@
             "title": "Workday CV Workshop",
             "description": "Your CV – your first step into the company. What makes a CV truly stand out? Ever wondered what goes through the recruiter’s mind when reading a CV? Come prepared for a hands-on fast paste workshop and get all your real-life questions answered by an experienced recruiter. We will cover what to say on your CV and what to say at the interview.",
             "language": "English",
-            "speakers": ["helene-mcardle"],
+            "speakers": ["helene_mcardle"],
             "tags": ["Workshops"]
         },
         "304": {
@@ -776,7 +776,7 @@
             "order": 21,
             "title": "Vice President of Infrastructure Design Engineering"
         },
-        "rob_bryne": {
+        "rob_byrne": {
             "bio": "Working with Mastercard for just over 6 years as a global engineering leader in the R&D department of Mastercard labs. enjoy helping teams to thrive by improving their productivity and proficiency.",
             "company": "",
             "companyLogo": "",
@@ -784,8 +784,8 @@
             "country": "Dublin, Ireland",
             "featured": false,
             "name": "Rob Byrne",
-            "photo": "/images/people/rob_bryne.png",
-            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Frob_bryne.png?alt=media",
+            "photo": "/images/people/rob_byrne.png",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Frob_byrne.png?alt=media",
             "pronouns": "He/Him",
             "shortBio": "Working with Mastercard for just over 6 years as a global engineering leader in the R&D department of Mastercard labs. enjoy helping teams to thrive by...",
             "socials": [],
