@@ -373,6 +373,7 @@
             "title": "Mastercard Lightning Talks",
             "description": "",
             "language": "English",
+            "speakers": ["rob_byrne", "adam_teehan", "pierluigi_riti"],
             "tags": ["Panels"]
         },
         "205": {
@@ -774,6 +775,54 @@
             "socials": [],
             "order": 21,
             "title": "Vice President of Infrastructure Design Engineering"
+        },
+        "rob_bryne": {
+            "bio": "Working with Mastercard for just over 6 years as a global engineering leader in the R&D department of Mastercard labs. enjoy helping teams to thrive by improving their productivity and proficiency.",
+            "company": "",
+            "companyLogo": "",
+            "companyLogoUrl": "",
+            "country": "Dublin, Ireland",
+            "featured": false,
+            "name": "Rob Byrne",
+            "photo": "/images/people/rob_bryne.png",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Frob_bryne.png?alt=media",
+            "pronouns": "He/Him",
+            "shortBio": "Working with Mastercard for just over 6 years as a global engineering leader in the R&D department of Mastercard labs. enjoy helping teams to thrive by...",
+            "socials": [],
+            "order": 22,
+            "title": "Vice President of Software Engineering"
+        },
+        "adam_teehan": {
+            "bio": "I recently completed my master’s in computer science where I focused on Data & Text Analytics. At Mastercard I work in the Customer Intelligence team in Global Customer Care. Part of my Job is using the power of Natural Language Processing to help improve and understand our customer’s experience.",
+            "company": "",
+            "companyLogo": "",
+            "companyLogoUrl": "",
+            "country": "Dublin, Ireland",
+            "featured": false,
+            "name": "Adam Teehan",
+            "photo": "/images/people/adam_teehan.jpg",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fadam_teehan.jpg?alt=media",
+            "pronouns": "He/Him",
+            "shortBio": "I recently completed my master’s in computer science where I focused on Data & Text Analytics. At Mastercard I work in the Customer Intelligence team in...",
+            "socials": [],
+            "order": 23,
+            "title": "Customer Experience & Engagement Analyst"
+        },
+        "pierluigi_riti": {
+            "bio": "I’m passionate about software, outside the work I’m a Mentor for Manning for a live project in Deepfake identification, I’m pursuit a Master in AI with a Dissertation in Deepfake identification with GAN and Quantum Computing",
+            "company": "",
+            "companyLogo": "",
+            "companyLogoUrl": "",
+            "country": "Dublin, Ireland",
+            "featured": false,
+            "name": "Pierluigi Riti",
+            "photo": "/images/people/pierluigi_riti.jpg",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fpierluigi_riti.jpg?alt=media",
+            "pronouns": "He/Him",
+            "shortBio": "I’m passionate about software, outside the work I’m a Mentor for Manning for a live project in Deepfake identification, I’m pursuit a Master in AI with a...",
+            "socials": [],
+            "order": 24,
+            "title": "Lead Security Information Engineer"
         }
     },
     "team": [
