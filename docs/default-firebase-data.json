@@ -366,7 +366,7 @@
             "title": "LGBTQ in Tech Panel",
             "description": "Join our panel of getting to know more about the LGBTQ environment in the Tech industry! We will discuss working in the tech industry as a member of the LGBTQ community, also how companies and universities support equality.",
             "language": "English",
-            "speakers": ["poppi_datta", "grania_ohare"],
+            "speakers": ["poppi_datta", "grania_ohare", "manuel_schlothauer"],
             "tags": ["Panels"]
         },
         "204": {
@@ -823,6 +823,22 @@
             "socials": [],
             "order": 24,
             "title": "Lead Security Information Engineer"
+        },
+        "manuel_schlothauer": {
+            "bio": "Manuel is the founder of HeyManuel.com, an award-winning private practice for inclusive therapy and coaching for underrepresented groups. He specialises in helping LGBTQ+ Professionals being authentically themselves to become Queer Leaders. Manuel is also a Senior Business Partner, People & Culture and Lead, Allyship Activation at Google. He has been listed as one of the Top 100 Global LGBTQ+ Role Models by Yahoo! Finance and will be one of the judges of the Queer Student Awards in 2022.",
+            "company": "",
+            "companyLogo": "",
+            "companyLogoUrl": "",
+            "country": "Dublin, Ireland",
+            "featured": false,
+            "name": "Manuel Schlothauer",
+            "photo": "/images/people/manuel_schlothauer.jpeg",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fmanuel_schlothauer.jpeg?alt=media",
+            "pronouns": "He/Him",
+            "shortBio": "Manuel is the founder of HeyManuel.com, an award-winning private practice for inclusive therapy and coaching for underrepresented groups. He specialises in...",
+            "socials": [],
+            "order": 25,
+            "title": "Founder of HeyManuel.com; Senior Business Partner, People & Culture and Lead, Allyship Activation at Google"
         }
     },
     "team": [
