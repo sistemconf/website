@@ -366,7 +366,7 @@
             "title": "LGBTQ in Tech Panel",
             "description": "Join our panel of getting to know more about the LGBTQ environment in the Tech industry! We will discuss working in the tech industry as a member of the LGBTQ community, also how companies and universities support equality.",
             "language": "English",
-            "speakers": ["poppi_datta", "grania_ohare", "manuel_schlothauer"],
+            "speakers": ["poppi_datta", "grania_ohare", "manuel_schlothauer", "james_byrne"],
             "tags": ["Panels"]
         },
         "204": {
@@ -391,10 +391,10 @@
             "tags": ["Workshops"]
         },
         "302": {
-            "title": "Microsoft Workshop",
-            "description": "",
+            "title": "Microsoft Workshop | Disability in Tech",
+            "description": "Many graduates with visible and invisible disabilities worry about employment opportunities. At Microsoft, we see disabilities as a strength and want to make our products as accessible as possible. <br>This workshop will be presented by Stephen from Microsoft Engineering, and will show how AI services can make software more accessible and inclusive. It will also discuss interview strategies, accommodations, covering, and allyship. Stephen is neurodiverse himself and advocates for accessibility supports and disability awareness in Microsoft.",
             "language": "English",
-            "speakers": ["tba"],
+            "speakers": ["stephen_howell"],
             "tags": ["Workshops"]
         },
         "303": {
@@ -857,20 +857,36 @@
             "title": "Founder of TuneRelease"
         },
         "james_byrne": {
-            "bio": "",
+            "bio": "James Byrne is a Software Engineer at Microsoft on the Decentralised Identity team. Graduated from UCD in 2020 with a Bachelors in Computer Science.",
             "company": "",
             "companyLogo": "",
             "companyLogoUrl": "",
-            "country": "",
+            "country": "Dublin, Ireland",
             "featured": false,
             "name": "James Byrne",
             "photo": "/images/people/james_byrne.jpg",
-            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fames_byrne.jpg?alt=media",
-            "pronouns": "",
-            "shortBio": "",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fjames_byrne.jpg?alt=media",
+            "pronouns": "He/Him",
+            "shortBio": "James Byrne is a Software Engineer at Microsoft on the Decentralised Identity team. Graduated from UCD in 2020 with a Bachelors in Computer Science.",
             "socials": [],
             "order": 27,
             "title": "Software Engineer"
+        },
+        "stephen_howell": {
+            "bio": "Stephen Howell has 22 years’ experience in software engineering, lecturing, program management, and the education industry. He is currently a Senior Program Manager for Microsoft Azure Engineering in Dublin. <br>In this role he is a trainer, content developer, and program manager on technical courses. Stephen is an advocate for neurodiversity awareness and improving accessibility in technology for all. He has been the Microsoft Ireland Diversity and Inclusion Disability ERG Chapter lead since July 2019.",
+            "company": "",
+            "companyLogo": "",
+            "companyLogoUrl": "",
+            "country": "Dublin, Ireland",
+            "featured": false,
+            "name": "Stephen Howell",
+            "photo": "/images/people/stephen_howell.jpeg",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fstephen_howell.jpeg?alt=media",
+            "pronouns": "He/Him",
+            "shortBio": "Stephen Howell has 22 years’ experience in software engineering, lecturing, program management, and the education industry. He is currently a Senior Program Manager...",
+            "socials": [],
+            "order": 27,
+            "title": "Senior Program Manager"
         }
     },
     "team": [
