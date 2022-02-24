@@ -342,10 +342,10 @@
             "tags": ["Talks"]
         },
         "107": {
-            "title": "Main Track Speaker TBC",
-            "description": "",
+            "title": "How to Start a Startup?",
+            "description": "The barrier to entry for creating & scaling a startup has been drastically reduced. Startups can be a vehicle for you to take your future into your own hands, build a product or service in an industry you are passionate about, while simultaneously learning at a more accelerated pace than ever before. Take a look at one founder's journey from a side project in college to a Covid caused pivot, to working full-time in his own company. Learn what mistakes to avoid & when to double down.",
             "language": "English",
-            "speakers": ["tbc"],
+            "speakers": ["luke_rynne_cullen"],
             "tags": ["Talks"]
         },
         "201": {
@@ -839,6 +839,22 @@
             "socials": [],
             "order": 25,
             "title": "Founder of HeyManuel.com; Senior Business Partner, People & Culture and Lead, Allyship Activation at Google"
+        },
+        "luke_rynne_cullen": {
+            "bio": "Luke Rynne Cullen is the Founder of TuneRelease, a startup that provides tools to distribute, promote & monetise music. He is also the Product Manager of Trigr & Technology Lead of Scale Ireland. He has participated in the Google Adopt a Startup, Trinity LaunchBox & Enterprise Ireland New Frontiers programmes. He has also won the TES Dragons Den, Trinity Blackstone LaunchPad Sprints competitions & has been featured in the Business Post's '100 Hot Start-ups'.",
+            "company": "",
+            "companyLogo": "",
+            "companyLogoUrl": "",
+            "country": "Dublin, Ireland",
+            "featured": false,
+            "name": "Luke Rynne Cullen",
+            "photo": "/images/people/luke_rynne_cullen.png",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fluke_rynne_cullen.png?alt=media",
+            "pronouns": "He/Him",
+            "shortBio": "Luke Rynne Cullen is the Founder of TuneRelease, a startup that provides tools to distribute, promote & monetise music. He is also the Product Manager of Trigr...",
+            "socials": [],
+            "order": 26,
+            "title": "Founder of TuneRelease"
         }
     },
     "team": [
