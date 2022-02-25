@@ -366,7 +366,7 @@
             "title": "LGBTQ in Tech Panel",
             "description": "Join our panel of getting to know more about the LGBTQ environment in the Tech industry! We will discuss working in the tech industry as a member of the LGBTQ community, also how companies and universities support equality.",
             "language": "English",
-            "speakers": ["poppi_datta", "grania_ohare", "manuel_schlothauer", "james_byrne"],
+            "speakers": ["poppi_datta", "grania_ohare", "manuel_schlothauer", "james_byrne", "dexter_tang"],
             "tags": ["Panels"]
         },
         "204": {
@@ -885,8 +885,24 @@
             "pronouns": "He/Him",
             "shortBio": "Stephen Howell has 22 years’ experience in software engineering, lecturing, program management, and the education industry. He is currently a Senior Program Manager...",
             "socials": [],
-            "order": 27,
+            "order": 28,
             "title": "Senior Program Manager"
+        },
+        "dexter_tang": {
+            "bio": "Dexter has more than a decade of experience in mobility taxation, compliance and equity remuneration in Malaysia, Australia and across Europe. He is currently the Global Equity Compliance EMEA Lead at Google based in Dublin, Ireland and member of Google's Global Equity Management team. <br>Dexter is a passionate advocate for diversity and inclusion, with a focus on ethic-cultural / racial diversity and equity on top of LGBTQ+ visibility and inclusion in the workplace and the wider society. He is currently the Diversity, Equity & Inclusion (DEI) Co-Lead for Google Finance in EMEA and an active speaker in various DEI focused events across Europe.",
+            "company": "",
+            "companyLogo": "",
+            "companyLogoUrl": "",
+            "country": "Dublin, Ireland",
+            "featured": false,
+            "name": "Dexter Tang",
+            "photo": "/images/people/dexter_tang.jpeg",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fpeople%2Fdexter_tang.jpeg?alt=media",
+            "pronouns": "He/Him",
+            "shortBio": "Dexter has more than a decade of experience in mobility taxation, compliance and equity remuneration in Malaysia, Australia and across Europe. He is currently the Global...",
+            "socials": [],
+            "order": 29,
+            "title": "Global Equity Compliance EMEA Lead at Google"
         }
     },
     "team": [
