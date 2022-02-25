@@ -379,7 +379,7 @@
         "205": {
             "title": "Student Lightning Talks",
             "extend": 3,
-            "description": "",
+            "description": "Lightning talks give students 10 minutes to talk about anything they want! This year we'll have lightning talks about quantum computing, sustainable fashion, internet pollution, time management, and much more.",
             "language": "English",
             "tags": ["Panels"]
         },
