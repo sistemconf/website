@@ -371,7 +371,7 @@
         },
         "204": {
             "title": "Mastercard Lightning Talks",
-            "description": "",
+            "description": "Engineers from MasterCard will be delivering lightning talks on the following topics: <br>Rob Byrne – “What was the log4j zero-day vulnerability and how we tackled it” <br>Pierluigi Riti – “The risk of Deepfake” <br>Adam Teehan -  “NLP: Can machines understand us?”",
             "language": "English",
             "speakers": ["rob_byrne", "adam_teehan", "pierluigi_riti"],
             "tags": ["Panels"]
@@ -379,7 +379,7 @@
         "205": {
             "title": "Student Lightning Talks",
             "extend": 3,
-            "description": "Hear directly from some our student line in their 10 minute lightning talks on their hobbies, passion projects and experiences! ",
+            "description": "",
             "language": "English",
             "tags": ["Panels"]
         },
