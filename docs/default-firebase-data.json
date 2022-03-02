@@ -94,6 +94,12 @@
                     "logoUrl": "../images/companies/tines.png",
                     "name": "Tines",
                     "url": "https://www.tines.com"
+                },
+                {
+                    "order": 3,
+                    "logoUrl": "../images/companies/ucd_cs.png",
+                    "name": "UCD School of Computer Science",
+                    "url": "https://www.ucd.ie/cs/"
                 }
             ],
             "order": 3,
@@ -1102,7 +1108,7 @@
             "name": "Online Standard",
             "info": "Online Standard ticket",
             "price": 5,
-            "soldOut": false,
+            "soldOut": true,
             "starts": "Feb 9",
             "url": "https://hopin.com/events/sistem-2022",
             "order": "0"
@@ -1114,7 +1120,7 @@
             "name": "In-Person Standard",
             "info": "In-Person Standard ticket",
             "price": 10,
-            "soldOut": false,
+            "soldOut": true,
             "starts": "Feb 9",
             "url": "https://hopin.com/events/sistem-2022",
             "order": "1"

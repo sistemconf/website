@@ -112,7 +112,7 @@
   "ticketsBlock": {
     "title": "Tickets",
     "ticketsDetails": "All tickets give access to all conference content and sessions. In-person tickets are limited and sold on a first come basis",
-    "soldOut": "You missed it!",
+    "soldOut": "You missed it - Check back next year!",
     "notAvailableYet": "Not available yet",
     "save": "Save ${discount}% today"
   },
