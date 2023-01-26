@@ -1,0 +1,30 @@
+.navbar {
+    font-family: 'HussarBold';
+    display: flex;
+    width: 100vw;
+    background-color: black;
+    align-items: center;
+
+    img {
+        width: 190px;
+    }
+
+    .navbar-links {
+        margin-left: auto;
+
+        .navbar-link {
+            margin-lefT: 20px;
+            margin-right: 20px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+
+
+    .navbar-link:hover {
+        border-bottom: 3px solid #FF6DAF; 
+    }
+}
