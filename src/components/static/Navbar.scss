@@ -9,22 +9,68 @@
         width: 190px;
     }
 
-    .navbar-links {
-        margin-left: auto;
+    // Hamburger Menu Impl.
+    .hamburger {
+        display: none;
+    }
 
-        .navbar-link {
-            margin-lefT: 20px;
-            margin-right: 20px;
-            padding-bottom: 10px;
-            padding-top: 10px;
-            text-decoration: none;
-            color: white;
+    .navbar-links {
+        display: flex;
+        margin-left: auto;
+    }
+
+    .navbar-link {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-decoration: none;
+        color: white;
+    }
+
+    @media (max-width: 767px) {
+        .navbar-links {
+            display: none;
+        }
+    
+        .hamburger {
+            margin-left:auto;
+            padding-right: 20px;
+            width: 1rem;
+            height: 1rem;
+            display: flex;
+            justify-content: space-around;
+            flex-flow: column nowrap;
+            z-index: 10;
+        }
+
+        .hamburger-open {
+            display: inline;
+            background-color: black;
+            height: 100vh;
+            width: 50vh;
+            margin-top: 50px;
+            position: absolute;
+
+            .navbar-link {
+                display: flex;
+                color: white;
+            }
+        }
+    
+        .burger {
+            width: 1rem;
+            height: 0.25rem;
+            border-radius: 10px;
+            background-color: white;
+            transform-origin: 1px;
+            transition: all 0.3x linear;
         }
     }
 
-
-
+    // CSS Animations
     .navbar-link:hover {
         border-bottom: 3px solid #FF6DAF; 
     }
 }
+
