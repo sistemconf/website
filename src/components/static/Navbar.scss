@@ -1,17 +1,14 @@
+@import "../../colours";
+
 .navbar {
     font-family: 'HussarBold';
     display: flex;
     width: 100vw;
-    background-color: black;
+    background-color: $primary;
     align-items: center;
 
     img {
         width: 190px;
-    }
-
-    // Hamburger Menu Impl.
-    .hamburger {
-        display: none;
     }
 
     .navbar-links {
@@ -27,50 +24,44 @@
         text-decoration: none;
         color: white;
     }
-
-    @media (max-width: 767px) {
-        .navbar-links {
-            display: none;
-        }
-    
-        .hamburger {
-            margin-left:auto;
-            padding-right: 20px;
-            width: 1rem;
-            height: 1rem;
-            display: flex;
-            justify-content: space-around;
-            flex-flow: column nowrap;
-            z-index: 10;
-        }
-
-        .hamburger-open {
-            display: inline;
-            background-color: black;
-            height: 100vh;
-            width: 50vh;
-            margin-top: 50px;
-            position: absolute;
-
-            .navbar-link {
-                display: flex;
-                color: white;
-            }
-        }
-    
-        .burger {
-            width: 1rem;
-            height: 0.25rem;
-            border-radius: 10px;
-            background-color: white;
-            transform-origin: 1px;
-            transition: all 0.3x linear;
-        }
-    }
-
     // CSS Animations
     .navbar-link:hover {
-        border-bottom: 3px solid #FF6DAF; 
+        border-bottom: 3px solid $secondary; 
+    }
+
+    .hamburger {
+        display: block;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        margin-right: 15px;
+        margin-bottom: 10px; // To account for the underline
+        appearance: none; // <button/> reset
+        background: none;
+        outline: none;
+        border: none;
+    }
+
+    .hamburger.is-active:before {
+        transform: rotate(-45deg) translate(-8px, 6px);
+    }
+
+    .hamburger.is-active:after {
+        transform: rotate(45deg) translate(-9px, -8px);
+    }
+
+    .hamburger.is-active .bar {
+        opacity: 0;
+    }
+
+    .hamburger .bar, .hamburger:after, .hamburger:before {
+        display: block;
+        content: '';
+        width: 100%;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0px;
+        transition: 0.4s;
     }
 }
 
