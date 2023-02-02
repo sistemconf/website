@@ -1,3 +1,4 @@
+import Footer from "../components/static/Footer";
 import Navbar from "../components/static/Navbar"
 import useScroll from "../hooks/useScroll"
 import "./index.scss"
@@ -104,6 +105,8 @@ export default function Index() {
                     </div>
                 </section>
             </main>
+
+            <Footer/>
         </div>
     )
 }

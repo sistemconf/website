@@ -1,1 +1,98 @@
-@import "../colours";
+@import "../../colours";
+
+.footer-content {
+    font-family: 'HussarBold';
+    span {
+        color: $secondary;
+    }
+}
+
+
+.footer {
+    background-color: #221a1e;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    padding-left: 128px;
+    padding-right: 128px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-contact {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer td {
+    font-size: 16px;
+  }
+  
+  .footer-contact-icon {
+    text-align: center;
+  }
+  
+  .footer-contact > ul {
+    list-style: none;
+  }
+  
+  .footer-contact ul > li {
+    padding-left: -10px;
+    padding-top: 10px;
+    font-size: 17px;
+    padding-bottom: 10px;
+  }
+  
+  .footer-mail-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-contact i {
+    padding-right: 10px;
+  }
+  
+  .footer-lighter {
+    color: #4d4a4a;
+  }
+  
+  .footer-contact h4 {
+    color: #909090;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 18px;
+    margin-left: 32px;
+  }
+  
+  .footer-links {
+    padding-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Roberto", sans-serif;
+    color: #666262;
+    font-size: 19px;
+  }
+  
+  .footer-page-links,
+  .footer-socials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+  }
+  
+  .footer-page-links a,
+  .footer-socials a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #666262;
+  }
