@@ -64,27 +64,30 @@ export default function Index() {
                         <h3>
                             Tickets
                         </h3>
-                        {/* <div>
-                            <div>
-                                SISTEM<span>standard</span>
+                        <div className="ticket-table">
+                            <div className="ticket-type">
+                                <h3>
+                                    Standard
+                                </h3>
                                 <ul>
-                                    <li>Admission to the event</li>
-                                    <li>SISTEM Stickers</li>
-                                    <li>SISTEM Tote</li>
+                                    <li>Access to the event</li>
                                 </ul>
+                                <div className="button">
+                                    Buy
+                                </div>
                             </div>
-                            <div>
-                                SISTEM<span>premium</span>
+                            <div className="ticket-type">
+                                <h3>
+                                    Premium
+                                </h3>
                                 <ul>
-                                    <li>Admission to the event</li>
-                                    <li>SISTEM Stickers</li>
-                                    <li>SISTEM Tote</li>
-                                    <li>SISTEM Notebook</li>
-                                    <li>SISTEM Flask</li>
-                                    <li>Other merch</li>
+                                    <li>No access to the event</li>
                                 </ul>
+                                <div href="" className="button">
+                                    Buy
+                                </div>
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                 </section>
 
