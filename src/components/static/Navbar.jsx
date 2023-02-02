@@ -21,6 +21,9 @@ export default function Navbar({hasBg}) {
                     <a href="#">Team</a>
                     <a href="#">Code of Contact</a>
                     <a href="#" className="button">Buy Tickets</a>
+                    <button className={"hamburger" + (hamburgerOpen ? " is-active" : "")} onClick={toggleHamburger}>
+                        <div className="bar"/>
+                    </button>
                 </nav>
             </div>
         </header>
