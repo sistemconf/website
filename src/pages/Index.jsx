@@ -1,10 +1,13 @@
 import Navbar from "../components/static/Navbar"
+import useScroll from "../hooks/useScroll"
 import "./index.scss"
 
 export default function Index() {
+    const scrollAmount = useScroll();
+
     return (
         <div className="index">
-            <Navbar/>
+            <Navbar hasBg={scrollAmount > 450}/>
             <main>
                 <section class="banner">
                     <div className="container">
@@ -67,6 +70,18 @@ export default function Index() {
                                     <li>SISTEM Tote</li>
                                 </ul>
                             </div>
+                            <div>
+                                SISTEM<span>premium</span>
+                                <ul>
+                                    <li>Admission to the event</li>
+                                    <li>SISTEM Stickers</li>
+                                    <li>SISTEM Tote</li>
+                                    <li>SISTEM Notebook</li>
+                                    <li>SISTEM Flask</li>
+                                    <li>Other merch</li>
+                                </ul>
+                            </div>
+
                         </div>
                     </div>
                 </section>

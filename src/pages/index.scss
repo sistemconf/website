@@ -84,6 +84,7 @@
 
                 h3 {
                     font-size: 32px;
+                    padding-bottom: 32px;
                 }
 
                 p {
@@ -104,6 +105,7 @@
                 .stats {
                     width: 100%;
                     align-items: center;
+                    padding-top: 32px;
 
                     display: grid;
                     grid-template-columns: 1fr 1fr;
@@ -114,18 +116,19 @@
 
                     .stat {
                         border: 1px solid #CCC;
-                        padding: 12px 16px;
+                        padding: 12px 32px;
                         padding-left: 32px;
                         border-radius: 16px;
 
                         h3 {
                             font-size: 24px;
                             width: 27px;
-                            padding-bottom: 12px;
+                            padding-bottom: 23px;
                             border-bottom: 4px solid $secondary;
                         }
 
                         p {
+                            padding-top: 16px;
                             font-size: 18px;
                         }
                     }
@@ -135,7 +138,6 @@
 
         section.tickets {
             .container {
-
                 padding-top: 32px;
                 padding-bottom: 64px;
 
@@ -148,7 +150,6 @@
         section.sponsors {
             background-color: #EEE;
             .container {
-
                 padding-top: 32px;
                 padding-bottom: 64px;
 
@@ -173,8 +174,6 @@
         section.gallery {
             background-color: #EEE;
             .container {
-                
-
                 padding-top: 32px;
                 padding-bottom: 64px;
 
