@@ -7,23 +7,21 @@ function NavbarLink({href, title}) {
     )
 }
 
-export default function Navbar() {
+export default function Navbar({hasBg}) {
     // Mobile-based navigation menu state
     const [hamburgerOpen, setHamburgerOpen] = useState(false);
     const toggleHamburger = () => setHamburgerOpen((prev) => !prev);
     
     console.log(hamburgerOpen);
     return (
-        <header>
+        <header className={hasBg ? "is-scrolling" : ""}>
             <div className="container">
                 <h2><span>SISTEM</span>2023</h2>
                 <nav>
                     <a href="#">Home</a>
                     <a href="#">Team</a>
                     <a href="#">Code of Contact</a>
-                    <div>
-                        <a href="#" className="button">Buy Tickets</a>
-                    </div>
+                    <a href="#" className="button">Buy Tickets</a>
                 </nav>
             </div>
         </header>
