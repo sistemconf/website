@@ -1,3 +1,4 @@
+import { MapContainer, Marker, TileLayer } from "react-leaflet";
 import Footer from "../components/static/Footer";
 import Navbar from "../components/static/Navbar"
 import useScroll from "../hooks/useScroll"
@@ -5,19 +6,20 @@ import "./index.scss"
 
 export default function Index() {
     const scrollAmount = useScroll();
+    const position = [53.38533306530379, -6.2587119915193545]
 
     return (
         <div className="index">
             <Navbar hasBg={scrollAmount > 450}/>
             <main>
-                <section class="banner">
+                <section className="banner">
                     <div className="container">
                         <h1>
-                            A <span>Student</span> Tech<br class="hide-mobile"/> & Enterprise Conference.
+                            A <span>Student</span> Tech<br className="hide-mobile"/> & Enterprise Conference.
                         </h1>
                         <h3>March 11<sup>th</sup> 2023, Dublin City University.</h3>
-                        <a href="#" class="button">Buy Tickets</a>
-                        <a href="#" class="button secondary">Schedule</a>
+                        <a href="#" className="button">Buy Tickets</a>
+                        <a href="#" className="button secondary">Schedule</a>
                     </div>
                 </section>
 
@@ -62,7 +64,7 @@ export default function Index() {
                         <h3>
                             Tickets
                         </h3>
-                        <div>
+                        {/* <div>
                             <div>
                                 SISTEM<span>standard</span>
                                 <ul>
@@ -82,8 +84,7 @@ export default function Index() {
                                     <li>Other merch</li>
                                 </ul>
                             </div>
-
-                        </div>
+                        </div> */}
                     </div>
                 </section>
 
@@ -96,6 +97,19 @@ export default function Index() {
                 <section className="getting-there" id="getting-there">
                     <div className="container">
                         <h3>Getting There</h3>
+                        <p>
+                            This year's conference will be held in the "U" building found on DCU's Glasnevin Campus. 
+                            &nbsp;<a href="https://goo.gl/maps/otfP8uswn1BP9JqH9">Find us on Google Maps!</a>
+                        </p>
+                        <MapContainer center={position} zoom={10} scrollWheelZoom={false}>
+                            <TileLayer
+                                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                            />
+                            <Marker position={position}>
+
+                            </Marker>
+                        </MapContainer>
                     </div>
                 </section>
 
