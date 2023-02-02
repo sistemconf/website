@@ -12,7 +12,7 @@ export default function Footer() {
 
             <div className="footer-links">
                 <div className="footer-credit">
-                    <p> Annual event hosted by Intersocs and volunteers like you! <br/>An unincorperated association of Computer Science Societies in Ireland  </p>
+                    <p> Annual event hosted by Intersocs and volunteers like you! <br/>An unincorperated association of Computer Science Societies in Ireland <br/> Website built by <a href="https://paradaux.io">Rían Errity</a>. Source available on <a href="https://github.com/sistemconf/website">GitHub</a> </p>
                 </div>
 
                 <div className="footer-page-links">

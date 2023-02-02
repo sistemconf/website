@@ -11,8 +11,7 @@ export default function Navbar({hasBg}) {
     // Mobile-based navigation menu state
     const [hamburgerOpen, setHamburgerOpen] = useState(false);
     const toggleHamburger = () => setHamburgerOpen((prev) => !prev);
-    
-    console.log(hamburgerOpen);
+
     return (
         <header className={hasBg ? "is-scrolling" : ""}>
             <div className="container">
