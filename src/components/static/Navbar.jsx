@@ -21,7 +21,9 @@ export default function Navbar() {
                     <a href="#">Home</a>
                     <a href="#">Team</a>
                     <a href="#">Code of Contact</a>
-                    <a href="#">Buy Tickets</a>
+                    <div>
+                        <a href="#" className="button">Buy Tickets</a>
+                    </div>
                 </nav>
             </div>
         </header>
