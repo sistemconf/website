@@ -139,50 +139,78 @@
         }
 
         section.tickets {
+            min-height: fit-content;
+
             .container {
                 padding-top: 32px;
                 padding-bottom: 64px;
+
+                .ticket-table {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
 
                 h3 {
                     font-size: 32px;
                 }
 
-                .ticket-table {
-                    display: grid;
-                    grid-gap: 32px;
-                    grid-template-columns: repeat(2, auto);
-                    align-items: center;
-                    margin-top: 16px;
-                    padding-left: 32px;
-                    padding-right: 32px;
+                .columns {
+                    // float: left;
+                    width: 30vw;
+                    padding: 8px;
 
+                    .price {
+                        list-style-type: none;
+                        border: 1px solid #eee;
+                        margin: 0;
+                        padding: 0;
+                        -webkit-transition: 0.3s;
+                        transition: 0.3s;
 
-                    .ticket-type {
-                        text-align: center;
-                        width: "100%";
-                        min-height: 200px;
-                        height: auto;
-                        border: 1px solid #CCC;
-                        border-radius: 8px;
-                        padding: 32px;
+                        .header {
+                            background-color: #111;
+                            color: white;
+                            font-size: 25px;
+                        }
 
-                        h3 {
-                            padding-bottom: 10px;
-                            margin-bottom: 16px;
-                            border-bottom: 1px solid #CCC;
+                        .header.plus {
+                            background-color: $secondary;
+                        }
+
+                        li {
+                            border-bottom: 1px solid #eee;
+                            padding: 20px;
+                            text-align: center;
+                        }
+
+                        .grey {
+                            background-color: #eee;
+                            font-size: 20px;
                         }
 
                         .button {
-                            width: 100%;
-                            padding: 16px 24px 16px 0px;
-                            
-                            color: white;
-                            margin-bottom: auto;
                             background-color: $secondary;
-                            border-radius: 8px;
-                        }
+                            border: none;
+                            color: white;
+                            padding: 10px 25px;
+                            text-align: center;
+                            text-decoration: none;
+                            font-size: 18px;
+                          }
+                    }
+
+                    .price:hover {
+                        box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
                     }
                 }
+
+                @media only screen and (max-width: 600px) {
+                    .columns {
+                      width: 100%;
+                    }
+                  }
             }
         }
 

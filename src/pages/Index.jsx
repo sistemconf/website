@@ -65,30 +65,36 @@ export default function Index() {
                             Tickets
                         </h3>
                         <div className="ticket-table">
-                            <div className="ticket-type">
-                                <h3>
-                                    Standard
-                                </h3>
-                                <ul>
-                                    <li>Access to the event</li>
-                                </ul>
-                                <div className="button">
-                                    Buy
-                                </div>
-                            </div>
-                            <div className="ticket-type">
-                                <h3>
-                                    Premium
-                                </h3>
-                                <ul>
-                                    <li>No access to the event</li>
-                                </ul>
-                                <div href="" className="button">
-                                    Buy
-                                </div>
-                            </div>
+                        <div class="columns">
+                            <ul class="price">
+                                <li class="header">Standard</li>
+                                <li class="grey">€ 12</li>
+                                <li>Access to the Event<sup>*</sup></li>
+                                <li>SISTEM Totebag</li>
+                                <li>SISTEM Lanyard + ID card</li>
+                                <li>SISTEM Stickers</li>
+                                <li class="grey"><a href="#" class="button">Purchase</a></li>
+                            </ul>
+                        </div> 
+
+                        <div class="columns">
+                            <ul class="price">
+                                <li class="header plus">Standard+</li>
+                                <li class="grey">€ 13 - € XXX</li>
+                                <li>Access to the Event<sup>*</sup></li>
+                                <li>SISTEM Totebag</li>
+                                <li>SISTEM Lanyard + ID card</li>
+                                <li>SISTEM Stickers</li>
+                                <li>An additional donation of your choosing</li>
+                                <li class="grey"><a href="#" class="button">Purchase</a></li>
+                            </ul>
+                        </div> 
                         </div>
+
+                        <p><sup>*</sup> SISTEM2023 is not a hybrid event, and the event will not be livestreamed. Tickets are non-refundable.</p>
+
                     </div>
+
                 </section>
 
                 <section className="sponsors" id="sponsors">
