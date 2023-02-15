@@ -17,10 +17,10 @@ export default function Navbar({hasBg}) {
             <div className="container">
                 <h2><span>SISTEM</span>2023</h2>
                 <nav>
-                    <a href="#">Home</a>
-                    <a href="#">Team</a>
-                    <a href="#">Code of Contact</a>
-                    <a href="#" className="button">Buy Tickets</a>
+                    <a href="/">Home</a>
+                    <a href="/team">Team</a>
+                    <a href="/code-of-conduct">Code of Contact</a>
+                    <a href="#tickets" className="button">Buy Tickets</a>
                     <button className={"hamburger" + (hamburgerOpen ? " is-active" : "")} onClick={toggleHamburger}>
                         <div className="bar"/>
                     </button>
