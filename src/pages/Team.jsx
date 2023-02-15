@@ -49,7 +49,7 @@ export default function Team() {
                             </div>
                             <div className="society-item">
                                 <img src={ugCompSoc}/>
-                                <h4>UG: Computing Society</h4>
+                                <h4>UG: Computer Society</h4>
                             </div>
                         </div>
                     </div>
