@@ -8,6 +8,7 @@ import dcuRedbrick from "../assets/societies/redbrick.png"
 import ucdNetsoc from "../assets/societies/ucd-netsoc.png"
 import ugCompSoc from "../assets/societies/ug-compsoc.png"
 import uuComputingSoc from "../assets/societies/uu-computing-society.png"
+import Footer from "../components/static/Footer";
 
 export default function Team() {
     const scrollAmount = useScroll();
@@ -54,6 +55,8 @@ export default function Team() {
                     </div>
                 </section>
             </main>
+
+            <Footer/>
         </div>
     )
 }
