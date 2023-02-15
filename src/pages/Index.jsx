@@ -4,6 +4,14 @@ import Navbar from "../components/static/Navbar"
 import useScroll from "../hooks/useScroll"
 import "./index.scss"
 
+import mastercardLogo from "../assets/sponsors/mastercard.png"
+import libertyItLogo from "../assets/sponsors/libertyit.png"
+import r3Logo from "../assets/sponsors/r3.png"
+import mcsLogo from "../assets/sponsors/mcsgroup.png"
+import version1Logo from "../assets/sponsors/version1.png"
+import stripeLogo from "../assets/sponsors/stripe.png"
+import tinesLogo from "../assets/sponsors/tines.png"
+
 export default function Index() {
     const scrollAmount = useScroll();
     const position = [53.38533306530379, -6.2587119915193545]
@@ -100,6 +108,44 @@ export default function Index() {
                 <section className="sponsors" id="sponsors">
                     <div className="container">
                         <h3>Sponsors</h3>
+                        <div className="sponsor-tier">
+                            <h4>
+                                Diamond
+                            </h4>
+                            <div className="sponsor-tier-sponsors">
+                                <img src={mastercardLogo}/>
+                            </div>
+                        </div>
+                        <div className="sponsor-tier">
+                            <h4>
+                                Platinum
+                            </h4>
+                            <div className="sponsor-tier-sponsors">
+                                <img src={libertyItLogo}/>
+                                <img src={r3Logo}/>
+                            </div>
+                        </div>
+                        <div className="sponsor-tier">
+                            <h4>
+                                Gold
+                            </h4>
+                            <div className="sponsor-tier-sponsors">
+                                <img src={mcsLogo}/>
+                                <img src={version1Logo}/>
+                            </div>
+                        </div>
+
+                        <div className="sponsor-tier">
+                            <h4>
+                                Silver
+                            </h4>
+                            <div className="sponsor-tier-sponsors">
+                                <img src={stripeLogo}/>
+                                <img src={tinesLogo}/>
+                            </div>
+                        </div>
+                        
+                        
                     </div>
                 </section>
 
