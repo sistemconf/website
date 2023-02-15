@@ -14,7 +14,7 @@ export default function Team() {
 
     return (
         <div className="team">
-            <Navbar hasBg={scrollAmount > 450}/>
+            <Navbar hasBg={scrollAmount > 75}/>
             <main>
                 <section className="banner">
                     <div className="container">
