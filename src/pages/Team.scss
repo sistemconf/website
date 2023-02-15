@@ -1,0 +1,90 @@
+@import "../colours";
+
+.team {
+    .container {
+        width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+        padding-left: 128px;
+        padding-right: 128px;
+    }
+
+    section.banner {
+        position: relative;
+        min-height: 26vh;
+        display: flex;
+        align-items: center;
+
+        background-image: url('../assets/home_min.jpg');
+        background-position: center;
+        background-size: cover;
+
+        .container {
+            position: relative;
+            z-index: 1;
+
+            h1 {
+                padding-top: 24px;
+                color: white;
+                font-size: 48px;
+                margin-bottom: 12px;
+                text-align: center;
+
+                span {
+                    color: $secondary;
+                }
+            }
+
+            p {
+                text-align: center;
+                color: #CCC;
+                font-size: 24px;;
+            }
+        }
+
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 0;
+            background-color: #372f36;
+            opacity: .8;
+        }
+    }
+
+    section.participating-societies {
+        width: 100%;
+        padding-top: 24px;
+        background-color: #EEE;
+
+        h3 {
+            font-size: 32px;
+        }
+
+        .container {
+            width: 100%;
+            flex-direction: row;
+
+            .societies-list {
+                display: grid;
+                grid-template-columns: 2fr 2fr;
+                width: 100%;
+                height: 100%;
+            }
+
+            .society-item {
+                padding: 20px;
+                border: 1px solid #CCC;
+                margin: 10px;
+                border-radius: 16px;
+                text-align: center;
+            }
+        }
+    }
+
+
+}
