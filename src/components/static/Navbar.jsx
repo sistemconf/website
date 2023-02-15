@@ -20,7 +20,7 @@ export default function Navbar({hasBg}) {
                     <a href="/">Home</a>
                     <a href="/team">Team</a>
                     <a href="/code-of-conduct">Code of Contact</a>
-                    <a href="#tickets" className="button">Buy Tickets</a>
+                    <a href="/#tickets" className="button">Buy Tickets</a>
                     <button className={"hamburger" + (hamburgerOpen ? " is-active" : "")} onClick={toggleHamburger}>
                         <div className="bar"/>
                     </button>
