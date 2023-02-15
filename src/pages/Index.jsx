@@ -166,11 +166,11 @@ export default function Index() {
                     </div>
                 </section>
 
-                <section className="gallery" id="gallery">
+                {/* <section className="gallery" id="gallery">
                     <div className="container">
                         <h3>Gallery</h3>
                     </div>
-                </section>
+                </section> */}
             </main>
 
             <Footer/>
