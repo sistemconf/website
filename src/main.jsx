@@ -7,8 +7,12 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Index from './pages/Index';
-import { MapContainer, Marker, TileLayer } from 'react-leaflet';
 import Test from './pages/Test';
+
+import markerIcon from "../node_modules/leaflet/dist/images/marker-icon.png";
+L.Marker.prototype.setIcon(L.icon({
+  iconUrl:markerIcon
+}))
 
 
 const router = createBrowserRouter([
