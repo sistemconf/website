@@ -80,7 +80,7 @@ export default function Index() {
                         <div class="columns">
                             <ul class="price">
                                 <li class="header plus">Standard+</li>
-                                <li class="grey">€ 13 - € XXX</li>
+                                <li class="grey">€ 12 + donation</li>
                                 <li>Access to the Event<sup>*</sup></li>
                                 <li>SISTEM Totebag</li>
                                 <li>SISTEM Lanyard + ID card</li>
@@ -115,9 +115,7 @@ export default function Index() {
                                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                             />
-                            <Marker position={position}>
-
-                            </Marker>
+                            <Marker position={position}/>
                         </MapContainer>
                     </div>
                 </section>
