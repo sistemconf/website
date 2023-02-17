@@ -9,6 +9,11 @@
         padding-right: 128px;
     }
 
+
+    h3 {
+        font-size: 32px;
+    }
+
     section.banner {
         position: relative;
         min-height: 26vh;
@@ -59,11 +64,9 @@
     section.participating-societies {
         width: 100%;
         padding-top: 24px;
+        padding-bottom: 24px;
         background-color: #EEE;
 
-        h3 {
-            font-size: 32px;
-        }
 
         .container {
             width: 100%;
@@ -83,6 +86,70 @@
                 border-radius: 16px;
                 text-align: center;
             }
+        }          
+    }
+
+    section.team-members {
+        padding-top: 24px;
+        padding-bottom: 24px;
+
+        .sistem-gradient {
+            background: linear-gradient(white, white) padding-box,
+                        linear-gradient(to right, #FEAF39, #FE9297) border-box;
+            border-radius: 50em;
+            border: 8px solid transparent;
+        }
+
+        .team-list {
+            margin: 16px;
+            display: flex;
+            background: linear-gradient(white, white) padding-box,
+            linear-gradient(to right, #FEAF39, #FE9297) border-box;
+            border-radius: 16px;
+            border: 3px solid transparent;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .team-item {
+            display: flex;
+            padding: 16px;
+            margin: 16px;
+
+            img {
+                width: 180px;
+            }
+
+            .team-info {
+                display: flex;
+                flex-direction: column;
+                padding-left: 30px;
+                justify-content: center;
+
+
+                .name {
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-weight: bold;
+                    font-size: 24px;
+                }
+
+                .society {
+                    font-size: 26px;
+                }
+
+                .email {
+                    color: $secondary;
+                    text-decoration: none;
+                }
+            }
+        }
+    
+        .additional-credit {
+            padding: 16px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
         }
     }
 
