@@ -100,14 +100,18 @@
             border: 8px solid transparent;
         }
 
+
         .team-list {
             margin: 16px;
-            display: flex;
+            margin-left: 24px;
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+
             background: linear-gradient(white, white) padding-box,
             linear-gradient(to right, #FEAF39, #FE9297) border-box;
             border-radius: 16px;
             border: 3px solid transparent;
-            flex-wrap: wrap;
+
             align-items: center;
             justify-content: center;
         }
@@ -117,8 +121,13 @@
             padding: 16px;
             margin: 16px;
 
-            img {
+            .pfp {
                 width: 180px;
+                background: linear-gradient(white, white) padding-box,
+                            linear-gradient(to right, #FEAF39, #FE9297) border-box;
+                border-radius: 50em;
+                border: 8px solid transparent;
+                
             }
 
             .team-info {
@@ -141,6 +150,12 @@
                 .email {
                     color: $secondary;
                     text-decoration: none;
+                }
+
+                .links {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
                 }
             }
         }
