@@ -14,6 +14,9 @@ import rianImg from "../assets/team-members/rian.png"
 import yuanImg from "../assets/team-members/yuan.png"
 import jamesImg from "../assets/team-members/james.png"
 import nicoleImg from "../assets/team-members/nicole.png"
+import andreeaImg from "../assets/team-members/andreea.png"
+
+import SistemIcon from "../components/SistemIcon";
 
 export default function Team() {
     const scrollAmount = useScroll();
@@ -66,45 +69,57 @@ export default function Team() {
                     <h3>Team Members</h3>
                     <div className="team-list">
                         <div className="team-item">
-                            <img src={rianImg} className="sistem-gradient"/>
+                            <img src={rianImg} className="pfp"/>
                             <div className="team-info">
                                 <span className="name">Rían Errity</span>
                                 <span className="society">DU Netsoc</span>
                                 <div className="links">
-                                    <a href="mailto:rian@paradaux.io" className="email"> email </a> &middot;
-                                    <a href="https://paradaux.io" className="email"> website </a> &middot; 
-                                    <a href="https://www.linkedin.com/in/r%C3%ADan-errity/" className="email"> linkedin </a>
+                                    <SistemIcon type="email" href="mailto:rian@paradaux.io"/> &nbsp;&middot;&nbsp;
+                                    <SistemIcon type="linkedin" href="https://www.linkedin.com/in/r%C3%ADan-errity/"/> &nbsp;&middot;&nbsp;
+                                    <SistemIcon type="link" href="https://paradaux.io"/>
                                 </div>
                             </div>
                         </div>
 
                         <div className="team-item">
-                            <img src={yuanImg} className="sistem-gradient"/>
+                            <img src={yuanImg} className="pfp"/>
                             <div className="team-info">
                                 <span className="name">Yuan Zhang</span>
                                 <span className="society">UU Computing</span>
-                                <a href="https://www.linkedin.com/in/yuan-zhang-965aaa141/" className="email">linkedin</a>
+                                <div className="links">
+                                    <SistemIcon type="linkedin" href="https://www.linkedin.com/in/yuan-zhang-965aaa141/"/> &nbsp;&middot;&nbsp;
+                                    <SistemIcon type="twitter" href="https://twitter.com/YuanMitchell"/>
+                                </div>
                             </div>
                         </div>
 
                         <div className="team-item">
-                            <img src={jamesImg} className="sistem-gradient"/>
+                            <img src={jamesImg} className="pfp"/>
                             <div className="team-info">
                                 <span className="name">James Hackett</span>
                                 <span className="society">DCU Redbrick</span>
                                 <div className="links">
-                                    <a href="mailto:james@distrobyte.io" className="email"> email </a> &middot;
-                                    <a href="https://james-hackett.ie/" className="email"> website </a>
+                                    <SistemIcon type="email" href="mailto:james@distrobyte.io"/> &nbsp;&middot;&nbsp;
+                                    <SistemIcon type="link" href="https://james-hackett.ie/"/>
                                 </div>
                             </div>
                         </div>
 
                         <div className="team-item">
-                            <img src={nicoleImg} className="sistem-gradient"/>
+                            <img src={nicoleImg} className="pfp"/>
                             <div className="team-info">
                                 <span className="name">Nicole McCabe</span>
                                 <span className="society">UCD Netsoc</span>
-                                <a href="https://www.linkedin.com/in/nicolemccabechu" className="email"> linkedin </a>
+                                <SistemIcon type="linkedin" href="https://www.linkedin.com/in/nicolemccabechu"/>
+                            </div>
+                        </div>
+
+                        <div className="team-item">
+                            <img src={andreeaImg} className="pfp"/>
+                            <div className="team-info">
+                                <span className="name">Andreea Rete</span>
+                                <span className="society">DCU Redbrick</span>
+                                <SistemIcon type="linkedin" href="https://www.linkedin.com/in/andreea-teodora-rete-377768207/"/>
                             </div>
                         </div>
 
