@@ -110,6 +110,15 @@ header {
         }
     }
 
+    @media (max-width: 767px) {
+        .container {
+
+            padding-left: 11px;
+            padding-right: 11px;
+            padding-bottom: 24px;
+        }
+    }
+
     &.is-scrolling {
         background-color: rgba($color: #251826, $alpha: 0.7);
     }
