@@ -35,7 +35,7 @@ export default function Index() {
                     <div className="container">
                         <h3>About.</h3>
                         <p>
-                            <b>SISTEM</b> is Ireland's premiere tech conference for students, with the mission to inspire the next generation of tech leaders and enthusiasts.&nbsp;
+                            <b>SISTEM</b> is Ireland's premiere tech conference for students, with the mission to inspire the next generation of tech leaders and enthusiasts.&nbsp;<br className="mobile-only"/><br className="mobile-only"/>
                             <b>SISTEM<span>2023</span></b> will be our first fully in-person conference since 2020, and our sixth time organising the conference. Year after year the conference has grown in scale and ambition 
                             with over 200 of Ireland's finest up and coming tech talent expected to attend. 
                         </p>
