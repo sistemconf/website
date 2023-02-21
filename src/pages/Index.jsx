@@ -26,7 +26,7 @@ export default function Index() {
                             A <span>Student</span> Tech<br className="hide-mobile"/> & Enterprise Conference.
                         </h1>
                         <h3>March 11<sup>th</sup> 2023, Dublin City University.</h3>
-                        <a href="#" className="button">Buy Tickets</a>
+                        <a href="#tickets" className="button">Buy Tickets</a>
                         <a href="#" className="button secondary">Schedule</a>
                     </div>
                 </section>
@@ -85,7 +85,7 @@ export default function Index() {
                             </ul>
                         </div> 
 
-                        <div class="columns">
+                        {/* <div class="columns">
                             <ul class="price">
                                 <li class="header plus">Standard+</li>
                                 <li class="grey">€ 12 + donation</li>
@@ -96,13 +96,10 @@ export default function Index() {
                                 <li>An additional donation of your choosing</li>
                                 <li class="grey"><a href="#" class="button">Purchase</a></li>
                             </ul>
-                        </div> 
+                        </div>  */}
                         </div>
-
-                        <p><sup>*</sup> SISTEM2023 is not a hybrid event, and the event will not be livestreamed. Tickets are non-refundable.</p>
-
+                        <p><sup>*</sup> SISTEM2023 is not a hybrid event, and the event will not be livestreamed. Tickets are non-refundable. If you are looking to attend representing an organisation please contact us.</p>
                     </div>
-
                 </section>
 
                 <section className="sponsors" id="sponsors">
