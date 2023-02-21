@@ -15,7 +15,7 @@ import yuanImg from "../assets/team-members/yuan.png"
 import jamesImg from "../assets/team-members/james.png"
 import nicoleImg from "../assets/team-members/nicole.png"
 import andreeaImg from "../assets/team-members/andreea.png"
-
+import annaImg from "../assets/team-members/anna.png" 
 import SistemIcon from "../components/SistemIcon";
 
 export default function Team() {
@@ -57,7 +57,7 @@ export default function Team() {
                             </div>
                             <div className="society-item">
                                 <img src={ugCompSoc}/>
-                                <h4>UG: Computer Society</h4>
+                                <h4>UG: CompSoc</h4>
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@ export default function Team() {
                         </div>
 
                         <div className="team-item">
-                            <img src={andreeaImg} className="pfp"/>
+                            <img src={annaImg} className="pfp"/>
                             <div className="team-info">
                                 <span className="name">Anna Burke</span>
                                 <span className="society">MU CS Society</span>

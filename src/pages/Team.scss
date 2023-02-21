@@ -9,6 +9,13 @@
         padding-right: 128px;
     }
 
+    @media (max-width: 767px) {
+        .container {
+            padding-left: 11px;
+            padding-right: 11px;
+        }
+    }
+
 
     h3 {
         font-size: 32px;
@@ -61,6 +68,13 @@
         }
     }
 
+    @media (max-width: 767px) {
+        section.banner {
+            padding-top: 70px;
+            padding-bottom: 30px;
+        }
+    }
+
     section.participating-societies {
         width: 100%;
         padding-top: 24px;
@@ -87,6 +101,21 @@
                 text-align: center;
             }
         }          
+    }
+
+    @media (max-width: 767px) {
+        section.participating-societies {
+            .container {
+                .society-item {
+                    padding: 5px;
+                    margin: 5px;
+
+                    img {
+                        width: 100px;
+                    }
+                }
+            }
+        }
     }
 
     section.team-members {
@@ -166,5 +195,24 @@
             font-weight: bold;
             text-align: center;
         }
+    }
+
+    @media (max-width: 767px) {
+        section.team-members {
+            .team-list {
+                grid-template-columns: 1fr;
+
+                .team-item {
+                    padding-left: 6px;
+                    padding-right: 6px;
+                    
+                    .pfp {
+                        width: 100px;
+                        border: 5px solid transparent;
+                    }
+                }
+            }
+        }
+
     }
 }
