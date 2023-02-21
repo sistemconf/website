@@ -78,7 +78,6 @@ export default function Index() {
                                 <li class="header">Standard</li>
                                 <li class="grey">€ 12</li>
                                 <li>Access to the Event<sup>*</sup></li>
-                                <li>SISTEM Totebag</li>
                                 <li>SISTEM Lanyard + ID card</li>
                                 <li>SISTEM Stickers</li>
                                 <li class="grey"><a href="https://tickets.sistemconf.com/e/2/sistem-2023" class="button">Purchase</a></li>
