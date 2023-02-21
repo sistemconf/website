@@ -123,6 +123,15 @@ export default function Team() {
                             </div>
                         </div>
 
+                        <div className="team-item">
+                            <img src={andreeaImg} className="pfp"/>
+                            <div className="team-info">
+                                <span className="name">Anna Burke</span>
+                                <span className="society">MU CS Society</span>
+                                <SistemIcon type="email" href="anna.burke23@gmail.com"/>
+                            </div>
+                        </div>
+
                         <p className="additional-credit"> Among countless others who make this event possible year after year !</p>
                     </div>
                 </div>
