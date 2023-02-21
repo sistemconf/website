@@ -13,14 +13,21 @@
     }
 }
 
-
 .footer {
     background-color: #221a1e;
     padding-top: 5vh;
     padding-bottom: 3vh;
-    padding-left: 128px;
-    padding-right: 128px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 16px;
     flex-wrap: wrap;
+  }
+
+  @media (max-width: 767px) {
+    .footer {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
   }
   
   .footer-content {
@@ -90,15 +97,15 @@
   
   .footer-page-links,
   .footer-socials {
+    width: fit-content;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 5px;
   }
   
   .footer-page-links a,
   .footer-socials a {
-    margin-left: 25px;
+    margin-left: 10px;
     text-decoration: none;
     color: #666262;
   }

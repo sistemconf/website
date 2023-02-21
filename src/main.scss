@@ -17,3 +17,8 @@ body {
   src: local("HussarBold"), url("./assets/fonts/HussarBold.otf") format("opentype");
 }
 
+@media (max-width: 767px) {
+  .mobile-disabled {
+    display: none;
+  }
+}
