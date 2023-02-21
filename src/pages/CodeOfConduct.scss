@@ -1,0 +1,98 @@
+@import "../colours";
+
+.code-of-conduct {
+    main {
+        .container {
+            width: 100%;
+            max-width: 1600px;
+            margin: 0 auto;
+            padding-left: 128px;
+            padding-right: 128px;
+        }
+    
+        @media (max-width: 767px) {
+            .container {
+                padding-top: 50px;
+                padding-left: 11px;
+                padding-right: 11px;
+                padding-bottom: 24px;
+            }
+        }
+
+        section.banner {
+            position: relative;
+            min-height: 26vh;
+            display: flex;
+            align-items: center;
+    
+            background-image: url('../assets/home_min.jpg');
+            background-position: center;
+            background-size: cover;
+
+            .container {
+                position: relative;
+                z-index: 1;
+    
+                h1 {
+                    padding-top: 24px;
+                    color: white;
+                    font-size: 48px;
+                    margin-bottom: 12px;
+                    text-align: center;
+    
+                    span {
+                        color: $secondary;
+                    }
+                }
+    
+                p {
+                    text-align: center;
+                    color: #CCC;
+                    font-size: 24px;;
+                }
+            }
+    
+            &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                z-index: 0;
+                background-color: #372f36;
+                opacity: .8;
+            }
+        }
+    
+        section.coc-body {
+            .container {
+                padding-top: 23px;
+                padding-bottom: 23px;
+            }
+
+            h3 {
+                font-size: 32px;
+                font-family: 'HussarBold';
+                margin: 16px 0 16px 0;
+            }
+
+            p {
+                font-size: 19px;
+                margin: 16px 0 16px 0;
+            }
+
+            ul {
+                margin-left: 24px;
+                font-size: 19px;
+            }
+
+            a {
+                color: $secondary;
+            }
+        }
+    }
+
+
+}
