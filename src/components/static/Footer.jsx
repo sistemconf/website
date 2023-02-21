@@ -14,8 +14,8 @@ export default function Footer() {
                     <div className="footer-credit">
                         <p> 
                             Annual event hosted by Intersocs and volunteers like you! <br className="mobile-disabled"/> 
-                            An unincorperated association of Computer Science Societies in Ireland <br className="mobile-disabled"/> 
-                            Website built by <a href="https://paradaux.io">Rían Errity</a>. <br className="mobile-disabled"/>  Source available on <a href="https://github.com/sistemconf/website">GitHub</a> 
+                            An unincorperated association of Computer Science Societies in Ireland <br/> <br className="mobile-obly"/> 
+                            Website built by <a href="https://paradaux.io">Rían Errity</a>. <br className="mobile-disabled"/> <br className="mobile-obly"/>  Source available on <a href="https://github.com/sistemconf/website">GitHub</a> 
                         </p>
                     </div>
 
