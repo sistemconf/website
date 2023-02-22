@@ -84,20 +84,17 @@ export default function Index() {
                             </ul>
                         </div> 
 
-                        {/* <div class="columns">
+                        <div class="columns">
                             <ul class="price">
-                                <li class="header plus">Standard+</li>
-                                <li class="grey">€ 12 + donation</li>
-                                <li>Access to the Event<sup>*</sup></li>
-                                <li>SISTEM Totebag</li>
-                                <li>SISTEM Lanyard + ID card</li>
-                                <li>SISTEM Stickers</li>
-                                <li>An additional donation of your choosing</li>
-                                <li class="grey"><a href="#" class="button">Purchase</a></li>
+                                <li class="header plus">Totebag</li>
+                                <li class="grey">€ 3</li>
+                                <li>1x SISTEM Totebag<sup>^</sup></li>
+                                <li class="grey"><a href="https://tickets.sistemconf.com/e/2/sistem-2023" class="button">Purchase</a></li>
                             </ul>
-                        </div>  */}
+                        </div> 
                         </div>
                         <p><sup>*</sup> SISTEM2023 is not a hybrid event, and the event will not be livestreamed. Tickets are non-refundable. If you are looking to attend representing an organisation please contact us.</p>
+                        <p><sup>^</sup> A totebag is an addon, optional purchase and does not provide access to the event. They can be collected at the front desk of the event.</p>
                     </div>
                 </section>
 
