@@ -258,6 +258,7 @@
 
                 h3 {
                     font-size: 32px;
+                    padding-bottom: 5px;
                 }
             }
 
@@ -269,6 +270,11 @@
             .leaflet-container {
                 height: 350px;
                 z-index: 60;
+            }
+
+            p {
+                font-size: 20px;
+                padding-bottom: 16px;
             }
         }
 
