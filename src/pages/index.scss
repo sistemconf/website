@@ -290,4 +290,30 @@
             }
         }
     }
+
+    section.speakers {
+        .container {
+            background-color: #EEE;
+            padding-top: 32px;
+            padding-bottom: 64px;
+
+            h3 {
+                font-size: 32px;
+                padding-bottom: 5px;
+            }
+        }
+    }
+
+    section.schedule {
+        .container {
+
+            padding-top: 32px;
+            padding-bottom: 64px;
+
+            h3 {
+                font-size: 32px;
+                padding-bottom: 5px;
+            }
+        }
+    }
 }

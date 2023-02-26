@@ -149,13 +149,26 @@ export default function Index() {
                             This year's conference will be held in the "U" building found on DCU's Glasnevin Campus.&nbsp;
                             <a href="https://goo.gl/maps/otfP8uswn1BP9JqH9">Find us on Google Maps!</a>
                         </p>
-                        <MapContainer center={position} zoom={10} scrollWheelZoom={false}>
+                        <MapContainer center={position} zoom={15} scrollWheelZoom={false}>
                             <TileLayer
                                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                             />
                             <Marker position={position}/>
                         </MapContainer>
+                    </div>
+                </section>
+
+                <section className="speakers">
+                    <div className="container">
+                        <h3>Speakers</h3>
+                        <div></div>
+                    </div>
+                </section>
+
+                <section className="schedule">
+                    <div className="container">
+                        <h3>Schedule</h3>
                     </div>
                 </section>
 
