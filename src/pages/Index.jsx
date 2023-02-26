@@ -147,7 +147,7 @@ export default function Index() {
                         <h3>Getting There</h3>
                         <p>
                             This year's conference will be held in the "U" building found on DCU's Glasnevin Campus.&nbsp;
-                            <a href="https://goo.gl/maps/otfP8uswn1BP9JqH9">Find us on Google Maps!</a>
+                            <a href="https://goo.gl/maps/otfP8uswn1BP9JqH9">Find us on Google Maps!</a> DCU also has a useful guide for getting to their campus via public transport <a href="https://www.dcu.ie/how-to-get-here">here</a>.
                         </p>
                         <MapContainer center={position} zoom={15} scrollWheelZoom={false}>
                             <TileLayer
@@ -162,7 +162,9 @@ export default function Index() {
                 <section className="speakers">
                     <div className="container">
                         <h3>Speakers</h3>
-                        <div></div>
+                        <div className="speakers">
+
+                        </div>
                     </div>
                 </section>
 
