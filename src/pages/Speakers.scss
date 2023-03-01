@@ -1,0 +1,166 @@
+@import "../colours";
+
+.speakers {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 128px;
+        padding-right: 128px;
+    }
+
+    @media (max-width: 767px) {
+        .container {
+            padding-left: 11px;
+            padding-right: 11px;
+        }
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    .main--content {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+
+    section.speakers--container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 1rem;
+        gap: 2rem;
+
+        .speakers--speaker {
+          display: flex;
+          flex-direction: column;
+          flex-basis: 0;
+          flex-grow: 1;
+          min-width: 360px;
+          gap: 1rem;
+          padding: 2rem;
+          border-style: solid;
+          border-width: 0.3rem;
+          border-radius: 1rem;
+          border-color: $secondary;
+        }
+
+        .speakers--header {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 1rem;
+
+          .speakers--title-area {
+            display: flex;
+            flex-direction: column;
+
+            .speakers--title-and-name {
+              display: flex;
+              flex-direction: column;
+              align-items: baseline;
+              gap: 1rem;
+            }
+          }
+
+          .speakers--job-title {
+            font-size: smaller;
+            font-weight: 600;
+          }
+
+          .speakers--profile-img {
+            border-radius: 50%;
+          }
+        }
+
+        .speakers--content {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          white-space: pre-wrap;
+        }
+    }
+
+    @media (max-width: 767px) {
+      section.speakers--container {
+        .speakers--header {
+          flex-direction: column;
+        }
+      }
+    }
+
+    section.banner {
+        position: relative;
+        min-height: 26vh;
+        display: flex;
+        align-items: center;
+
+        background-image: url('../assets/home_min.jpg');
+        background-position: center;
+        background-size: cover;
+
+        .container {
+            position: relative;
+            z-index: 1;
+
+            h1 {
+                padding-top: 24px;
+                color: white;
+                font-size: 48px;
+                margin-bottom: 12px;
+                text-align: center;
+
+                span {
+                    color: $secondary;
+                }
+            }
+
+            p {
+                text-align: center;
+                color: #CCC;
+                font-size: 24px;;
+            }
+        }
+
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 0;
+            background-color: #372f36;
+            opacity: .8;
+        }
+    }
+
+    @media (max-width: 767px) {
+        section.banner {
+            padding-top: 70px;
+            padding-bottom: 30px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        section.team-members {
+            .team-list {
+                grid-template-columns: 1fr;
+
+                .team-item {
+                    padding-left: 6px;
+                    padding-right: 6px;
+                    
+                    .pfp {
+                        width: 100px;
+                        border: 5px solid transparent;
+                    }
+                }
+            }
+        }
+
+    }
+}
