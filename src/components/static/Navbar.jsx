@@ -20,6 +20,7 @@ export default function Navbar({hasBg}) {
                     <nav className="desktop-nav">
                         <a href="/">Home</a>
                         <a href="/team">Team</a>
+                        <a href="/speakers">Speakers</a>
                         <a href="/code-of-conduct">Code of Conduct</a>
                         <a href="/#tickets" className="button">Buy Tickets</a>
                     </nav>
