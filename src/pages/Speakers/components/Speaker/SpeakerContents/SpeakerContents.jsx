@@ -1,8 +1,9 @@
-import styles from './SpeakerContents.module.scss';
+import styles from "./SpeakerContents.module.scss";
 
-/** @typedef {import("./SpeakerContents").SpeakerContentsProps} SpeakerContentsProps */
-
-/** @param {SpeakerContentsProps} props */
+/**
+ * @param {import('./SpeakerContents').SpeakerContentsProps} props
+ * @returns {JSX.Element}
+ */
 export default function SpeakerContents({ talkDescription, bio }) {
   return (
     <section className={styles.container}>
