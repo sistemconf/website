@@ -1,13 +1,12 @@
 import Navbar from "../../components/static/Navbar";
 import useScroll from "../../hooks/useScroll";
 
-/** @typedef {import("../Speakers").SpeakersProps} SpeakersProps */
-
 import "./Speakers.scss";
 
 import Footer from "../../components/static/Footer";
-import SpeakerContents from "./components/Speaker/SpeakerContents/SpeakerContents";
 import Speaker from "./components/index.js";
+
+/** @typedef {import("../Speakers").SpeakersProps} SpeakersProps */
 
 /** @param {SpeakersProps} */
 export default function Speakers({ speakers }) {

@@ -1,9 +1,9 @@
-/** @typedef {import("../../Speakers").Speaker} SpeakerProps */
-
 import SpeakerHeader from "./SpeakerHeader/SpeakerHeader.jsx";
 import SpeakerContents from "./SpeakerContents/SpeakerContents.jsx";
 
 import styles from './Speaker.module.scss';
+
+/** @typedef {import("../../Speakers").Speaker} SpeakerProps */
 
 /** @param {SpeakerProps} props */
 export default function Speaker({
