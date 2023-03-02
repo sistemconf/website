@@ -11,6 +11,7 @@ import mcsLogo from "../assets/sponsors/mcsgroup.png"
 import version1Logo from "../assets/sponsors/version1.png"
 import stripeLogo from "../assets/sponsors/stripe.png"
 import tinesLogo from "../assets/sponsors/tines.png"
+import sigLogo from  "../assets/sponsors/SIG.png"
 
 export default function Index() {
     const scrollAmount = useScroll();
@@ -135,6 +136,7 @@ export default function Index() {
                             <div className="sponsor-tier-sponsors">
                                 <img src={stripeLogo}/>
                                 <img src={tinesLogo}/>
+                                <img src={sigLogo}/>
                             </div>
                         </div>
                         
