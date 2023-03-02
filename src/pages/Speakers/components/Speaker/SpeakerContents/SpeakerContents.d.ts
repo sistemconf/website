@@ -1,4 +1,4 @@
 export type SpeakerContentsProps = {
-  talkDescription: string;
-  bio: string;
+  talkDescription?: string;
+  bio?: string;
 };

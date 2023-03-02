@@ -3,6 +3,7 @@ export type SpeakerHeaderProps = {
   name: string;
   jobTitle: string;
   linkedin?: string;
+  twitter?: string;
   image?: {
     url: string;
     alt: string;

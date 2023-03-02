@@ -11,6 +11,7 @@ export default function SpeakerHeader({
   jobTitle,
   image,
   linkedin,
+  twitter,
 }) {
   return (
     <div className={styles.container}>
@@ -19,7 +20,12 @@ export default function SpeakerHeader({
       )}
       <div className={styles.talkTitleAndName}>
         <h3 className={styles.talkTitle}>{talkTitle}</h3>
-        <NameAndJobTitle name={name} jobTitle={jobTitle} linkedin={linkedin} />
+        <NameAndJobTitle
+          name={name}
+          jobTitle={jobTitle}
+          linkedin={linkedin}
+          twitter={twitter}
+        />
       </div>
     </div>
   );

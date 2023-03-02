@@ -14,6 +14,7 @@ export default function Speaker({
   talkDescription,
   bio,
   linkedin,
+  twitter,
   image,
 }) {
   return (
@@ -23,6 +24,7 @@ export default function Speaker({
         name={name}
         jobTitle={jobTitle}
         linkedin={linkedin}
+        twitter={twitter}
         image={image}
       />
       <SpeakerContents talkDescription={talkDescription} bio={bio} />
