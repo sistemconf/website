@@ -1,3 +1,4 @@
+/** @type {import('../pages/Speakers/Speakers').Speaker[]} */
 const speakers = [
   {
     name: "Siobhan Dingus",
