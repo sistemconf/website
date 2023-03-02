@@ -1,9 +1,10 @@
 import SistemIcon from "../../../../../../components/SistemIcon.jsx";
 import styles from "./NameAndJobTitle.module.scss";
 
-/** @typedef {import("./NameAndJobTitle.d.ts").NameAndJobTitleProps} NameAndJobTitle */
-
-/** @param {NameAndJobTitle} props */
+/**
+ * @param {import('./NameAndJobTitle.js').NameAndJobTitleProps} props 
+ * @returns {JSX.Element}
+ */
 export default function NameAndJobTitle({ name, jobTitle, linkedin }) {
   return (
     <div className={styles.container}>

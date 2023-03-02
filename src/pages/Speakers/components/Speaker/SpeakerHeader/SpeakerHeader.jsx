@@ -1,9 +1,10 @@
 import styles from "./SpeakerHeader.module.scss";
 import NameAndJobTitle from "./NameAndJobTitle/NameAndJobTitle.jsx";
 
-/** @typedef {import("./SpeakerHeader.js").SpeakerHeaderProps} SpeakerHeaderProps */
-
-/** @param {SpeakerHeaderProps} props */
+/**
+ * @param {import('./SpeakerHeader').SpeakerHeaderProps} props
+ * @returns {JSX.Element}
+ */
 export default function SpeakerHeader({
   talkTitle,
   name,

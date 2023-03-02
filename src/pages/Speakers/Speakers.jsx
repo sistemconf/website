@@ -6,9 +6,10 @@ import "./Speakers.scss";
 import Footer from "../../components/static/Footer";
 import Speaker from "./components/index.js";
 
-/** @typedef {import("../Speakers").SpeakersProps} SpeakersProps */
-
-/** @param {SpeakersProps} */
+/**
+ * @param {import('./Speakers').SpeakersProps} props
+ * @returns {JSX.Element}
+ */
 export default function Speakers({ speakers }) {
   const scrollAmount = useScroll();
 
