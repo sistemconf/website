@@ -12,8 +12,10 @@ export default function NameAndJobTitle({ name, jobTitle, linkedin, twitter }) {
         <span className={styles.name}>{name}</span>
         <span className={styles.jobTitle}>{jobTitle}</span>
       </div>
-      {linkedin && <SistemIcon type="linkedin" href={linkedin} />}
-      {twitter && <SistemIcon type="twitter" href={twitter} />}
+      <div className={styles.social}>
+        {linkedin && <SistemIcon type="linkedin" href={linkedin} />}
+        {twitter && <SistemIcon type="twitter" href={twitter} />}
+      </div>
     </div>
   );
 }
