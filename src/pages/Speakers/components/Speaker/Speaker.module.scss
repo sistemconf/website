@@ -1,0 +1,16 @@
+@import '../../../../colours';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  flex-grow: 1;
+  min-width: 360px;
+  gap: 1rem;
+  padding: 2rem;
+  border-style: solid;
+  border-width: 0.3rem;
+  border-radius: 1rem;
+  border-color: $secondary;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}

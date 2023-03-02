@@ -4,8 +4,8 @@ export type Speaker = {
   talkTitle: string;
   talkDescription: string;
   bio: string;
-  linkedin: string;
-  image: {
+  linkedin?: string;
+  image?: {
     url: string;
     alt: string;
   };
