@@ -17,3 +17,17 @@
 .jobTitle {
   font-size: smaller;
 }
+
+.social {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+  }
+}
