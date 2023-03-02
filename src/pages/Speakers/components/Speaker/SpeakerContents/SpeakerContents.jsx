@@ -1,4 +1,3 @@
-import React from "react";
 import styles from './SpeakerContents.module.scss';
 
 /** @typedef {import("./SpeakerContents").SpeakerContentsProps} SpeakerContentsProps */
