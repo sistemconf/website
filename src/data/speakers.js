@@ -1,4 +1,4 @@
-import adrianaImg from "../assets/speakers/adriana.png";
+import adrianaImg from "../assets/speakers/adriana.jpg";
 import yuanImg from "../assets/speakers/yuan.jpg";
 import bolsterImg from "../assets/speakers/bolster.jpg";
 import angieImg from "../assets/speakers/angie.jpg";
@@ -6,6 +6,20 @@ import danImg from "../assets/speakers/dan.jpg";
 
 /** @type {import('../pages/Speakers/Speakers').Speaker[]} */
 const speakers = [
+  {
+    name: "Daniel Murphy",
+    jobTitle: "Head of SRE for PwC",
+    talkTitle: "SRE the Next Great Frontier",
+    talkDescription:
+        "A glimpse into DevOps, SRE, and platform engineering. Where they came from and how they are enabling technology to develop faster than ever. From Taylor swift’s Ticketmaster fiasco to Elon Musk’s Twitter tantrums, we explore how SRE made this all possible.",
+    bio: "Having spent the last 15 years in the technology industry working with pharmaceutical companies, manufacturing, and legal. Daniel was also one of the first SRE managers in Ireland and an early adopter of DevOps principles. Currently working for PwC and transforming businesses through well-architected SRE solutions.",
+    twitter: "https://twitter.com/d_murph21",
+    linkedin: "https://www.linkedin.com/in/daniel-murphy-254a2046",
+    image: {
+      url: danImg,
+      alt: "Daniel Murphy looking away from the camera in a suit.",
+    },
+  },
   {
     name: "Andrew Bolster",
     jobTitle:
@@ -35,20 +49,6 @@ const speakers = [
     image: {
       url: angieImg,
       alt: "Angie McKeown on a sofa.",
-    },
-  },
-  {
-    name: "Daniel Murphy",
-    jobTitle: "Head of SRE for PwC",
-    talkTitle: "SRE the Next Great Frontier",
-    talkDescription:
-      "A glimpse into DevOps, SRE, and platform engineering. Where they came from and how they are enabling technology to develop faster than ever. From Taylor swift’s Ticketmaster fiasco to Elon Musk’s Twitter tantrums, we explore how SRE made this all possible.",
-    bio: "Having spent the last 15 years in the technology industry working with pharmaceutical companies, manufacturing, and legal. Daniel was also one of the first SRE managers in Ireland and an early adopter of DevOps principles. Currently working for PwC and transforming businesses through well-architected SRE solutions.",
-    twitter: "https://twitter.com/d_murph21",
-    linkedin: "https://www.linkedin.com/in/daniel-murphy-254a2046",
-    image: {
-      url: danImg,
-      alt: "Daniel Murphy looking away from the camera in a suit.",
     },
   },
   {
