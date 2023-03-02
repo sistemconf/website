@@ -1,7 +1,7 @@
-/** @typedef {import("./SpeakerContents").SpeakerContentsProps} SpeakerContentsProps */
-
 import React from "react";
 import styles from './SpeakerContents.module.scss';
+
+/** @typedef {import("./SpeakerContents").SpeakerContentsProps} SpeakerContentsProps */
 
 /** @param {SpeakerContentsProps} props */
 export default function SpeakerContents({ talkDescription, bio }) {
