@@ -28,7 +28,7 @@ export default function Index() {
                         </h1>
                         <h3>March 11<sup>th</sup> 2023, Dublin City University.</h3>
                         <a href="#tickets" className="button">Buy Tickets</a>
-                        <a href="#" className="button secondary">Schedule</a>
+                        <a href="/schedule" className="button">Schedule</a>
                     </div>
                 </section>
 
