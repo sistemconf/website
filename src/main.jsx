@@ -5,6 +5,7 @@ import "leaflet/dist/leaflet.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Index from "./pages/Index";
 import Test from "./pages/Test";
+import Schedule from "./pages/Schedule";
 
 import markerIcon from "../node_modules/leaflet/dist/images/marker-icon.png";
 import Team from "./pages/Team";
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: "/speakers",
     element: <Speakers speakers={speakers} />,
+  },
+  {
+    path: "/schedule",
+    element: <Schedule/>,
   },
   {
     path: "/test",
