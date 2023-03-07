@@ -54,7 +54,7 @@ export default function Index() {
                                 </div>
 
                                 <div className="stat">
-                                    <h3>X</h3>
+                                    <h3>12</h3>
                                     <p>Sessions</p>
                                 </div>
 

@@ -7,7 +7,7 @@ const data = [
     },     
     {
         time: '11:00 AM - 11:45 AM',
-        talk1: 'What I have learned building local and virtual AWS Communities',
+        talk1: 'What I Have Learned Building Local and Virtual AWS Communities',
         room1: 'Main Stage',
     },
     {
@@ -36,7 +36,7 @@ const data = [
     },
     {
         time: '14:30 PM - 15:15 PM',
-        talk1: 'Get in the robot, Shinji - the pros and cons of getting into Security',
+        talk1: 'Get in the robot, Shinji - The Pros and Cons of Getting into Security',
         room1: 'Main Stage',
         talk2: 'Gaming Panel',
         room2: 'Panel Room'
@@ -45,14 +45,14 @@ const data = [
         time: '15:45 PM - 16:15 PM',
         talk1: 'R3 Talk',
         room1: 'Main Stage',
-        talk2: 'Student Lightning Tallks',
+        talk2: 'Student Lightning Talks',
         room2: 'Panel Room'
     },
     {
         time: '16:15 PM - 17:00 PM',
         talk1: 'MasterCard Closing Talk',
         room1: 'Main Stage',
-        talk2: 'Student Lightning Tallks',
+        talk2: 'Student Lightning Talks',
         room2: 'Panel Room'
     },
     {
