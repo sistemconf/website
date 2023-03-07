@@ -10,6 +10,7 @@ import isabelaImg from "../assets/speakers/isabela.jpg"
 import thomasImg from "../assets/speakers/thomas.jpg"
 import arianaImg from "../assets/speakers/ariana.jpg"
 import manuelImg from "../assets/speakers/manuel.jpg"
+import cliodhnaImg from "../assets/speakers/cliodhna.jpg"
 
 /** @type {import('../pages/Speakers/Speakers').Speaker[]} */
 const speakers = [
@@ -177,15 +178,27 @@ const speakers = [
     },
   },
   {
+    name: "Clíodhna Harrison",
+    jobTitle: "Software Engineer at Tines",
+    talkTitle: "DEI Panel",
+    bio:
+      "Clíodhna is a Software Engineer at Tines and a DCU Computing student. They are a former Redbrick committee member and have been involved with SISTEM since the beginning.\n\n" +
+      "Clíodhna is autistic, has ADHD and chronic illness. They are passionate about DEI and neurodiversity awareness as well as acceptance.",
+      linkedin: "https://www.linkedin.com/in/cliodhna-harrison/",
+    image: {
+      url: cliodhnaImg,
+      alt: "Profile photo of Cliodhna",
+    },
+  },
+  {
     name: "Yuan Zhang",
     jobTitle: "2nd Year CS Student at Ulster University",
     talkTitle: "DEI Panel",
     bio:
-      "Yuan is a 2nd Year Computing Science Student at Ulster University in Northern Ireland. Two years ago, he moved to Northern Ireland on a one-way ticket to start a new chapter in his life. Since then, he has been fortunate enough to take on several roles that allow him to grow and learn from others.\n\n" +
       "Yuan is currently involved as the Google Developer Student Club lead at UU, Partnership lead at NIDC, Chair at Ulster University Computing Society, Committee member at BCS Northern Ireland Chapter, and Student ambassador at Liberty IT. He is also involved in organizing SISTEM.\n\n" +
-      "While he is proud of his involvement in these roles, he is also mindful that there is always more to learn and ways to improve. He is grateful for the opportunities and support that have allowed him to take on these responsibilities and looks forward to continuing to contribute to the tech community in whatever ways he can.",
-    linkedin: "https://www.linkedin.com/in/yuan-zhang-965aaa141",
-    twitter: "https://twitter.com/YuanMitchell",
+    " While he is proud of his involvement in these roles, he is also mindful that there is always more to learn and ways to improve. He is grateful for the opportunities and support that have allowed him to take on these responsibilities and looks forward to continuing to contribute to the tech community in whatever ways he can.",
+      linkedin: "https://www.linkedin.com/in/yuan-zhang-965aaa141",
+      twitter: "https://twitter.com/YuanMitchell",
     image: {
       url: yuanImg,
       alt: "Profile photo of Yuan Zhang smiling next to a window.",
