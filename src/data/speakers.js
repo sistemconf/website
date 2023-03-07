@@ -8,6 +8,7 @@ import johnImg from "../assets/speakers/john.jpg"
 import brendaImg from "../assets/speakers/brenda.jpg"
 import isabelaImg from "../assets/speakers/isabela.jpg"
 import thomasImg from "../assets/speakers/thomas.jpg"
+import arianaImg from "../assets/speakers/ariana.jpg"
 
 /** @type {import('../pages/Speakers/Speakers').Speaker[]} */
 const speakers = [
@@ -118,6 +119,18 @@ const speakers = [
     image: {
       url: thomasImg,
       alt: "Profile photo of Thomas Cashman with a game controller.",
+    },
+  },
+  {
+    name: "Ariana Jez",
+    jobTitle: "Senior Producer at Black Shamrock",
+    talkTitle: "Gaming Panel",
+    bio:
+      "Ariana Jez is a senior producer at Virtuos-owned video game development company Black Shamrock, which is based in Dublin. Virtuos is headquartered in Singapore with studios in Asia, Europe, and the US. Over the course of her career, she has worked on multiple AAA games such as Call of Duty, Destiny 2, and Resident Evil.",
+      linkedin: "https://www.linkedin.com/in/ariana-je%C5%BC-5a988aa3/",
+    image: {
+      url: arianaImg,
+      alt: "Profile photo of Ariana staring at camera",
     },
   },
   {
