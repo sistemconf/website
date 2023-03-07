@@ -3,6 +3,7 @@ import yuanImg from "../assets/speakers/yuan.jpg";
 import bolsterImg from "../assets/speakers/bolster.jpg";
 import angieImg from "../assets/speakers/angie.jpg";
 import danImg from "../assets/speakers/dan.jpg";
+import matthewImg from "../assets/speakers/matt.jpg"
 
 /** @type {import('../pages/Speakers/Speakers').Speaker[]} */
 const speakers = [
@@ -49,6 +50,23 @@ const speakers = [
     image: {
       url: angieImg,
       alt: "Angie McKeown on a sofa.",
+    },
+  },
+  {
+    name: "Matthew Coulter",
+    jobTitle: "Senior Portfolio Architect",
+    talkTitle: "What I Have Learned Building Local and Virtual AWS Communities",
+    talkDescription: "I have spent the past 4 years working with the global AWS community to try and lower the barriers to entry and meet like minded individuals.\n\n " +
+    "n that time, I have created a popular open-source repo, started a global, virtual conference attended by thousands every year, written a book, delivered a keynote in Las Vegas at AWS re:Invent and started the local BelfAWSt Meetup.\n\n" +
+    "Whether you want to create a new community or grow an existing one, let me tell you my mistakes and successes.",
+    bio:
+      "Matt is an AWS DevTools Hero, Serverless Architect, Author, Belfast AWS Meetup organiser, CDK Day founder and keynote speaker.\n\n" +
+      "He is focused on creating the right environment for empowered teams to rapidly deliver business value in a well-architected, sustainable and serverless-first way.\n\n",
+    linkedin: "https://uk.linkedin.com/in/nideveloper",
+    twitter: "https://twitter.com/NIDeveloper",
+    image: {
+      url: matthewImg,
+      alt: "Profile photo of Matthew Coulter",
     },
   },
   {

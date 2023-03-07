@@ -1,5 +1,5 @@
 import React from 'react';
-import timelineData from '../../pages/scheduleData';
+import timelineData from '../../data/scheduleData';
 import TimelineItem from './TimelineItem';
 
 const Timeline = () =>
