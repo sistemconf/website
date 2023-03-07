@@ -7,6 +7,7 @@ import matthewImg from "../assets/speakers/matt.jpg"
 import johnImg from "../assets/speakers/john.jpg"
 import brendaImg from "../assets/speakers/brenda.jpg"
 import isabelaImg from "../assets/speakers/isabela.jpg"
+import thomasImg from "../assets/speakers/thomas.jpg"
 
 /** @type {import('../pages/Speakers/Speakers').Speaker[]} */
 const speakers = [
@@ -104,6 +105,19 @@ const speakers = [
     image: {
       url: matthewImg,
       alt: "Profile photo of Matthew Coulter",
+    },
+  },
+  {
+    name: "Thomas Cashman",
+    jobTitle: "Director at Viridian Software",
+    talkTitle: "Gaming Panel",
+    bio:
+      "Thomas has over a decade technical experience building game engines, telecom systems and compilers. He specializes in high-performance and high-reliability. In 2017 he bootstrapped Viridian Software and has grown it into a game technology studio that focuses new IP development, porting and publishing.",
+      linkedin: "https://ie.linkedin.com/in/thomascashman",
+      twitter: "https://twitter.com/tom_cashman",
+    image: {
+      url: thomasImg,
+      alt: "Profile photo of Thomas Cashman with a game controller.",
     },
   },
   {
