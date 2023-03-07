@@ -8,7 +8,7 @@
 }
 
 .timeline-container::after {
-    background-color: pink;
+    background-color: #f9a7cc;
     content: '';
     position: absolute;
     left: calc(50% - 2px);
@@ -109,14 +109,14 @@
 
 .timeline-item-content .circle {
     background-color: #fff;
-    border: 3px solid pink;
+    border: 3px solid #FF6DAF;
     border-radius: 50%;
     position: absolute;
     top: calc(50% - 10px);
     right: -40px;
     width: 20px;
     height: 20px;
-    z-index: 100;
+    z-index: auto;
 }
 
 .timeline-item:nth-child(odd) .timeline-item-content .circle {
