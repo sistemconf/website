@@ -9,6 +9,7 @@ import brendaImg from "../assets/speakers/brenda.jpg"
 import isabelaImg from "../assets/speakers/isabela.jpg"
 import thomasImg from "../assets/speakers/thomas.jpg"
 import arianaImg from "../assets/speakers/ariana.jpg"
+import manuelImg from "../assets/speakers/manuel.jpg"
 
 /** @type {import('../pages/Speakers/Speakers').Speaker[]} */
 const speakers = [
@@ -109,6 +110,20 @@ const speakers = [
     },
   },
   {
+    name: "Isabela Franco",
+    jobTitle: "Director – Innovation Consultant and Facilitator at Mastercard Digital Labs",
+    talkTitle: "Keynote Talk - MasterCard Opening Talk",
+    bio:
+      "Isabela Franco has over 20 years of experience in the Financial Services, Travel & Tourism, and Education sectors, having developed expertise across a wide range of areas, which includes Digital Transformation, Product Development, Agile Project Management, and Design Thinking. She has worked at large and small organizations leading multi-disciplinary teams to deliver digital transformation and innovation projects, from ideation to launching.\n\n" +
+      "Presently, at Mastercard Digital Labs, she is a Director - Innovation Consultant and Facilitator, where she co-creates with clients to deliver high-impact customer-centric experiences, designing breakthrough products, platforms, and services.\n\n" +
+      "Her huge interest in Sustainability has motivated her to spend the last years studying new Economic Theories, Change Management, Systems Thinking, and the Climate Crisis. As a lifelong learner, she continues this journey by furthering her studies in Futures Thinking, Sustainable Finance, and Circular Economy. She has been currently applying new techniques in Sustainability projects she leads within Mastercard to design more sustainable, innovative, and scalable solutions that can enable faster transition to a low-carbon economy.",
+    linkedin: "https://www.linkedin.com/in/isabelafranco/",
+    image: {
+      url: isabelaImg,
+      alt: "Profile photo of Isabela Franco",
+    },
+  },
+  {
     name: "Thomas Cashman",
     jobTitle: "Director at Viridian Software",
     talkTitle: "Gaming Panel",
@@ -134,6 +149,19 @@ const speakers = [
     },
   },
   {
+    name: "Manuel Schlothauer",
+    jobTitle: "Founder of HeyManuel.com",
+    talkTitle: "DEI Panel",
+    bio:
+      "Manuel is an award-winning Queer Therapist & Coach, bestselling Author, and the Founder of HeyManuel.com. He specialises in helping LGBTQ+ Professionals being authentically themselves to become Queer Leaders.\n\n" +
+      "As a consultant, he helps organisations navigate the complex intersection of Mental Health, Diversity, Inclusion, Equity, Belonging, HR & Leadership. He has been listed as one of the Top 100 Global LGBTQ+ Role Models by Yahoo! Finance and is one of the judges of the Queer Student Awards in 2023.",
+    linkedin: "https://www.linkedin.com/in/manuelschlothauer/",
+    image: {
+      url: manuelImg,
+      alt: "Profile photo of Manuel smiling at the camera.",
+    },
+  },
+  {
     name: "Adriana Morvaiova",
     jobTitle: "DEI Specialist at Sensata Technologies",
     talkTitle: "DEI Panel",
@@ -146,20 +174,6 @@ const speakers = [
     image: {
       url: adrianaImg,
       alt: "Adriana Morvaiova posing for a picture at a restaurant.",
-    },
-  },
-  {
-    name: "Isabela Franco",
-    jobTitle: "Director – Innovation Consultant and Facilitator at Mastercard Digital Labs",
-    talkTitle: "Keynote Talk - MasterCard Opening Talk",
-    bio:
-      "Isabela Franco has over 20 years of experience in the Financial Services, Travel & Tourism, and Education sectors, having developed expertise across a wide range of areas, which includes Digital Transformation, Product Development, Agile Project Management, and Design Thinking. She has worked at large and small organizations leading multi-disciplinary teams to deliver digital transformation and innovation projects, from ideation to launching.\n\n" +
-      "Presently, at Mastercard Digital Labs, she is a Director - Innovation Consultant and Facilitator, where she co-creates with clients to deliver high-impact customer-centric experiences, designing breakthrough products, platforms, and services.\n\n" +
-      "Her huge interest in Sustainability has motivated her to spend the last years studying new Economic Theories, Change Management, Systems Thinking, and the Climate Crisis. As a lifelong learner, she continues this journey by furthering her studies in Futures Thinking, Sustainable Finance, and Circular Economy. She has been currently applying new techniques in Sustainability projects she leads within Mastercard to design more sustainable, innovative, and scalable solutions that can enable faster transition to a low-carbon economy.",
-    linkedin: "https://www.linkedin.com/in/isabelafranco/",
-    image: {
-      url: isabelaImg,
-      alt: "Profile photo of Isabela Franco",
     },
   },
   {
