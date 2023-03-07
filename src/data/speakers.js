@@ -6,6 +6,7 @@ import danImg from "../assets/speakers/dan.jpg";
 import matthewImg from "../assets/speakers/matt.jpg"
 import johnImg from "../assets/speakers/john.jpg"
 import brendaImg from "../assets/speakers/brenda.jpg"
+import isabelaImg from "../assets/speakers/isabela.jpg"
 
 /** @type {import('../pages/Speakers/Speakers').Speaker[]} */
 const speakers = [
@@ -93,7 +94,7 @@ const speakers = [
     jobTitle: "Senior Portfolio Architect",
     talkTitle: "What I Have Learned Building Local and Virtual AWS Communities",
     talkDescription: "I have spent the past 4 years working with the global AWS community to try and lower the barriers to entry and meet like minded individuals.\n\n " +
-    "n that time, I have created a popular open-source repo, started a global, virtual conference attended by thousands every year, written a book, delivered a keynote in Las Vegas at AWS re:Invent and started the local BelfAWSt Meetup.\n\n" +
+    "In that time, I have created a popular open-source repo, started a global, virtual conference attended by thousands every year, written a book, delivered a keynote in Las Vegas at AWS re:Invent and started the local BelfAWSt Meetup.\n\n" +
     "Whether you want to create a new community or grow an existing one, let me tell you my mistakes and successes.",
     bio:
       "Matt is an AWS DevTools Hero, Serverless Architect, Author, Belfast AWS Meetup organiser, CDK Day founder and keynote speaker.\n\n" +
@@ -118,6 +119,20 @@ const speakers = [
     image: {
       url: adrianaImg,
       alt: "Adriana Morvaiova posing for a picture at a restaurant.",
+    },
+  },
+  {
+    name: "Isabela Franco",
+    jobTitle: "Director – Innovation Consultant and Facilitator at Mastercard Digital Labs",
+    talkTitle: "Keynote Talk - MasterCard Opening Talk",
+    bio:
+      "Isabela Franco has over 20 years of experience in the Financial Services, Travel & Tourism, and Education sectors, having developed expertise across a wide range of areas, which includes Digital Transformation, Product Development, Agile Project Management, and Design Thinking. She has worked at large and small organizations leading multi-disciplinary teams to deliver digital transformation and innovation projects, from ideation to launching.\n\n" +
+      "Presently, at Mastercard Digital Labs, she is a Director - Innovation Consultant and Facilitator, where she co-creates with clients to deliver high-impact customer-centric experiences, designing breakthrough products, platforms, and services.\n\n" +
+      "Her huge interest in Sustainability has motivated her to spend the last years studying new Economic Theories, Change Management, Systems Thinking, and the Climate Crisis. As a lifelong learner, she continues this journey by furthering her studies in Futures Thinking, Sustainable Finance, and Circular Economy. She has been currently applying new techniques in Sustainability projects she leads within Mastercard to design more sustainable, innovative, and scalable solutions that can enable faster transition to a low-carbon economy.",
+    linkedin: "https://www.linkedin.com/in/isabelafranco/",
+    image: {
+      url: isabelaImg,
+      alt: "Profile photo of Isabela Franco",
     },
   },
   {
