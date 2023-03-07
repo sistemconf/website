@@ -21,6 +21,7 @@ export default function Navbar({hasBg}) {
                         <a href="/">Home</a>
                         <a href="/team">Team</a>
                         <a href="/speakers">Speakers</a>
+                        <a href="/schedule">Schedule</a>
                         <a href="/code-of-conduct">Code of Conduct</a>
                         <a href="/#tickets" className="button">Buy Tickets</a>
                     </nav>
