@@ -12,7 +12,7 @@ const data = [
     },
     {
         time: '11:45 AM - 12:30 PM',
-        talk1: 'Practical ML In Cybersecurity',
+        talk1: 'Practical Machine Learning In Cybersecurity',
         room1: 'Main Stage',
         talk2: 'Diversity and Inclusion Panel',
         room2: 'Panel Room',
@@ -24,7 +24,7 @@ const data = [
     },
     {
         time: '13:00 PM - 13:45 PM',
-        talk1: 'SRE the Next Great Frontier',
+        talk1: 'SRE: The Next Great Frontier',
         room1: 'Main Stage',
         talk2: 'Mastercard Lightning Talks',
         room2: 'Panel Room'
@@ -36,7 +36,7 @@ const data = [
     },
     {
         time: '14:30 PM - 15:15 PM',
-        talk1: 'Get in the robot, Shinji - The Pros and Cons of Getting into Security',
+        talk1: 'Get in the Robot, Shinji - The Pros and Cons of Getting into Security',
         room1: 'Main Stage',
         talk2: 'Gaming Panel',
         room2: 'Panel Room'
@@ -50,7 +50,7 @@ const data = [
     },
     {
         time: '16:15 PM - 17:00 PM',
-        talk1: 'MasterCard Closing Talk',
+        talk1: 'MasterCard Intern Panel',
         room1: 'Main Stage',
         talk2: 'Student Lightning Talks',
         room2: 'Panel Room'
