@@ -4,13 +4,49 @@ import bolsterImg from "../assets/speakers/bolster.jpg";
 import angieImg from "../assets/speakers/angie.jpg";
 import danImg from "../assets/speakers/dan.jpg";
 import matthewImg from "../assets/speakers/matt.jpg"
+import johnImg from "../assets/speakers/john.jpg"
+import brendaImg from "../assets/speakers/brenda.jpg"
 
 /** @type {import('../pages/Speakers/Speakers').Speaker[]} */
 const speakers = [
   {
+    name: "John Romero",
+    jobTitle: "Game Designer",
+    talkTitle: "30 Years of DOOM",
+    talkDescription:
+        "Join us as we celebrate one of the most influential video games ever made - DOOM.\n\n" +
+        "Leading the celebrations will be an in-conversation event with one of the game's designers, John Romero, who will be interviewed by partner, CEO and co-founder of Romero Games, Brenda Romero.",
+    bio: "John Romero is an award-winning programmer, game designer and level designer whose work spans over 130 games, 108 of which have been published commercially. Romero is considered to be the father of first person shooters having led the design and contributed to the programming and audio design of the iconic and genre-defining games DOOM, Quake, Heretic and Hexen. \n\n" +
+    "Romero is also was also one of the earliest supporters of eSports and a professional-level DOOM and Quake player. To date, Romero has co-founded eight successful game companies including the likes of id Software, Gazillion Entertainment and most recently Romero Games in Galway, Ireland.\n\n" +
+    "He is considered to be among the world's top game designers, and his products have won well over 100 awards. Romero is set to receive the Lifetime Achievement Award at the Game Developers Conference in March 2023.",
+    twitter: "https://twitter.com/d_murph21",
+    linkedin: "https://twitter.com/romero",
+    image: {
+      url: johnImg,
+      alt: "John Romero resting his hands on a skull.",
+    },
+  },
+  {
+    name: "Brenda Romero",
+    jobTitle: "CEO and Game Director at Romero Games",
+    talkTitle: "30 Years of DOOM",
+    talkDescription:
+    "Join us as we celebrate one of the most influential video games ever made - DOOM.\n\n" +
+    "Leading the celebrations will be an in-conversation event with one of the game's designers, John Romero, who will be interviewed by partner, CEO and co-founder of Romero Games, Brenda Romero.",
+    bio: "Brenda Romero is a BAFTA award-winning game designer, artist and Fulbright recipient who entered the game industry in 1981. She has worked on over 50 games, including seminal titles in the Wizardry, Ghost Recon and Dungeons & Dragons franchises.\n\n" +
+    "Away from the machine, her analog series of games, The Mechanic is the Message, has drawn national and international acclaim.\n\n" +
+    "Most recently, in 2018, she received a Lifetime Achievement Award (the Bizkaia award) at the Fun and Serious Games Festival in Bilbao, Spain, and the inaugural Grace Hopper Award presented by Science Foundation Ireland at the Women in Tech conference.",
+    twitter: "https://twitter.com/br",
+    linkedin: "https://ie.linkedin.com/in/brendaromerogamedev",
+    image: {
+      url: brendaImg,
+      alt: "Brenda Romero smiling at camera",
+    },
+  },
+  {
     name: "Daniel Murphy",
-    jobTitle: "Head of SRE for PwC",
-    talkTitle: "SRE the Next Great Frontier",
+    jobTitle: "Head of SRE at PwC",
+    talkTitle: "SRE: The Next Great Frontier",
     talkDescription:
         "A glimpse into DevOps, SRE, and platform engineering. Where they came from and how they are enabling technology to develop faster than ever. From Taylor swift’s Ticketmaster fiasco to Elon Musk’s Twitter tantrums, we explore how SRE made this all possible.",
     bio: "Having spent the last 15 years in the technology industry working with pharmaceutical companies, manufacturing, and legal. Daniel was also one of the first SRE managers in Ireland and an early adopter of DevOps principles. Currently working for PwC and transforming businesses through well-architected SRE solutions.",
@@ -24,7 +60,7 @@ const speakers = [
   {
     name: "Andrew Bolster",
     jobTitle:
-      "Senior R&D Manager (Data Science) @ Synopsys Software Integrity Group",
+      "Senior R&D Manager (Data Science) at Synopsys Software Integrity Group",
     talkTitle: "Practical ML In Cybersecurity",
     talkDescription:
       "As production use of AI/ML techniques evolve from 'Proofs of Concept' into core product capabilities, this talk covers the development, integration, and operationalisation of ML augmentation in a Dynamic Application Security Testing context; the opportunities, the early wins, the challenges, and the impacts.\n\n" +
@@ -39,7 +75,7 @@ const speakers = [
     name: "Angie McKeown",
     jobTitle: "Security Architect at Microsoft",
     talkTitle:
-      "Get in the robot, Shinji – the pros and cons of getting into Security",
+      "Get in the Robot, Shinji – The Pros and Cons of Getting into Security",
     talkDescription:
       "How I got into security, why I think it’s cool, what the downsides are, what kinds of roles are out there, and what kind of personality traits suit them best. With bonus mechs!",
     bio:
@@ -71,7 +107,7 @@ const speakers = [
   },
   {
     name: "Adriana Morvaiova",
-    jobTitle: "DEI Specialist for Sensata Technologies",
+    jobTitle: "DEI Specialist at Sensata Technologies",
     talkTitle: "DEI Panel",
     bio:
       "Adriana is a DEI Specialist for Sensata Technologies, TEDx speaker and educator. Trained as an NLP Practitioner, Reiki Practitioner and Life Coach.\n\n" +
