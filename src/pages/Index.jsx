@@ -15,7 +15,7 @@ import sigLogo from  "../assets/sponsors/SIG.png"
 
 export default function Index() {
     const scrollAmount = useScroll();
-    const position = [53.38533306530379, -6.2587119915193545]
+    const position = [53.3083127, -6.2240326]
 
     return (
         <div className="index">
@@ -148,7 +148,7 @@ export default function Index() {
                     <div className="container">
                         <h3>Getting There</h3>
                         <p>
-                            This year's conference will be held in the "U" building found on DCU's Glasnevin Campus. 
+                            This year's conference will be held in the O'Brien Centre for Science at DCU's Belfield Campus.
                             &nbsp;<a href="https://goo.gl/maps/otfP8uswn1BP9JqH9">Find us on Google Maps!</a>
                         </p>
                         <MapContainer center={position} zoom={10} scrollWheelZoom={false}>
