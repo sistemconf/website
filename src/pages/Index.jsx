@@ -148,7 +148,7 @@ export default function Index() {
                     <div className="container">
                         <h3>Getting There</h3>
                         <p>
-                            This year's conference will be held in the O'Brien Centre for Science on UCU's Belfield Campus.
+                            This year's conference will be held in the O'Brien Centre for Science on UCD's Belfield Campus.
                             &nbsp;<a href="https://goo.gl/maps/otfP8uswn1BP9JqH9">Find us on Google Maps!</a>
                         </p>
                         <MapContainer center={position} zoom={10} scrollWheelZoom={false}>
