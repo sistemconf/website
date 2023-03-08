@@ -20,7 +20,6 @@ const data = [
     {
         time: '12:30 PM - 13:00 PM',
         talk1: 'Lunch Time',
-        room1: 'NuBar',
     },
     {
         time: '13:00 PM - 13:45 PM',
@@ -58,7 +57,6 @@ const data = [
     {
         time: '17:00 PM',
         talk1: 'SISTEM Afterparty',
-        room1: 'NuBar',
     },
 ]
 
