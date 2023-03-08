@@ -26,7 +26,7 @@ export default function Index() {
                         <h1>
                             A <span>Student</span> Tech<br className="hide-mobile"/> & Enterprise Conference.
                         </h1>
-                        <h3>March 11<sup>th</sup> 2023, Dublin City University.</h3>
+                        <h3>March 11<sup>th</sup> 2023, University College Dublin.</h3>
                         <a href="#tickets" className="button">Buy Tickets</a>
                         <a href="/schedule" className="button">Schedule</a>
                     </div>
@@ -148,7 +148,11 @@ export default function Index() {
                     <div className="container">
                         <h3>Getting There</h3>
                         <p>
+<<<<<<< Updated upstream
                             This year's conference will be held in the O'Brien Centre for Science on UCU's Belfield Campus.
+=======
+                            This year's conference will be held in the O'Brien Centre for Science at UCD's Belfield Campus.
+>>>>>>> Stashed changes
                             &nbsp;<a href="https://goo.gl/maps/otfP8uswn1BP9JqH9">Find us on Google Maps!</a>
                         </p>
                         <MapContainer center={position} zoom={10} scrollWheelZoom={false}>
