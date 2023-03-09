@@ -11,6 +11,7 @@ import thomasImg from "../assets/speakers/thomas.jpg"
 import arianaImg from "../assets/speakers/ariana.jpg"
 import manuelImg from "../assets/speakers/manuel.jpg"
 import cliodhnaImg from "../assets/speakers/cliodhna.jpg"
+import treasaImg from "../assets/speakers/treasa.jpg"
 
 /** @type {import('../pages/Speakers/Speakers').Speaker[]} */
 const speakers = [
@@ -122,6 +123,19 @@ const speakers = [
     image: {
       url: isabelaImg,
       alt: "Profile photo of Isabela Franco",
+    },
+  },
+  {
+    name: "Treasa McCabe",
+    jobTitle: "Tech Lead and Game Designer at Spooky Doorway",
+    talkTitle: "Gaming Panel",
+    bio:
+      "Treasa is tech lead and game designer at Spooky Doorway, the Irish studio behind the award-winning series of games, The Darkside Detective and other up-coming projects. Before this Treasa worked in both indie and AAA studios and, before that, financial programming and other evil doings. Treasa is a graduate of Trinity College Dublin, has many hobbies and other personality facets, but none of those are relevant; just know they exist.",
+      linkedin: "https://www.linkedin.com/in/treasa-mccabe-718a3514",
+      twitter: "https://twitter.com/FarrellyTreasa",
+    image: {
+      url: treasaImg,
+      alt: "Profile photo of Treasa shouting into a phone",
     },
   },
   {
