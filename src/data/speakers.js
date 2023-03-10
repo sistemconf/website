@@ -12,6 +12,7 @@ import arianaImg from "../assets/speakers/ariana.jpg"
 import manuelImg from "../assets/speakers/manuel.jpg"
 import cliodhnaImg from "../assets/speakers/cliodhna.jpg"
 import treasaImg from "../assets/speakers/treasa.jpg"
+import franImg from "../assets/speakers/fran.jpg"
 
 /** @type {import('../pages/Speakers/Speakers').Speaker[]} */
 const speakers = [
@@ -216,6 +217,19 @@ const speakers = [
     image: {
       url: yuanImg,
       alt: "Profile photo of Yuan Zhang smiling next to a window.",
+    },
+  },
+  {
+    name: "Fran Carey",
+    jobTitle: "People Business Partner at Mastercard",
+    talkTitle: "DEI Panel",
+    bio:
+      "Working in the People & Capability team in the Mastercard Dublin Tech hub, I am passionate about all areas of HR that support managers and employees. The key areas of focus in my role are Diversity, Equity & Inclusion, High Performance Culture, Career Development and the Mastercard Way culture.\n\n" +
+      "I am also the Global Co-Lead of our ADAPTability BRG in Mastercard which fosters disability inclusion for our employees and their families and inclusive design and innovation in our Company.",
+      linkedin: "https://ie.linkedin.com/in/francarey",
+    image: {
+      url: franImg,
+      alt: "Profile photo of Fran Carey.",
     },
   },
 ];
