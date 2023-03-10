@@ -13,9 +13,24 @@ import manuelImg from "../assets/speakers/manuel.jpg"
 import cliodhnaImg from "../assets/speakers/cliodhna.jpg"
 import treasaImg from "../assets/speakers/treasa.jpg"
 import franImg from "../assets/speakers/fran.jpg"
+import ckImg from "../assets/speakers/ck.jpg"
 
 /** @type {import('../pages/Speakers/Speakers').Speaker[]} */
 const speakers = [
+  {
+    name: "Ntsoaki Phakoe-McKevitt (CK)",
+    jobTitle: "Account Manager | MC | Podcast Host",
+    talkTitle: "SISTEM 2023 MC",
+    talkDescription:
+        "Join us as we celebrate one of the most influential video games ever made - DOOM.\n\n" +
+        "Leading the celebrations will be an in-conversation event with one of the game's designers, John Romero, who will be interviewed by partner, CEO and co-founder of Romero Games, Brenda Romero.",
+    bio: "Ntsoaki Phakoe-McKevitt, commonly known as CK is an Account Manager | MC | Podcast Host, known for her infectious positive energy and ability to create a fun and electric atmosphere. CK is experienced as a Keynote Speaker, Panelist, MC for various conferences as well as the official MC for ShipItCon since 2019. With over ten years of industry experience, a knack for making meaningful connections with audiences and an insatiable appetite for empowering others to maximize their potential, CK knows how to rock a platform, connect with a crowd and provide training so that others can effectively do the same. ",
+    linkedin: "https://www.linkedin.com/in/ntsoaki-phakoe/",
+    image: {
+      url: ckImg,
+      alt: "Profile picture of Ck.",
+    },
+  },
   {
     name: "John Romero",
     jobTitle: "Game Designer",
