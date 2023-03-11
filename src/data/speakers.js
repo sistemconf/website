@@ -14,9 +14,7 @@ import cliodhnaImg from "../assets/speakers/cliodhna.jpg"
 import treasaImg from "../assets/speakers/treasa.jpg"
 import franImg from "../assets/speakers/fran.jpg"
 import ckImg from "../assets/speakers/ck.jpg"
-import sandeepImg from "../assets/speakers/sandeep.jpg"
-import pierluigiImg from "../assets/speakers/pierluigi.jpg"
-import vivekImg from "../assets/speakers/vivek.jpg"
+
 
 /** @type {import('../pages/Speakers/Speakers').Speaker[]} */
 const speakers = [
