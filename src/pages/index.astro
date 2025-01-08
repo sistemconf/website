@@ -1,11 +1,205 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import "../styles/globals.css";
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-	<Welcome />
+  <section id="hero">
+    <h1>
+      A tech conference for students <br />
+      <span class="colors"> by students </span>
+    </h1>
+    <p class="details">
+      Saturday 8<sup>th</sup> March 2025<br />
+      University of Limerick
+    </p>
+    <div class="cta">
+      <a href="/">BUY TICKETS</a>
+    </div>
+  </section>
+
+  <main>
+    <section id="about">
+      <div class="stats">
+        <div>
+          <span class="num colors">1</span><span class="unit">Day</span>
+        </div>
+        <div>
+          <span class="num colors">2</span><span class="unit">Tracks</span>
+        </div>
+        <div>
+          <span class="num colors">12</span><span class="unit">Sessions</span>
+        </div>
+        <div>
+          <span class="num colors">200+</span><span class="unit">Attendees</span
+          >
+        </div>
+      </div>
+
+      <p>
+        SISTEM is Ireland's most exciting student tech conference, run (almost)
+        every year by volunteers dedicated to spreading the word about new,
+        exciting developments in the field and inpiring the next generation of
+        hackers, innovators, and entrepreneurs.
+      </p>
+    </section>
+
+    <section id="sponsors">
+      <h2>Sponsors</h2>
+
+      <div class="cardholder">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+    </section>
+
+    <!-- <section id="map"> -->
+    <!--   <h2>Location</h2> -->
+    <!--   <iframe -->
+    <!--     class="embed" -->
+    <!--     src="https://www.openstreetmap.org/export/embed.html?bbox=-8.585021495819094%2C52.674781804885065%2C-8.564937114715578%2C52.68503296411997&layer=mapnik&marker=52.679907685233964%2C-8.574979305267334" -->
+    <!--   ></iframe><br /><small -->
+    <!--     ><a -->
+    <!--       href="https://www.openstreetmap.org/?mlat=52.67991&mlon=-8.57498#map=16/52.67991/-8.57498" -->
+    <!--       >View Larger Map</a -->
+    <!--     ></small -->
+    <!--   > -->
+    <!-- </section> -->
+  </main>
 </Layout>
+
+<script>
+  const count = document.querySelector(".count") as Element;
+  const unit = document.querySelector(".unit") as Element;
+  const confDate = new Date("2025-03-08");
+  const today = new Date();
+
+  let msLeft = confDate.valueOf() - today.valueOf();
+  count.innerHTML = Math.ceil(msLeft / (1000 * 60 * 60 * 24)).toString();
+  unit.innerHTML = "days left";
+</script>
+
+<style>
+  #hero {
+    height: 50svh;
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1,
+  .details {
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0px;
+    font-size: 3rem;
+  }
+
+  .colors {
+    background: linear-gradient(45deg, hsl(196 80% 50%), hsl(150 74% 52%));
+    color: transparent;
+    background-clip: text;
+  }
+
+  .details {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  @property --gr-angle {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 90deg;
+  }
+
+  .cta {
+    a {
+      color: white;
+      background: linear-gradient(
+        var(--gr-angle),
+        hsl(196 80% 50%),
+        hsl(150 74% 52%)
+      );
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-family: "JetBrains Mono";
+      text-decoration: none;
+      font-size: 1.5rem;
+      font-weight: bold;
+      transition:
+        all 250ms ease-in-out,
+        --gr-angle 350ms ease-in-out;
+    }
+
+    a:hover {
+      /* box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3); */
+      --gr-angle: 270deg;
+    }
+  }
+
+  main section {
+    margin-bottom: 4rem;
+  }
+
+  section {
+    padding: 0px 4rem;
+  }
+
+  #about {
+    max-width: 768px;
+    margin: 0px auto 4rem auto;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+
+    .num {
+      font-size: 4rem;
+    }
+
+    div {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .cardholder {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+  }
+
+  .card {
+    background: hsl(196 80% 50%);
+    flex-grow: 1;
+    content: "";
+    border-radius: 5px;
+    width: 100%;
+    aspect-ratio: 16 / 5;
+  }
+
+  .embed {
+    width: 100%;
+    aspect-ratio: 5 / 1;
+    border: 2px solid hsl(196 80% 50%);
+    border-radius: 5px;
+  }
+</style>
