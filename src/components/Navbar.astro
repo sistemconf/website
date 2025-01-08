@@ -1,0 +1,216 @@
+---
+import MenuIcon from "../assets/menu.svg?raw";
+---
+
+<header>
+  <a class="logotype" href="/">
+    <img src="/logo.svg" height="24px" alt="SISTEM logo" />
+  </a>
+
+  <div class="right">
+    <nav aria-label="Main navigation menu" data-expanded="false">
+      <button
+        id="menu-opener"
+        aria-expanded="false"
+        aria-controls="nav-links"
+        aria-label="Opens main menu"
+      >
+        <Fragment set:html={MenuIcon} />
+      </button>
+
+      <ul role="menu" id="nav-links">
+        <li role="menuitem"><a href="/schedule">Schedule</a></li>
+        <li role="menuitem"><a href="/speakers">Speakers</a></li>
+        <li role="menuitem"><a href="/team">Team</a></li>
+        <li role="menuitem"><a href="code-of-conduct">Code of Conduct</a></li>
+        <li role="menuitem"><a class="cta" href="/">BUY TICKETS</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const nav = document.querySelector("nav") as HTMLElement;
+  const navBtn = document.getElementById("menu-opener") as HTMLElement;
+  const firstLink = document.querySelector("li:first-child a") as HTMLElement;
+
+  const toggleMenu = () => {
+    let expanded = nav?.getAttribute("data-expanded");
+
+    if (expanded == "false") {
+      nav.setAttribute("data-expanded", "true");
+      navBtn.setAttribute("aria-expanded", "true");
+      setTimeout(() => {
+        firstLink.focus();
+      }, 100);
+    } else {
+      nav.setAttribute("data-expanded", "false");
+      navBtn.setAttribute("aria-expanded", "false");
+    }
+  };
+
+  navBtn.addEventListener("click", toggleMenu);
+
+  document.addEventListener("click", (e: Event) => {
+    if (
+      nav.getAttribute("data-expanded") == "true" &&
+      !nav.contains(e.target as Node)
+    ) {
+      nav.setAttribute("data-expanded", "false");
+      navBtn.setAttribute("aria-expanded", "false");
+    }
+  });
+
+  nav.addEventListener("focusout", (e: FocusEvent) => {
+    if (
+      nav.getAttribute("data-expanded") == "true" &&
+      !nav.contains(e.relatedTarget as Node)
+    ) {
+      nav.setAttribute("data-expanded", "false");
+      navBtn.setAttribute("aria-expanded", "false");
+    }
+  });
+
+  nav.addEventListener("keydown", (e: KeyboardEvent) => {
+    if (e.key == "Escape") {
+      nav.setAttribute("data-expanded", "false");
+      navBtn.setAttribute("aria-expanded", "false");
+    }
+  });
+</script>
+
+<style>
+  header {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 1rem;
+    height: 48px;
+    border-bottom: 1px solid #121212;
+    background: white;
+  }
+
+  .logotype img {
+    display: block;
+  }
+
+  .right {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @property --gr-angle {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 90deg;
+  }
+
+  .cta {
+    background: linear-gradient(
+      var(--gr-angle),
+      hsl(196 80% 50%),
+      hsl(150 74% 52%)
+    );
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: "JetBrains Mono";
+    color: white;
+    transition:
+      all 250ms ease-in-out,
+      --gr-angle 250ms ease-in-out;
+    font-weight: bold;
+
+    &:hover {
+      background: linear-gradient(
+        var(--gr-angle),
+        hsl(196 80% 50%),
+        hsl(150 74% 52%)
+      );
+      --gr-angle: 270deg;
+      /* box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3); */
+      text-decoration: none;
+    }
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  button {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  @media screen and (max-width: 868px) {
+    button {
+      background: none;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 24px;
+      padding: 0px;
+      cursor: pointer;
+    }
+
+    ul {
+      flex-direction: column;
+      justify-content: center;
+      padding: 0.5rem;
+      /* background: hsl(196 80% 95%); */
+      background: white;
+      border-radius: 5px;
+      position: absolute;
+      top: 40px;
+      right: 1rem;
+      opacity: 100%;
+      visibility: visible;
+      pointer-events: unset;
+      transition: all 100ms;
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+      gap: 5px;
+    }
+
+    li {
+      width: 100%;
+
+      a {
+        display: block;
+        padding: 0.5rem;
+        text-align: center;
+        border-radius: 5px;
+      }
+
+      a:hover {
+        background: hsl(196 80% 90%);
+        text-decoration: none;
+      }
+    }
+
+    nav[data-expanded="false"] ul {
+      opacity: 0%;
+      visibility: hidden;
+      pointer-events: none;
+    }
+  }
+</style>
