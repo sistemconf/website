@@ -144,12 +144,28 @@ h2 {
 
     #hero {
         margin-top: 10%;
+        margin-bottom: 10%;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px)
 {
+    .stats {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-weight: bold;
+    }
+
+    .cardholder {
+        flex-direction: column;
+    }
+
+    .tablet-col {
+        display: flex;
+        flex-direction: row;
+    }
 
 }
 
