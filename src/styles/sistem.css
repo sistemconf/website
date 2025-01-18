@@ -88,6 +88,7 @@ h2 {
     align-items: center;
     justify-content: space-evenly;
     font-weight: bold;
+    flex-direction: row;
 
     .num {
         font-size: 4rem;
@@ -162,16 +163,22 @@ h2 {
         flex-direction: column;
     }
 
-    .tablet-col {
-        display: flex;
-        flex-direction: row;
-    }
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) 
 {
+    .stats {
+        flex-direction: row;
+    }
+
+    .cardholder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 70%;
+        margin: 0 auto;
+    }
 
 }
 
@@ -179,7 +186,9 @@ h2 {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) 
 {
-
+    .cardholder {
+        flex-direction: row;
+    }
 }
 
 
