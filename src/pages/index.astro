@@ -1,7 +1,18 @@
 ---
 import "../styles/globals.css";
-import "../styles/sistem.css";
 import Layout from "../layouts/Layout.astro";
+
+import Image from "astro/components/Image.astro";
+
+import ucdlogo from "../assets/socs/ucd.svg";
+import dculogo from "../assets/socs/dcu.svg";
+import tudlogo from "../assets/socs/tud.svg";
+import ucclogo from "../assets/socs/ucc.svg";
+import ullogo from "../assets/socs/ul.svg";
+import mulogo from "../assets/socs/mu.png";
+import qcslogo from "../assets/socs/qcs.png";
+import uglogo from "../assets/socs/ug.png";
+import tcdlogo from "../assets/socs/tcd.png";
 ---
 
 <Layout>
@@ -24,30 +35,77 @@ import Layout from "../layouts/Layout.astro";
   <main>
     <section id="about">
       <div class="stats">
-          <div>
-            <span class="num colors">1</span><span class="unit">Day</span>
-          </div>
+        <div>
+          <span class="num colors">1</span><span class="unit">Day</span>
+        </div>
 
-          <div>
-            <span class="num colors">2</span><span class="unit">Tracks</span>
-          </div>
-        
-          <div>
-            <span class="num colors">12</span><span class="unit">Sessions</span>
-          </div>
+        <div>
+          <span class="num colors">2</span><span class="unit">Tracks</span>
+        </div>
 
-          <div>
-            <span class="num colors">200+</span><span class="unit">Attendees</span
-            >
-          </div>
+        <div>
+          <span class="num colors">12</span><span class="unit">Sessions</span>
+        </div>
+
+        <div>
+          <span class="num colors">200+</span><span class="unit">Attendees</span
+          >
+        </div>
       </div>
 
       <p>
         SISTEM is Ireland's most exciting student tech conference, run (almost)
         every year by volunteers dedicated to spreading the word about new,
-        exciting developments in the field and inpiring the next generation of
+        exciting developments in the field and inspiring the next generation of
         hackers, innovators, and entrepreneurs.
       </p>
+    </section>
+
+    <section id="socs">
+      <h2>Societies Involved</h2>
+      <div class="logos">
+        <Image
+          src={ullogo}
+          alt="University of Limerick CompSoc logo"
+          height={80}
+        />
+        <Image
+          src={ucdlogo}
+          alt="University College Dublin NetSoc logo"
+          height={80}
+        />
+        <Image
+          src={dculogo}
+          alt="Dublin City University Redbrick logo"
+          height={80}
+        />
+        <Image
+          src={tudlogo}
+          alt="Technological University Dublin CS++ logo"
+          height={80}
+        />
+        <Image
+          src={tcdlogo}
+          alt="Dublin University Computer Science Society logo"
+          height={80}
+        />
+        <Image
+          src={uglogo}
+          alt="University of Galway CompSoc logo"
+          height={80}
+        />
+        <Image
+          src={ucclogo}
+          alt="University College Cork NetSoc logo"
+          height={80}
+        />
+        <Image
+          src={mulogo}
+          alt="Maynooth University Computer Science Society logo"
+          height={80}
+        />
+        <Image src={qcslogo} alt="Queen's Computing Society logo" height={50} />
+      </div>
     </section>
 
     <section id="sponsors">
@@ -60,28 +118,223 @@ import Layout from "../layouts/Layout.astro";
       </div>
     </section>
 
-    <!-- <section id="map"> -->
-    <!--   <h2>Location</h2> -->
-    <!--   <iframe -->
-    <!--     class="embed" -->
-    <!--     src="https://www.openstreetmap.org/export/embed.html?bbox=-8.585021495819094%2C52.674781804885065%2C-8.564937114715578%2C52.68503296411997&layer=mapnik&marker=52.679907685233964%2C-8.574979305267334" -->
-    <!--   ></iframe><br /><small -->
-    <!--     ><a -->
-    <!--       href="https://www.openstreetmap.org/?mlat=52.67991&mlon=-8.57498#map=16/52.67991/-8.57498" -->
-    <!--       >View Larger Map</a -->
-    <!--     ></small -->
-    <!--   > -->
-    <!-- </section> -->
+    <section id="map">
+      <h2>Location</h2>
+      <iframe
+        class="embed"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-8.596200942993166%2C52.66282341627397%2C-8.556032180786135%2C52.68332894067432&layer=mapnik&marker=52.67307738147864%2C-8.576116561889648"
+      ></iframe><br /><small
+        ><a
+          href="https://www.openstreetmap.org/?mlat=52.67308&mlon=-8.57612#map=15/52.67308/-8.57612"
+          >View Larger Map</a
+        ></small
+      >
+    </section>
   </main>
 </Layout>
 
-<script>
-  const count = document.querySelector(".count") as Element;
-  const unit = document.querySelector(".unit") as Element;
-  const confDate = new Date("2025-03-08");
-  const today = new Date();
+<style>
+  main {
+    padding: 0px 1rem;
+  }
 
-  let msLeft = confDate.valueOf() - today.valueOf();
-  count.innerHTML = Math.ceil(msLeft / (1000 * 60 * 60 * 24)).toString();
-  unit.innerHTML = "days left";
-</script>
+  #hero {
+    min-height: 50svh;
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #about {
+    max-width: 768px;
+    margin: 0px auto 2rem auto;
+  }
+
+  #map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    row-gap: 2rem;
+  }
+
+  .details {
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0px;
+    font-size: 3rem;
+  }
+
+  .details {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    flex-direction: row;
+
+    .num {
+      font-size: 4rem;
+    }
+
+    div {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .cardholder {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+  }
+
+  .card {
+    background: var(--blue-gradient);
+    max-width: 300px;
+    flex-grow: 1;
+    content: "";
+    border-radius: 5px;
+    width: 100%;
+    aspect-ratio: 16 / 5;
+  }
+
+  .embed {
+    display: block;
+    width: 80%;
+    aspect-ratio: 5 / 1;
+    border: 2px solid var(--blue-gradient);
+    border-radius: 5px;
+  }
+
+  .colors {
+    background: linear-gradient(
+      45deg,
+      var(--blue-gradient),
+      var(--green-gradient)
+    );
+    color: transparent;
+    background-clip: text;
+  }
+
+  @property --gr-angle {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 90deg;
+  }
+
+  .cta {
+    a {
+      color: white;
+      background: linear-gradient(
+        var(--gr-angle),
+        var(--blue-gradient),
+        var(--green-gradient)
+      );
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-family: "JetBrains Mono";
+      text-decoration: none;
+      font-size: 1.5rem;
+      font-weight: bold;
+      transition:
+        all 250ms ease-in-out,
+        --gr-angle 350ms ease-in-out;
+    }
+
+    a:hover {
+      --gr-angle: 270deg;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .stats {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      font-weight: bold;
+      flex-direction: column;
+    }
+
+    .cardholder {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #hero {
+      margin: 1rem 0px;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .stats {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      font-weight: bold;
+    }
+
+    .cardholder {
+      flex-direction: column;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .stats {
+      flex-direction: row;
+    }
+
+    .cardholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 80%;
+      margin: 0 auto;
+    }
+
+    section:not(#hero) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .cardholder {
+      flex-direction: row;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .logos {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+  }
+</style>
