@@ -8,6 +8,15 @@ body {
   font-family: "Inter", "Roboto", sans;
 }
 
+h1 {
+  text-align: center;
+}
+
 p {
   line-height: 1.5;
+}
+
+:root {
+  --blue-gradient: hsl(196 80% 50%);
+  --green-gradient: hsl(150 74% 52%);
 }

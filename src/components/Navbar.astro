@@ -1,12 +1,11 @@
 ---
-import "../styles/sistem.css";
 import MenuIcon from "../assets/menu.svg?raw";
-import { Image } from "astro:assets";
+import SISTEMLogo from "../assets/sistem-logo-light.svg?raw";
 ---
 
 <header>
   <a class="logotype" href="/">
-    <Image src="/assets/Sistem2025Light.png" height="45rem" width="140rem" alt="SISTEM logo" />
+    <Fragment set:html={SISTEMLogo} />
   </a>
 
   <div class="right">
@@ -88,13 +87,20 @@ import { Image } from "astro:assets";
     align-items: center;
     justify-content: space-between;
     padding: 0px 1rem;
-    height: 7%;
+    height: 60px;
     border-bottom: 1px solid #121212;
     background-image: url("../assets/SISTEMfooter.png");
   }
 
-  .logotype img {
+  .logotype {
     display: block;
+    height: 40%;
+    width: auto;
+
+    svg {
+      height: 100%;
+      width: auto;
+    }
   }
 
   .right {
@@ -164,12 +170,11 @@ import { Image } from "astro:assets";
     margin: 0px;
   }
 
-  @media screen and (max-width: 600px) {
-    
-    header {
-      height: 48px;
-    }
-
+  @media screen and (max-width: 832px) {
+    /* header { */
+    /*   height: 48px; */
+    /* } */
+    /**/
     button {
       background: none;
       border: none;
@@ -207,7 +212,7 @@ import { Image } from "astro:assets";
         padding: 0.5rem;
         text-align: center;
         border-radius: 5px;
-        color:black;
+        color: black;
       }
 
       a:hover {
