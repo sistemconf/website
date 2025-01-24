@@ -1,0 +1,199 @@
+:root
+{
+    --blue-gradient: hsl(196 80% 50%);
+    --green-gradient: hsl(150 74% 52%);
+}
+
+#hero {
+    height: 50svh;
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, .details {
+    text-align: center;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 3rem;
+}
+
+.colors {
+    background: linear-gradient(45deg, var(--blue-gradient), var(--green-gradient));
+    color: transparent;
+    background-clip: text;
+}
+
+.details {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+@property --gr-angle {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 90deg;
+}
+
+.cta {
+    a {
+        color: white;
+        background: linear-gradient(
+        var(--gr-angle),
+        var(--blue-gradient),
+        var(--green-gradient)
+        );
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-family: "JetBrains Mono";
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+        transition:
+        all 250ms ease-in-out,
+        --gr-angle 350ms ease-in-out;
+    }
+
+    a:hover {
+        /* box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3); */
+        --gr-angle: 270deg;
+    }
+}
+
+main section {
+    margin-bottom: 4rem;
+}
+
+section {
+    padding: 0px 4rem;
+}
+
+#about {
+    max-width: 768px;
+    margin: 0px auto 4rem auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    flex-direction: row;
+
+    .num {
+        font-size: 4rem;
+    }
+
+    div {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+}
+
+.cardholder {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+.card {
+    background: var(--blue-gradient);
+    flex-grow: 1;
+    content: "";
+    border-radius: 5px;
+    width: 100%;
+    aspect-ratio: 16 / 5;
+}
+
+.embed {
+    width: 100%;
+    aspect-ratio: 5 / 1;
+    border: 2px solid var(--blue-gradient);
+    border-radius: 5px;
+}
+
+/* MEDIA QUERIES */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+{
+    .stats {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-weight: bold;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .cardholder {
+        flex-direction: column;
+    }
+
+    #hero {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+{
+    .stats {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-weight: bold;
+    }
+
+    .cardholder {
+        flex-direction: column;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    .stats {
+        flex-direction: row;
+    }
+
+    .cardholder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+    .cardholder {
+        flex-direction: row;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+
+}
