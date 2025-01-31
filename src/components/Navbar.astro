@@ -20,11 +20,11 @@ import SISTEMLogo from "../assets/sistem-logo-light.svg?raw";
       </button>
 
       <ul role="menu" id="nav-links">
-        <li role="menuitem"><a href="/schedule">Schedule</a></li>
-        <li role="menuitem"><a href="/speakers">Speakers</a></li>
+        <!-- <li role="menuitem"><a href="/schedule">Schedule</a></li> -->
+        <!-- <li role="menuitem"><a href="/speakers">Speakers</a></li> -->
         <li role="menuitem"><a href="/team">Team</a></li>
         <li role="menuitem"><a href="/codeofconduct">Code of Conduct</a></li>
-        <li role="menuitem"><a class="cta" href="/">BUY TICKETS</a></li>
+        <li role="menuitem"><a class="cta">TICKETS SOON</a></li>
       </ul>
     </nav>
   </div>
@@ -126,11 +126,12 @@ import SISTEMLogo from "../assets/sistem-logo-light.svg?raw";
   }
 
   .cta {
-    background: linear-gradient(
-      var(--gr-angle),
-      var(--blue-gradient),
-      var(--green-gradient)
-    );
+    /* background: linear-gradient( */
+    /*   var(--gr-angle), */
+    /*   var(--blue-gradient), */
+    /*   var(--green-gradient) */
+    /* ); */
+    background: var(--blue-gradient);
     padding: 5px 10px;
     border-radius: 5px;
     font-family: "JetBrains Mono";
@@ -141,13 +142,7 @@ import SISTEMLogo from "../assets/sistem-logo-light.svg?raw";
     font-weight: bold;
 
     &:hover {
-      background: linear-gradient(
-        var(--gr-angle),
-        var(--blue-gradient),
-        var(--green-gradient)
-      );
       --gr-angle: 270deg;
-      /* box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3); */
       text-decoration: none;
     }
   }
