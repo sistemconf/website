@@ -1,11 +1,136 @@
 ---
 import "../styles/globals.css";
+import { Image } from "astro:assets";
+
 import Layout from "../layouts/Layout.astro";
+import Hari from "../assets/committee/hari_ucd_webtech.jpg";
+import Shay from "../assets/committee/shay_ul_treasurer.png";
+import Milan from "../assets/committee/milan_ul_director.jpg";
+import Emily from "../assets/committee/emily_ul_hso.png";
+import Gavin from "../assets/committee/gavin_dcu_sponsorlead.jpg";
+import D from "../assets/committee/d_tud_webtech.png";
+import JJ from "../assets/committee/jj_dcu_pro.jpg";
+
+const committee = [
+  {
+    name: "Milan",
+    role: "Director",
+    uni: "UL",
+    picture: Milan,
+  },
+  {
+    name: "Shay",
+    role: "Treasurer",
+    uni: "UL",
+    picture: Shay,
+  },
+  {
+    name: "Emily",
+    role: "Health & Safety Officer",
+    uni: "UL",
+    picture: Emily,
+  },
+  {
+    name: "Gavin",
+    role: "Sponsor Lead",
+    uni: "DCU",
+    picture: Gavin,
+  },
+  {
+    name: "D",
+    role: "Web Tech",
+    uni: "TUD",
+    picture: D,
+  },
+  {
+    name: "Hari",
+    role: "Web Tech",
+    uni: "UCD",
+    picture: Hari,
+  },
+  {
+    name: "JJ",
+    role: "PRO",
+    uni: "DCU",
+    picture: JJ,
+  },
+];
 ---
 
 <Layout>
-  <main></main>
+  <main>
+    <h1>The Team</h1>
+    <section class="committee">
+      {
+        committee.map((member) => (
+          <div class="member">
+            <Image
+              src={member.picture}
+              alt={"Picture of" + member.name}
+              class="pfp"
+            />
+            <p class="name">
+              {member.name} | {member.uni}
+            </p>
+            <p>{member.role}</p>
+          </div>
+        ))
+      }
+    </section>
+  </main>
 </Layout>
 
-<script></script>
+<style>
+  .committee {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 1rem;
+    text-align: center;
+  }
 
+  .pfp {
+    width: 240px;
+    height: 240px;
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
+    border: 10px solid var(--blue-gradient);
+    margin-bottom: 1rem;
+  }
+
+  .member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      margin: 0px;
+    }
+  }
+
+  .name {
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 968px) {
+    .committee {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 788px) {
+    .pfp {
+      width: 100px;
+      height: 100px;
+      aspect-ratio: 1 / 1;
+      border: 5px solid var(--blue-gradient);
+    }
+
+    .committee {
+      gap: 1rem;
+    }
+  }
+</style>
