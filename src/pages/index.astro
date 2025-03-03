@@ -17,6 +17,10 @@ import tcdlogo from "../assets/socs/tcd.png";
 import lerologo from "../assets/sponsors/lero.png";
 ---
 
+<head>
+  <script src="https://js.tito.io/v2" is:inline async></script>
+</head>
+
 <Layout>
   <section id="hero">
     <h1>
@@ -24,11 +28,11 @@ import lerologo from "../assets/sponsors/lero.png";
       <span class="colors"> by students </span>
     </h1>
     <p class="details">
-      Saturday 22<sup>nd</sup> March 2025<br />
+      Saturday 29<sup>nd</sup> March 2025<br />
       University of Limerick
     </p>
     <div class="cta">
-      <a>TICKETS SOON</a>
+      <a href="#tickets">BUY TICKETS</a>
     </div>
   </section>
 
@@ -110,6 +114,22 @@ import lerologo from "../assets/sponsors/lero.png";
       </div>
     </section>
 
+    <section id="tickets">
+      <h2>Tickets</h2>
+      <p>
+        Each ticket includes <strong
+          >full access to all of the conference events, breakfast and lunch, and
+          also merch</strong
+        >. Societies buying 20 or more tickets will be billed at the discounted
+        rate of &euro;10 per ticket. Societies may also contact us directly <a
+          href="mailto:sistemconf@gmail.com">over email</a
+        >
+        to arrange tickets for their members.
+      </p>
+      <tito-widget class="ticket-widget" event="sistemconf/sistem-2025"
+      ></tito-widget>
+    </section>
+
     <section id="sponsors">
       <h2>Sponsors</h2>
 
@@ -162,6 +182,12 @@ import lerologo from "../assets/sponsors/lero.png";
 
   #sponsors {
     text-align: center;
+  }
+
+  #tickets {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #map {
