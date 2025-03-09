@@ -1,0 +1,25 @@
+---
+import "../styles/globals.css";
+import Layout from "../layouts/Layout.astro";
+import FAQ from "../assets/text/faq.md";
+---
+
+<Layout>
+  <main>
+    <FAQ />
+  </main>
+</Layout>
+
+<style>
+  main {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media screen and (max-width: 600px) {
+    main {
+      max-width: 80%;
+    }
+  }
+</style>

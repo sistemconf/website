@@ -1,0 +1,64 @@
+---
+import "../styles/globals.css";
+const { 
+    title = "TBA", 
+    speaker = "TBA", 
+    startTime = "TBA", 
+    endTime = "TBA", 
+    location = "TBA" } = Astro.props;
+--- 
+<main>
+    <div class="cardBorderWrap">
+        <div class="card">
+            <h2 class="gradientUnderline">[{startTime} - {endTime}] {title}</h2> 
+            <h4>{speaker}</h4>
+            <br/>
+            <p>{location}</p>
+        </div>
+    </div>
+</main>
+
+<style>
+    main {
+      max-width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .card {
+        background-color: white;
+        padding: 2rem;
+        border-radius: 5px;
+    }
+
+    .cardBorderWrap {
+        padding: 1rem;
+        position: relative;
+        background: linear-gradient(to right, var(--blue-gradient), var(--green-gradient));
+        padding: 3px;
+        border-radius: 5px;
+    }
+
+    .gradientUnderline {
+        text-decoration: none;
+        position: relative;
+        display: inline-block;
+    }
+
+    .gradientUnderline::before {
+        content: "";
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        left: 0;
+        height: 3px;
+        border-radius: 2px;
+        background: linear-gradient(to right, var(--blue-gradient), var(--green-gradient));
+    }
+  
+    @media screen and (max-width: 600px) {
+      main {
+        max-width: 80%;
+      }
+    }
+</style>
