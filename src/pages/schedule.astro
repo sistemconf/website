@@ -2,117 +2,97 @@
 import "../styles/globals.css";
 import Layout from "../layouts/Layout.astro";
 import ScheduleCard from "../components/ScheduleCard.astro";
+
+const schedule = [
+  {
+    title: "Registration",
+    startTime: "9:45",
+    endTime: "10:45",
+    location: "Student Centre Main Entrance",
+    description: "Register here for your badge and merch. Breakfast of fruit and scones will be provided.",
+  },
+  {
+    title: "Opening Ceremony",
+    startTime: "10:50",
+    endTime: "11:00",
+    speaker: "SISTEM Volunteers",
+  },
+  {
+    title: "Google (?) / Networking",
+    startTime: "11:00",
+    endTime: "11:40",
+    location: "KBG-12 / KBG-13",
+    imageSrc: "src/assets/speakers/google_logo.png",
+  },
+  {
+    title: "Clone Detection",
+    startTime: "12:00",
+    endTime: "12:40",
+    speaker: "Dr. Jim Buckley",
+    imageSrc: "src/assets/sponsors/lero_no_tagline.png",
+  },
+  {
+    title: "TBA",
+    startTime: "12:40",
+    endTime: "13:20",
+    speaker: "Dr. Ruairí O'Reilly",
+    imageSrc: "src/assets/speakers/dr_ruairi_o_reilly.jpg",
+    imageClass: "pfp",
+  },
+  {
+    title: "COVID-19 App",
+    startTime: "13:20",
+    endTime: "14:00",
+    speaker: "Dr. Jim Buckley",
+    imageSrc: "src/assets/speakers/dr_jim_buckley.jpg",
+    imageClass: "pfp",
+  },
+  {
+    title: "Lunch",
+    startTime: "14:00",
+    endTime: "14:30",
+    description: "Lunch is included as part of your ticket price.",
+  },
+  {
+    title: "Quantum Computing",
+    startTime: "14:40",
+    endTime: "15:20",
+    speaker: "Dr. Anila Mjeda",
+    imageSrc: "src/assets/speakers/dr_anila_mjeda.jpg",
+    imageClass: "pfp",
+  },
+  {
+    title: "Language Digitalisation",
+    startTime: "15:20",
+    endTime: "16:00",
+    speaker: "Dr. Tabea DeWille",
+    imageSrc: "src/assets/speakers/dr_tabea_dewille.jpg",
+    imageClass: "pfp",
+  },
+  {
+    title: "Lightning Talks",
+    startTime: "16:15",
+    endTime: "16:50",
+    speaker: "Attendees",
+  },
+  {
+    title: "Closing Ceremony",
+    startTime: "16:50",
+    endTime: "17:00",
+    speaker: "SISTEM Volunteers",
+  },
+];
 ---
 
 <Layout>
   <main>
     <h1>University of Limerick, 29<sup>th</sup> of March 2025</h1>
 
-    <ScheduleCard 
-      title="Registration" 
-      startTime="9:45" 
-      endTime="10:45"
-      location="Student Centre Main Entrance"
-      description="Register here for your badge and merch. Breakfast of fruit and scones will be provided."
-    />
-
-    <br/>
-
-    <ScheduleCard
-      title="Opening Ceremony"
-      startTime="10:50"
-      endTime="11:00"
-      speaker="SISTEM Volunteers"
-      imageSrc="src/assets/High-Res Favicon SISTEM.svg"
-    />
-
-    <br/>
-
-    <ScheduleCard
-      title="Google (?) / Networking"
-      startTime="11:00"
-      endTime="11:40"
-      location="KBG-12 / KBG-13"
-      imageSrc="src/assets/speakers/google_logo.png"
-    />
-
-    <br/>
-
-    <ScheduleCard
-      title="Clone Detection"
-      startTime="12:00"
-      endTime="12:40"
-      speaker="Dr. Jim Buckley"
-      imageSrc="/src/assets/sponsors/lero.png"
-    />
-
-    <br/>
-
-    <ScheduleCard
-      title="TBA"
-      startTime="12:40"
-      endTime="13:20"
-      speaker="Dr. Ruairí O'Reilly"
-      imageSrc="src/assets/speakers/dr_ruairi_o_reilly.jpg"
-    />
-
-    <br/>
-
-    <ScheduleCard
-      title="COVID-19 App"
-      startTime="13:20"
-      endTime="14:00"
-      speaker="Dr. Jim Buckley"  
-      imageSrc="src/assets/speakers/dr_jim_buckley.jpg"
-    />
-
-    <br/>
-
-    <ScheduleCard
-      title="Lunch"
-      startTime="14:00"
-      endTime="14:30"
-      description="Lunch is included as part of your ticket price."
-    />
-
-    <br/>
-
-    <ScheduleCard
-      title="Quantum Computing"
-      startTime="14:40"
-      endTime="15:20"
-      speaker="Dr. Anila Mjeda"
-      imageSrc="src/assets/speakers/dr_anila_mjeda.jpg"
-    />
-
-    <br/>
-
-    <ScheduleCard
-      title="Language Digitalisation"
-      startTime="15:20"
-      endTime="16:00"
-      speaker="Dr. Tabea DeWille"
-      imageSrc="src/assets/speakers/dr_tabea_dewille.jpg"
-    />
-
-    <br/>
-
-    <ScheduleCard
-      title="Lightning Talks"
-      startTime="16:15"
-      endTime="16:50"
-      speaker="Attendees"
-    />
-
-    <br/>
-
-    <ScheduleCard
-      title="Closing Ceremony"
-      startTime="16:50"
-      endTime="17:00"
-      speaker="Sistem Volunteers"
-    />
-
-    <br/>
+    {schedule.map((event) => (
+      <>
+        <ScheduleCard {...event} />
+        <br />
+      </>
+    ))}
   </main>
 </Layout>
