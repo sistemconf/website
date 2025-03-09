@@ -6,8 +6,35 @@ import ScheduleCard from "../components/ScheduleCard.astro";
 
 <Layout>
   <main>
-    <h1>University of Limerick, 29th of March 2025</h1>
-    <ScheduleCard title="Registration" speaker="Charles Babbage" startTime="10:30" endTime="11:00" location="Student Centre"/>
+    <h1>University of Limerick, 29<sup>th</sup> of March 2025</h1>
+
+    <ScheduleCard 
+      title="Registration" 
+      startTime="10:30" 
+      endTime="11:00"
+      location="Student Centre Lobby"
+      description="Register here for your badge and merch. Breakfast of fruit and scones will be provided."
+    />
+
+    <br/>
+
+    <ScheduleCard
+      title="Keynote"
+      startTime="11:00"
+      endTime="11:30"
+      speaker="LERO"
+      location="Student Centre Main Hall"  
+    />
+
+    <br/>
+    
+    <ScheduleCard
+      title="Lunch"
+      startTime="12:30"
+      endTime="13:30"
+      location="Student Centre Main Hall"  
+    />
+
     <br/>
   </main>
 </Layout>
