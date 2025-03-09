@@ -7,7 +7,9 @@ const {
     endTime = "TBA", 
     location = "KBG-12",
     description = "",
-    imageSrc = "/src/assets/Sistem2025Dark.png"} = Astro.props;
+    imageSrc = "/src/assets/sistem-logo-dark.svg",
+    imageClass = "imageLogo"
+} = Astro.props;
 --- 
 <main>
     <div class="cardBorderWrap">
@@ -19,7 +21,7 @@ const {
                     <p>{description}</p>
                 </div>
                 <div class="col image">
-                    <img src= {imageSrc} alt="Logo">
+                    <img class={imageClass} src={imageSrc} alt="Event Image">
                 </div>
             </div>
         </div>
@@ -53,6 +55,7 @@ const {
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
+        align-items: center; /* Ensures vertical alignment */
     }
 
     .col {
@@ -67,27 +70,28 @@ const {
     .image {
         flex: 1;
         display: flex;
-        align-items: center;
         justify-content: center;
+        align-items: center;
     }
 
-    .image img {
-        max-width: 100%;
+    /* Default Image Styling (Logos, Event Images) */
+    .imageLogo {
+        max-width: 90%;
         height: auto;
     }
 
-    /* Responsive Adjustments */
-    @media screen and (max-width: 768px) {
-        .row {
-            flex-direction: column;
-        }
-
-        .image {
-            justify-content: flex-start;
-        }
+    /* Profile Pictures */
+    .pfp {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        border: 10px solid var(--blue-gradient);
+        display: block;
     }
 
-    /* Gradient underline */
+    /* Gradient underline for the title */
     .gradientUnderline {
         text-decoration: none;
         position: relative;
@@ -104,4 +108,32 @@ const {
         border-radius: 5px;
         background: linear-gradient(to right, var(--blue-gradient), var(--green-gradient));
     }
+
+        /* Responsive Adjustments */
+  /* For mobile view adjustments */
+    @media screen and (max-width: 768px) {
+
+        main {
+            max-width: 80%;
+        }
+        .row {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            width: 100%;        
+        }
+
+        .pfp {
+            display: block;          
+            margin: 0 auto;         
+            max-width: 100%;   
+            height: auto;     
+        }
+    }
+
 </style>
