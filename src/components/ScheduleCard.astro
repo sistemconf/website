@@ -2,18 +2,18 @@
 import "../styles/globals.css";
 const { 
     title = "TBA", 
-    speaker = "TBA", 
+    speaker = "", 
     startTime = "TBA", 
     endTime = "TBA", 
-    location = "TBA" } = Astro.props;
+    location = "The Student Centre",
+    description = "" } = Astro.props;
 --- 
 <main>
     <div class="cardBorderWrap">
         <div class="card">
-            <h2 class="gradientUnderline">[{startTime} - {endTime}] {title}</h2> 
-            <h4>{speaker}</h4>
-            <br/>
-            <p>{location}</p>
+            <h2 class="gradientUnderline">[{startTime} - {endTime}] &nbsp; {title}</h2> 
+            <h3>{speaker} @ {location}</h3>
+            <p>{description}</p>
         </div>
     </div>
 </main>
@@ -24,21 +24,23 @@ const {
       margin-left: auto;
       margin-right: auto;
     }
-
+    /*Z index is to stop the menu dropdown on mobile from appearing under the card */
     .card {
         background-color: white;
         padding: 2rem;
-        border-radius: 5px;
+        border-radius: 3px;
+        z-index: -1;
     }
 
     .cardBorderWrap {
-        padding: 1rem;
         position: relative;
         background: linear-gradient(to right, var(--blue-gradient), var(--green-gradient));
-        padding: 3px;
+        padding: 0.2rem;
         border-radius: 5px;
+        z-index: -2;
     }
 
+    /*Gradient for the header underline*/
     .gradientUnderline {
         text-decoration: none;
         position: relative;
@@ -51,8 +53,8 @@ const {
         top: 100%;
         width: 100%;
         left: 0;
-        height: 3px;
-        border-radius: 2px;
+        height: 0.2rem;
+        border-radius: 5px;
         background: linear-gradient(to right, var(--blue-gradient), var(--green-gradient));
     }
   
