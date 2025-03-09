@@ -1,5 +1,8 @@
 ---
 import "../styles/globals.css";
+import { Image } from "astro:assets";
+import Sistem from "../assets/sistem-logo-dark.svg";
+
 const { 
     title = "TBA", 
     speaker = "", 
@@ -7,7 +10,7 @@ const {
     endTime = "TBA", 
     location = "KBG-12",
     description = "",
-    imageSrc = "/src/assets/sistem-logo-dark.svg",
+    imageSrc = Sistem,
     imageClass = "imageLogo"
 } = Astro.props;
 --- 
@@ -21,7 +24,7 @@ const {
                     <p>{description}</p>
                 </div>
                 <div class="col image">
-                    <img class={imageClass} src={imageSrc} alt="Event Image">
+                    <Image class={imageClass} src={imageSrc} alt="Event Image">
                 </div>
             </div>
         </div>

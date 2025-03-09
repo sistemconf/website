@@ -2,6 +2,13 @@
 import "../styles/globals.css";
 import Layout from "../layouts/Layout.astro";
 import ScheduleCard from "../components/ScheduleCard.astro";
+import Sistem from "../assets/sistem-logo-dark.svg";
+import Google from "../assets/speakers/google_logo.png";
+import Lero from "../assets/sponsors/lero_no_tagline.png";
+import Ruairi from "../assets/speakers/dr_ruairi_o_reilly.jpg";
+import Jim from "../assets/speakers/dr_jim_buckley.jpg";
+import Anila from "../assets/speakers/dr_anila_mjeda.jpg";
+import Tabea from "../assets/speakers/dr_tabea_dewille.jpg";
 
 const schedule = [
   {
@@ -22,21 +29,21 @@ const schedule = [
     startTime: "11:00",
     endTime: "11:40",
     location: "KBG-12 / KBG-13",
-    imageSrc: "src/assets/speakers/google_logo.png",
+    imageSrc: Google,
   },
   {
     title: "Clone Detection",
     startTime: "12:00",
     endTime: "12:40",
     speaker: "Dr. Jim Buckley",
-    imageSrc: "src/assets/sponsors/lero_no_tagline.png",
+    imageSrc: Lero,
   },
   {
     title: "TBA",
     startTime: "12:40",
     endTime: "13:20",
     speaker: "Dr. Ruairí O'Reilly",
-    imageSrc: "src/assets/speakers/dr_ruairi_o_reilly.jpg",
+    imageSrc: Ruairi,
     imageClass: "pfp",
   },
   {
@@ -44,7 +51,7 @@ const schedule = [
     startTime: "13:20",
     endTime: "14:00",
     speaker: "Dr. Jim Buckley",
-    imageSrc: "src/assets/speakers/dr_jim_buckley.jpg",
+    imageSrc: Jim,
     imageClass: "pfp",
   },
   {
@@ -58,7 +65,7 @@ const schedule = [
     startTime: "14:40",
     endTime: "15:20",
     speaker: "Dr. Anila Mjeda",
-    imageSrc: "src/assets/speakers/dr_anila_mjeda.jpg",
+    imageSrc: Anila,
     imageClass: "pfp",
   },
   {
@@ -66,7 +73,7 @@ const schedule = [
     startTime: "15:20",
     endTime: "16:00",
     speaker: "Dr. Tabea DeWille",
-    imageSrc: "src/assets/speakers/dr_tabea_dewille.jpg",
+    imageSrc: Tabea,
     imageClass: "pfp",
   },
   {
