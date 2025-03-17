@@ -3,31 +3,19 @@ import "../styles/globals.css";
 import { Image } from "astro:assets";
 import Sistem from "../assets/sistem-logo-dark.svg";
 
-const { 
-    title = "TBA", 
-    speaker = "", 
-    startTime = "TBA", 
-    endTime = "TBA", 
-    location = "KBG-12",
-    description = "",
-    imageSrc = Sistem,
-    imageClass = "imageLogo",
-    imageHref = "",
-} = Astro.props;
+const { speaker = "", imageSrc = Sistem } = Astro.props;
 --- 
+
 <main>
     <div class="cardBorderWrap">
         <div class="card">
             <div class="row">
                 <div class="col text">
-                    <h2 class="gradientUnderline">[{startTime} - {endTime}] &nbsp; {title}</h2> 
-                    <h3>{speaker} @ {location}</h3>
-                    <p>{description}</p>
+                    <h2 class="gradientUnderline">{speaker}</h2> 
+                    <p><slot /></p>
                 </div>
                 <div class="col image">
-                    <a href={imageHref || "#"}>
-                        <Image class={imageClass} src={imageSrc} alt="Event Image">
-                    </a>
+                    <Image class="pfp" src={imageSrc} alt={"Photo of " + speaker} />
                 </div>
             </div>
         </div>
