@@ -23,19 +23,13 @@ const schedule = [
     endTime: "11:00",
   },
   {
-    title: "Google (?) / Networking",
+    title: "Various Talks",
+    speaker: "Google",
     startTime: "11:00",
     endTime: "11:40",
     location: "KBG-12 / KBG-13",
     imageSrc: Google,
   },
-  // {
-  //   title: "Clone Detection",
-  //   startTime: "12:00",
-  //   endTime: "12:40",
-  //   speaker: "Dr. Jim Buckley",
-  //   imageSrc: Lero,
-  // },
   {
     title: "FAIR-MED",
     startTime: "12:40",
@@ -97,6 +91,8 @@ const schedule = [
   <main>
     <h1>University of Limerick, 29<sup>th</sup> of March 2025</h1>
 
+    <h3>Schedule is subject to change!</h3>
+
     <h3>Download event schedule <a href="assets/SpeakerTimetable.psd">HERE</a></h3>
 
     {schedule.map((event) => (
@@ -107,3 +103,9 @@ const schedule = [
     ))}
   </main>
 </Layout>
+
+<style>
+  h3 {
+    text-align: center;
+  }
+</style>
