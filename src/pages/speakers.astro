@@ -8,15 +8,23 @@ import Ruairi from "../assets/speakers/dr_ruairi_o_reilly.jpg";
 import Jim from "../assets/speakers/dr_jim_buckley.jpg";
 import Anila from "../assets/speakers/dr_anila_mjeda.jpg";
 import Tabea from "../assets/speakers/dr_tabea_dewille.jpg";
+import Anik from "../assets/speakers/anik_sarker.jpeg";
 import {Content as RuairiDesc} from "../assets/text/ruairi.md";
 import {Content as TabeaDesc} from "../assets/text/tabea.md";
 import {Content as JimDesc} from "../assets/text/jim.md";
 import {Content as AnilaDesc} from "../assets/text/anila.md";
+import {Content as AnikDesc} from "../assets/text/anik.md";
 ---
 
 <Layout>
   <main>
     <h1>Speakers at Sistem 2025</h1>
+
+    <SpeakerCard speaker="Anik Sarker" imageSrc={Anik} id="anik">
+      <AnikDesc />
+    </SpeakerCard>
+
+    <br/>
     
     <SpeakerCard speaker="Dr. Ruairí O'Reilly" imageSrc={Ruairi} id="ruairi">
       <RuairiDesc />
