@@ -16,7 +16,8 @@ const schedule = [
     startTime: "9:45",
     endTime: "10:45",
     location: "Student Centre Main Entrance",
-    description: "Register here for your badge and merch. Breakfast will be provided!",
+    description:
+      "Register here for your badge and merch. Breakfast will be provided!",
   },
   {
     title: "Opening Ceremony",
@@ -44,7 +45,8 @@ const schedule = [
     speaker: "Dr. Ruairí O'Reilly",
     imageSrc: Ruairi,
     imageClass: "pfp",
-    description: "Detect and measure biases in AI healthcare models, focus on intersectional fairness.",
+    description:
+      "Detect and measure biases in AI healthcare models, focus on intersectional fairness.",
     imageHref: "/speakers/#ruairi",
   },
   {
@@ -54,7 +56,7 @@ const schedule = [
     speaker: "Dr. Jim Buckley",
     imageSrc: Jim,
     imageClass: "pfp",
-    imageHref:"/speakers/#jim",
+    imageHref: "/speakers/#jim",
   },
   {
     title: "Lunch",
@@ -69,7 +71,7 @@ const schedule = [
     speaker: "Dr. Anila Mjeda",
     imageSrc: Anila,
     imageClass: "pfp",
-    imageHref:"/speakers/#anila",
+    imageHref: "/speakers/#anila",
   },
   {
     title: "Language Digitalisation",
@@ -78,7 +80,7 @@ const schedule = [
     speaker: "Dr. Tabea DeWille",
     imageSrc: Tabea,
     imageClass: "pfp",
-    imageHref:"/speakers/#tabea",
+    imageHref: "/speakers/#tabea",
   },
   {
     title: "Lightning Talks",
@@ -100,14 +102,18 @@ const schedule = [
 
     <h3>Schedule is subject to change!</h3>
 
-    <h3>Download event schedule <a href="assets/SpeakerTimetable.psd">HERE</a></h3>
+    <h3>
+      Download event schedule <a href="src/assets/SpeakerTimetable.png">HERE</a>
+    </h3>
 
-    {schedule.map((event) => (
-      <>
-        <ScheduleCard {...event} />
-        <br />
-      </>
-    ))}
+    {
+      schedule.map((event) => (
+        <>
+          <ScheduleCard {...event} />
+          <br />
+        </>
+      ))
+    }
   </main>
 </Layout>
 
