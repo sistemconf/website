@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="199.995" viewBox="-0.503 0 201.005 201">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-width: 36.48px;
+        fill-rule: evenodd;
+        stroke: url(#linear-gradient);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect width="200" height="201"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="18.313" y1="100.484" x2="181.656" y2="100.484" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#038000"/>
+      <stop offset="1" stop-color="#007480"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#clip-path)">
+    <path id="Donut" class="cls-1" d="M99.993,18.821a81.671,81.671,0,1,1-81.671,81.672A81.672,81.672,0,0,1,99.993,18.821Z"/>
+  </g>
+</svg>
