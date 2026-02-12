@@ -1,0 +1,367 @@
+{
+    "blog": {},
+    "gallery": [
+        "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fgallery%2FIMG_8533-01.jpeg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fgallery%2FIMG_8552-01.jpeg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fgallery%2FIMG_8556-01.jpeg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fgallery%2FIMG_8558-01.jpeg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fgallery%2FIMG_8616-01.jpeg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fgallery%2FIMG_8622-01.jpeg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fgallery%2FIMG_8665-01.jpeg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fgallery%2FIMG_8678-01.jpeg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fgallery%2FIMG_8693-01.jpeg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fgallery%2Fsistem_img10.jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fgallery%2Fsistem_img8.jpeg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fgallery%2Fsistem_img9.jpg?alt=media"
+    ],
+    "config": {
+        "notifications": {
+            "icon": "",
+            "timezone": "+00:00"
+        }
+    },
+    "partners": [
+        {
+            "items": [
+                {
+                    "order": 0,
+                    "logoUrl": "../images/companies/mastercard.png",
+                    "name": "Mastercard",
+                    "url": "https://www.mastercard.ie"
+                }
+            ],
+            "order": 0,
+            "title": "Diamond"
+        },
+        {
+            "items": [
+                {
+                    "order": 0,
+                    "logoUrl": "../images/companies/microsoft.png",
+                    "name": "Microsoft",
+                    "url": "https://www.microsoft.com"
+                }
+            ],
+            "order": 1,
+            "title": "Platinum"
+        },
+        {
+            "items": [
+                {
+                    "order": 0,
+                    "logoUrl": "../images/companies/stripe.png",
+                    "name": "Stripe",
+                    "url": "https://stripe.com"
+                },
+                {
+                    "order": 1,
+                    "logoUrl": "../images/companies/workday.png",
+                    "name": "Workday",
+                    "url": "https://www.workday.com"
+                },
+                {
+                    "order": 2,
+                    "logoUrl": "../images/companies/accenture.png",
+                    "name": "Accenture",
+                    "url": "https://www.accenture.com"
+                },
+                {
+                    "order": 3,
+                    "logoUrl": "../images/companies/redhat.png",
+                    "name": "RedHat",
+                    "url": "https://www.redhat.com"
+                }
+            ],
+            "order": 2,
+            "title": "Gold"
+        },
+        {
+            "items": [
+                {
+                    "order": 0,
+                    "logoUrl": "../images/companies/ibm.png",
+                    "name": "IBM",
+                    "url": "https://www.ibm.com"
+                },
+                {
+                    "order": 1,
+                    "logoUrl": "../images/companies/hubspot.png",
+                    "name": "HubSpot",
+                    "url": "https://www.hubspot.com"
+                }
+            ],
+            "order": 3,
+            "title": "Silver"
+        }
+    ],
+    "schedule": {
+        "2021-02-26": {
+            "date": "2021-02-26",
+            "dateReadable": "26th February",
+            "timeslots": [
+                {
+                    "startTime": "9:45",
+                    "endTime": "10:00",
+                    "sessions": [
+                        {
+                            "items": [
+                                "000"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "tracks": [
+                {
+                    "title": "Speaker Track"
+                },
+                {
+                    "title": "Panel Track"
+                },
+                {
+                    "title": "Workshop Track"
+                }
+            ]
+        }
+    },
+    "sessions": {
+        "000": {
+            "title": "Schedule TBC",
+            "description": "Our full schedule will be released soon - keep an eye on our social media in the meantime!",
+            "language": "English"
+        }
+    },
+    "speakers": { },
+    "team": [
+        {
+            "members": [
+                {
+                    "name": "NUIG Computer Society",
+                    "photo": "/images/team/nuig.jpg",
+                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fteam%2Fnuig.jpg?alt=media",
+                    "socials": [
+                        {
+                            "icon": "facebook",
+                            "link": "https://www.facebook.com/nuigcompsoc",
+                            "name": "Facebook"
+                        },
+                        {
+                            "icon": "twitter",
+                            "link": "https://twitter.com/nuigcompsoc",
+                            "name": "Twitter"
+                        },
+                        {
+                            "icon": "website",
+                            "link": "https://compsoc.ie/",
+                            "name": "Website"
+                        }
+                    ],
+                    "order": 0,
+                    "title": "NUI Galway"
+                },
+                {
+                    "name": "Redbrick DCU",
+                    "photo": "/images/teams/dcu.png",
+                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fteam%2Fdcu.png?alt=media",
+                    "socials": [
+                        {
+                            "icon": "facebook",
+                            "link": "https://www.facebook.com/dcuredbrick/",
+                            "name": "Facebook"
+                        },
+                        {
+                            "icon": "twitter",
+                            "link": "https://twitter.com/RedbrickDCU",
+                            "name": "Twitter"
+                        },
+                        {
+                            "icon": "website",
+                            "link": "https://redbrick.dcu.ie/",
+                            "name": "Website"
+                        }
+                    ],
+                    "order": 1,
+                    "title": "Dublin City University"
+                },
+                {
+                    "name": "UCD NetSoc",
+                    "photo": "/images/team/ucd.png",
+                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fteam%2Fucd.png?alt=media",
+                    "socials": [
+                        {
+                            "icon": "facebook",
+                            "link": "https://www.facebook.com/ucdnetsoc",
+                            "name": "Facebook"
+                        },
+                        {
+                            "icon": "twitter",
+                            "link": "https://twitter.com/ucdnetsoc",
+                            "name": "Twitter"
+                        },
+                        {
+                            "icon": "website",
+                            "link": "https://netsoc.com/",
+                            "name": "Website"
+                        }
+                    ],
+                    "order": 2,
+                    "title": "University College Dublin"
+                },
+                {
+                    "name": "Queen's Computing Society",
+                    "photo": "/images/team/qcs.png",
+                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fteam%2Fqcs.png?alt=media",
+                    "socials": [
+                        {
+                            "icon": "facebook",
+                            "link": "https://www.facebook.com/QCSQUB/",
+                            "name": "Facebook"
+                        },
+                        {
+                            "icon": "twitter",
+                            "link": "https://twitter.com/qcsqub?lang=en",
+                            "name": "Twitter"
+                        }
+                    ],
+                    "order": 3,
+                    "title": "Queens University Belfast"
+                },
+                {
+                    "name": "Trinity NetSoc",
+                    "photo": "/images/team/netsoctcd.png",
+                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fteam%2Fnetsoctcd.png?alt=media",
+                    "socials": [
+                        {
+                            "icon": "facebook",
+                            "link": "https://www.facebook.com/dunetsoc",
+                            "name": "Facebook"
+                        },
+                        {
+                            "icon": "twitter",
+                            "link": "https://twitter.com/netsoc",
+                            "name": "Twitter"
+                        },
+                        {
+                            "icon": "website",
+                            "link": "https://www.netsoc.tcd.ie",
+                            "name": "Website"
+                        }
+                    ],
+                    "order": 4,
+                    "title": "Trinity College"
+                },
+                {
+                    "name": "Computing Society UU",
+                    "photo": "/images/team/uu.png",
+                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fteam%2Fuu.png?alt=media",
+                    "socials": [
+                        {
+                            "icon": "facebook",
+                            "link": "https://www.facebook.com/computingsocietyuu",
+                            "name": "Facebook"
+                        },
+                        {
+                            "icon": "twitter",
+                            "link": "https://twitter.com/ComputingUU",
+                            "name": "Twitter"
+                        }
+                    ],
+                    "order": 5,
+                    "title": "Ulster University"
+                },
+                {
+                    "name": "Networking Society UCC",
+                    "photo": "/images/team/ucc.png",
+                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fteam%2Fucc.png?alt=media",
+                    "socials": [
+                        {
+                            "icon": "facebook",
+                            "link": "https://www.facebook.com/NetsocUCC",
+                            "name": "Facebook"
+                        },
+                        {
+                            "icon": "twitter",
+                            "link": "https://twitter.com/UCCNetsoc",
+                            "name": "Twitter"
+                        },
+                        {
+                            "icon": "website",
+                            "link": "https://netsoc.co",
+                            "name": "Website"
+                        }
+                    ],
+                    "order": 6,
+                    "title": "University College Cork"
+                },
+                {
+                    "name": "Trinity DUCSS",
+                    "photo": "/images/team/ducss.png",
+                    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/sistem-2022.appspot.com/o/images%2Fteam%2Fducss.png?alt=media",
+                    "socials": [
+                        {
+                            "icon": "facebook",
+                            "link": "https://www.facebook.com/ducss.ie/",
+                            "name": "Facebook"
+                        },
+                        {
+                            "icon": "twitter",
+                            "link": "https://twitter.com/ducss",
+                            "name": "Twitter"
+                        },
+                        {
+                            "icon": "website",
+                            "link": "https://ducss.ie/",
+                            "name": "Website"
+                        }
+                    ],
+                    "order": 7,
+                    "title": "Trinity College"
+                }
+            ],
+            "title": "The Team of Societies"
+        }
+    ],
+    "tickets": [
+        {
+            "available": true,
+            "currency": "€",
+            "ends": "Feb 26",
+            "name": "Online Standard",
+            "info": "Online Standard ticket",
+            "price": 5,
+            "soldOut": false,
+            "starts": "Feb 9",
+            "url": "https://hopin.com/events/sistem-2022",
+            "order": "0"
+        },
+        {
+            "available": true,
+            "currency": "€",
+            "ends": "Feb 26",
+            "name": "In-Person Standard",
+            "info": "In-Person Standard ticket",
+            "price": 10,
+            "soldOut": false,
+            "starts": "Feb 9",
+            "url": "https://hopin.com/events/sistem-2022",
+            "order": "1"
+        },
+        {
+            "available": true,
+            "currency": "€",
+            "ends": "Feb 26",
+            "name": "Premium",
+            "info": "Premium ticket",
+            "price": 20,
+            "soldOut": false,
+            "starts": "Feb 9",
+            "url": "https://hopin.com/events/sistem-2022",
+            "order": "2"
+        }
+    ],
+    "triggers": {
+        "images": false
+    },
+    "videos": [],
+    "previousSpeakers": {}
+}

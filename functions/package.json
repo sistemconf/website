@@ -1,0 +1,39 @@
+{
+  "name": "hoverboard-functions",
+  "private": true,
+  "description": "Hoverboard serverless functions",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "type": "module",
+  "engines": {
+    "node": "14",
+    "npm": "7"
+  },
+  "scripts": {
+    "build": "npm run clean && concurrently npm:build:*",
+    "build:index": "cpx \"../dist/*.html\" dist",
+    "build:src": "tsc",
+    "clean": "rimraf dist",
+    "start": "npm run clean && concurrently --kill-others npm:start:*",
+    "start:index": "npm run build:index -- --watch",
+    "start:src": "npm run build:src -- --watch"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^5.16.1",
+    "child-process-promise": "^2.2.1",
+    "express": "^4.17.2",
+    "firebase-admin": "^10.0.1",
+    "firebase-functions": "^3.16.0",
+    "md5": "^2.3.0",
+    "mkdirp": "^1.0.4",
+    "moment": "^2.29.1",
+    "node-fetch": "^3.1.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "concurrently": "^6.5.1",
+    "cpx2": "^4.1.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.4"
+  }
+}
