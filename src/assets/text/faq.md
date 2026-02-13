@@ -9,7 +9,7 @@ Anyone, you just need to have a ticket!
 <br>
 
 #### What does SISTEM stand for?
-Student Inter-Society Tech and Enterprise Meet-up
+SISTEM stands for "Student Inter-Society Tech and Enterprise Meet-up"
 
 <br>
 
@@ -19,7 +19,8 @@ It is run by students who are currently studying in university. We are all volun
 <br>
 
 #### How do I get to UL?
-UL is easily accessible by Public transport. If you are coming from Dublin, the Green Bus drops you to the entrance.
+UL is easily accessible by public transport. 
+If you are coming from Dublin, the Green Bus drops you at the entrance.
 
 <br>
 
