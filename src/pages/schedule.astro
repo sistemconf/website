@@ -10,118 +10,105 @@ import Anila from "../assets/speakers/dr_anila_mjeda.jpg";
 import Tabea from "../assets/speakers/dr_tabea_dewille.jpg";
 import Anik from "../assets/speakers/anik_sarker.jpeg";
 
-const schedule = [
-  {
-    title: "Registration",
-    startTime: "9:45",
-    endTime: "10:45",
-    location: "Student Centre Main Entrance",
-    description:
-      "Register here for your badge and merch. Breakfast will be provided!",
-  },
-  {
-    title: "Opening Ceremony",
-    startTime: "10:50",
-    endTime: "11:00",
-  },
-  {
-    title: "Social Event",
-    startTime: "11:00",
-    endTime: "11:40",
-  },
-  {
-    title: "Reliability at Google Scale",
-    startTime: "11:50",
-    endTime: "12:30",
-    speaker: "Anik Sarker",
-    imageSrc: Anik,
-    imageClass: "pfp",
-    imageHref: "/speakers/#anik",
-  },
-  {
-    title: "FAIR-MED",
-    startTime: "12:40",
-    endTime: "13:20",
-    speaker: "Dr. Ruairí O'Reilly",
-    imageSrc: Ruairi,
-    imageClass: "pfp",
-    description:
-      "Detect and measure biases in AI healthcare models, focus on intersectional fairness.",
-    imageHref: "/speakers/#ruairi",
-  },
-  {
-    title: "COVID-19 App & Clone Detection",
-    startTime: "13:20",
-    endTime: "14:00",
-    speaker: "Dr. Jim Buckley",
-    imageSrc: Jim,
-    imageClass: "pfp",
-    imageHref: "/speakers/#jim",
-  },
-  {
-    title: "Lunch",
-    startTime: "14:00",
-    endTime: "14:30",
-    description: "Lunch is included as part of your ticket price.",
-    location: "KBG-14"
-  },
-  {
-    title: "Quantum Computing",
-    startTime: "14:40",
-    endTime: "15:20",
-    speaker: "Dr. Anila Mjeda",
-    imageSrc: Anila,
-    imageClass: "pfp",
-    imageHref: "/speakers/#anila",
-  },
-  {
-    title: "Language Digitalisation",
-    startTime: "15:20",
-    endTime: "16:00",
-    speaker: "Dr. Tabea DeWille",
-    imageSrc: Tabea,
-    imageClass: "pfp",
-    imageHref: "/speakers/#tabea",
-  },
-  {
-    title: "Lightning Talks",
-    startTime: "16:15",
-    endTime: "16:50",
-    speaker: "Attendees",
-  },
-  {
-    title: "Closing Ceremony",
-    startTime: "16:50",
-    endTime: "17:00",
-  },
-];
+// const schedule = [
+//   {
+//     title: "Registration",
+//     startTime: "9:45",
+//     endTime: "10:45",
+//     location: "Student Centre Main Entrance",
+//     description:
+//       "Register here for your badge and merch. Breakfast will be provided!",
+//   },
+//   {
+//     title: "Opening Ceremony",
+//     startTime: "10:50",
+//     endTime: "11:00",
+//   },
+//   {
+//     title: "Social Event",
+//     startTime: "11:00",
+//     endTime: "11:40",
+//   },
+//   {
+//     title: "Reliability at Google Scale",
+//     startTime: "11:50",
+//     endTime: "12:30",
+//     speaker: "Anik Sarker",
+//     imageSrc: Anik,
+//     imageClass: "pfp",
+//     imageHref: "/speakers/#anik",
+//   },
+//   {
+//     title: "FAIR-MED",
+//     startTime: "12:40",
+//     endTime: "13:20",
+//     speaker: "Dr. Ruairí O'Reilly",
+//     imageSrc: Ruairi,
+//     imageClass: "pfp",
+//     description:
+//       "Detect and measure biases in AI healthcare models, focus on intersectional fairness.",
+//     imageHref: "/speakers/#ruairi",
+//   },
+//   {
+//     title: "COVID-19 App & Clone Detection",
+//     startTime: "13:20",
+//     endTime: "14:00",
+//     speaker: "Dr. Jim Buckley",
+//     imageSrc: Jim,
+//     imageClass: "pfp",
+//     imageHref: "/speakers/#jim",
+//   },
+//   {
+//     title: "Lunch",
+//     startTime: "14:00",
+//     endTime: "14:30",
+//     description: "Lunch is included as part of your ticket price.",
+//     location: "KBG-14"
+//   },
+//   {
+//     title: "Quantum Computing",
+//     startTime: "14:40",
+//     endTime: "15:20",
+//     speaker: "Dr. Anila Mjeda",
+//     imageSrc: Anila,
+//     imageClass: "pfp",
+//     imageHref: "/speakers/#anila",
+//   },
+//   {
+//     title: "Language Digitalisation",
+//     startTime: "15:20",
+//     endTime: "16:00",
+//     speaker: "Dr. Tabea DeWille",
+//     imageSrc: Tabea,
+//     imageClass: "pfp",
+//     imageHref: "/speakers/#tabea",
+//   },
+//   {
+//     title: "Lightning Talks",
+//     startTime: "16:15",
+//     endTime: "16:50",
+//     speaker: "Attendees",
+//   },
+//   {
+//     title: "Closing Ceremony",
+//     startTime: "16:50",
+//     endTime: "17:00",
+//   },
+// ];
 ---
 
 <Layout>
   <main>
-    <h1>University of Limerick, 29<sup>th</sup> of March 2025</h1>
+    <h1>University of Limerick, Q2 2026</h1>
 
-    <h3>
-      SIGN UP FOR LIGHTNING TALKS <a href="https://forms.gle/9DeYxLmFcWiiovB27">HERE</a>
-    </h3>
-
-    <h3>
-      Download event schedule <a href="/SpeakerTimetable.png">HERE</a>
-    </h3>
-
-    {
-      schedule.map((event) => (
-        <>
-          <ScheduleCard {...event} />
-          <br />
-        </>
-      ))
-    }
+    <h2>
+      Schedule coming soon!
+    </h2>
   </main>
 </Layout>
 
 <style>
-  h3 {
+  h2 {
     text-align: center;
   }
 </style>
