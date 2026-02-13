@@ -25,7 +25,7 @@ import SISTEMLogo from "../assets/sistem-logo-light.svg?raw";
         <li role="menuitem"><a href="/team">Team</a></li>
         <li role="menuitem"><a href="/codeofconduct">Code of Conduct</a></li>
         <li role="menuitem"><a href="/faq">FAQ</a></li>
-        <li role="menuitem"><a class="cta" href="/#tickets">BUY TICKETS</a></li>
+        <li role="menuitem"><a class="cta">Tickets WIP!</a></li>
       </ul>
     </nav>
   </div>
@@ -87,7 +87,7 @@ import SISTEMLogo from "../assets/sistem-logo-light.svg?raw";
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 1rem;
+    padding: 0 1rem;
     height: 60px;
     border-bottom: 1px solid #121212;
     background-image: url("../assets/SISTEMfooter.png");
@@ -135,7 +135,7 @@ import SISTEMLogo from "../assets/sistem-logo-light.svg?raw";
     background: var(--blue-gradient);
     padding: 5px 10px;
     border-radius: 5px;
-    font-family: "JetBrains Mono";
+    font-family: "JetBrains Mono",serif;
     color: white;
     transition:
       all 250ms ease-in-out,
@@ -162,8 +162,8 @@ import SISTEMLogo from "../assets/sistem-logo-light.svg?raw";
     align-items: center;
     gap: 1.5rem;
     list-style-type: none;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
   }
 
   @media screen and (max-width: 832px) {
@@ -178,7 +178,7 @@ import SISTEMLogo from "../assets/sistem-logo-light.svg?raw";
       align-items: center;
       justify-content: center;
       width: 24px;
-      padding: 0px;
+      padding: 0;
       cursor: pointer;
     }
 
@@ -196,7 +196,7 @@ import SISTEMLogo from "../assets/sistem-logo-light.svg?raw";
       visibility: visible;
       pointer-events: unset;
       transition: all 100ms;
-      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
       gap: 5px;
     }
 
@@ -218,7 +218,7 @@ import SISTEMLogo from "../assets/sistem-logo-light.svg?raw";
     }
 
     nav[data-expanded="false"] ul {
-      opacity: 0%;
+      opacity: 0;
       visibility: hidden;
       pointer-events: none;
     }
