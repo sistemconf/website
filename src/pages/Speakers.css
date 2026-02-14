@@ -1,0 +1,9 @@
+.speakers-page {
+    flex: 1;
+}
+
+.speakers-page .container {
+    padding-bottom: 60px;
+}
+
+

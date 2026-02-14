@@ -1,3 +1,0 @@
-Dr Ruairí O’Reilly is a lecturer in Computer Science at Munster Technological University (MTU) in Cork, Ireland. He is a member of LERO, the Science Foundation Ireland Research Centre for Software Excellence, and ADAPT, the SFI Research Centre for AI-Driven Digital Content Technology. 
-
-His research focuses on integrating automated analytics into workflows requiring expert knowledge. The primary application domain is e-health, combining artificial intelligence, machine learning and distributed systems into scalable clinical workflows. The intent is to contribute an understanding of the inherent limitations of analysis approaches, the data associated with clinical analysis, and the complexity of the multi-stakeholder perspectives required.

@@ -1,3 +1,0 @@
-Dr. Jim Buckley currently works as an associate professor in the Computer Science and Information Systems Department at the University of Limerick, Ireland. He has worked with/continues to work with companies as diverse as IBM, Fidelity, Information Mosaic, ACI Ireland, QAD Ireland, Wood Group Kenny and the HSE.
-
-He is a Principal Investigator in Lero and leads and directs the TREES (Trustworthy, Responsible, Efficient Engineering of Software) centre of excellence within Lero: a €6 million centre funded entirely by industry. He also leads the ARC group within Lero, a team dedicated to supporting software developers who are tasked with maintaining and evolving software systems.
