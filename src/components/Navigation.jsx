@@ -49,6 +49,11 @@ function Navigation() {
                     </Link>
                 </li>
                 <li className="nav-item">
+                    <Link to="/sponsors" className="nav-link" onClick={closeMenu}>
+                        Sponsors
+                    </Link>
+                </li>
+                <li className="nav-item">
                     <Link to="/coc" className="nav-link" onClick={closeMenu}>
                         Code of Conduct
                     </Link>

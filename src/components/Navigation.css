@@ -64,6 +64,8 @@
 .nav-item {
     line-height: 40px;
     margin: 0 15px;
+    display: flex;
+    align-items: center;
 }
 
 .nav-link {
@@ -76,6 +78,7 @@
     transition: all 0.3s ease;
     position: relative;
     font-weight: 500;
+    white-space: nowrap;
 }
 
 .nav-link::after {
@@ -130,11 +133,14 @@
 
 .color-tester-item {
     margin-left: 1rem;
+    display: flex;
+    align-items: center;
 }
 
 .color-tester-button {
     padding: 6px 12px;
     font-size: 0.85rem;
+    white-space: nowrap;
 }
 
 @media screen and (max-width: 960px) {
@@ -198,6 +204,7 @@
     .color-tester-button {
         width: 100%;
         text-align: center;
+        white-space: normal;
     }
 }
 

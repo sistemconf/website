@@ -3,8 +3,6 @@ import './Footer.css';
 import sistemTitle from '../assets/branding/SISTEM_Title.png';
 
 function Footer() {
-    const currentYear = new Date().getFullYear();
-
     return (<footer className="footer">
         <div className="footer-container">
             <div className="footer-section">
@@ -23,6 +21,7 @@ function Footer() {
                     <li><Link to="/schedule">Schedule</Link></li>
                     <li><Link to="/speakers">Speakers</Link></li>
                     <li><Link to="/team">Team</Link></li>
+                    <li><Link to="/sponsors">Sponsors</Link></li>
                 </ul>
             </div>
 
@@ -67,7 +66,7 @@ function Footer() {
         </div>
 
         <div className="footer-bottom">
-            <p>&copy; {currentYear} SISTEM Conference. All rights reserved.</p>
+            <p>SISTEM™ is organised by Intersocs, an association of Irish Computer and Networking societies.</p>
         </div>
     </footer>);
 }

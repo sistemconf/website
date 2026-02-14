@@ -7,6 +7,7 @@ import Speakers from './pages/Speakers';
 import Team from './pages/Team';
 import CodeOfConduct from './pages/CodeOfConduct';
 import FAQ from './pages/FAQ';
+import Sponsors from './pages/Sponsors';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                     <Route path="/schedule" element={<Schedule/>}/>
                     <Route path="/speakers" element={<Speakers/>}/>
                     <Route path="/team" element={<Team/>}/>
+                    <Route path="/sponsors" element={<Sponsors/>}/>
                     <Route path="/coc" element={<CodeOfConduct/>}/>
                     <Route path="/faq" element={<FAQ/>}/>
                 </Routes>

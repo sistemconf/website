@@ -57,7 +57,7 @@ function Home() {
 
         <section className="socs-involved">
             <div className="container">
-                <h2>Socs involved</h2>
+                <h2>Societies involved</h2>
                 <div className="socs-logos">
                     {socs.map((soc) => (<div key={soc.name} className="soc-logo-wrapper">
                         <img src={soc.logo} alt={soc.name} className="soc-logo"/>
@@ -87,6 +87,12 @@ function Home() {
                             Team
                         </h3>
                         <p>Meet the organizers</p>
+                    </Link>
+                    <Link to="/sponsors" className="nav-card">
+                        <h3>
+                            Sponsors
+                        </h3>
+                        <p>Learn about sponsorship opportunities</p>
                     </Link>
                     <Link to="/faq" className="nav-card">
                         <h3>

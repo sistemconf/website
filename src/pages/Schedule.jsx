@@ -4,7 +4,7 @@ function Schedule() {
     return (<div className="schedule-page">
         <div className="page-header">
             <h1>Conference Schedule</h1>
-            <p>SISTEM 2026 - February 13-14, 2026</p>
+            <p>SISTEM 2026 - Q2, 2026</p>
         </div>
 
         <div className="container">
