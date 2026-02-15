@@ -1,15 +1,10 @@
-import {useState, useEffect} from 'react';
 import {markdownToHtml} from '../utils/markdownLoader';
 import faqMarkdown from '../assets/text/faq.md?raw';
 import './FAQ.css';
 
 function FAQ() {
-    const [content, setContent] = useState('');
-
-    useEffect(() => {
-        const html = markdownToHtml(faqMarkdown);
-        setContent(html);
-    }, []);
+    // turns out I truly didn't know what "synchronous" meant
+    const content = markdownToHtml(faqMarkdown);
 
     return (<div className="faq-page">
         <div className="page-header">

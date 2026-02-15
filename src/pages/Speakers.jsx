@@ -81,7 +81,7 @@ function SpeakerProposalForm() {
             setTalkTitle('');
             setNotes('');
             setHoneypot('');
-        } catch (err) {
+        } catch {
             setSubmitError('Something went wrong while sending your proposal. Please try again later.');
         } finally {
             setIsSubmitting(false);

@@ -1,20 +1,10 @@
-import {useState, useEffect} from 'react';
 import {markdownToHtml, extractHeadings} from '../utils/markdownLoader';
 import cocMarkdown from '../assets/text/coc.md?raw';
 import './CodeOfConduct.css';
 
 function CodeOfConduct() {
-    const [content, setContent] = useState('');
-    const [headings, setHeadings] = useState([]);
-
-    useEffect(() => {
-        // Process imported markdown synchronously
-        // I'm not an expert in synchronous stuff in React
-        const html = markdownToHtml(cocMarkdown);
-        const toc = extractHeadings(cocMarkdown).filter(h => h.level >= 2 && h.level <= 3);
-        setContent(html);
-        setHeadings(toc);
-    }, []);
+    const content = markdownToHtml(cocMarkdown);
+    const headings = extractHeadings(cocMarkdown).filter((h) => h.level >= 2 && h.level <= 3);
 
     const renderQuickLinks = () => {
         if (!headings.length) return null;

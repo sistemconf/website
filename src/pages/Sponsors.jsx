@@ -8,7 +8,7 @@ const MAX_PLATINUM_SLOTS = 3;
 const SPONSOR_PACKAGES = [{
     id: 'platinum',
     name: 'Platinum',
-    price: '€1000 (up to 3 partners)',
+    price: '€1000',
     summary: 'Flagship tier with maximum visibility and first keynote slot.',
     recommended: false,
     benefits: ['Social media announcement', 'Logo on SISTEM-related social media', 'Logo & name on posters/signage', 'Company merchandise in event goodie bag', 'Volunteer uniforms featuring logo', 'Verbal recognition during the event', 'Pods/desks to showcase your company', '1st keynote at conference',],
@@ -237,7 +237,7 @@ function SponsorshipEnquiryForm({packages, selectedPackageId}) {
             setModifications('');
             setExtraComments('');
             setHoneypot('');
-        } catch (err) {
+        } catch {
             setSubmitError('Something went wrong while sending your message. Please try again later.');
         } finally {
             setIsSubmitting(false);
