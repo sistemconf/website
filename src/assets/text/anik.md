@@ -1,3 +1,0 @@
-Anik Sarker is a Senior Software Engineer at Google, focusing on cloud infrastructure reliability. He leads a team that builds and advocates centralized solutions for Google Cloud Platform (GCP) reliability. His current work centers on the safe management of changes to Cloud services.
-
-Previously, as a Site Reliability Engineer on GCP Persistent Disk product, he significantly contributed to the launch of Google Cloud Hyperdisk. This work was recently honored with a Google Cloud Tech Impact Award. His professional experience demonstrates a profound understanding of the intricacies involved in large-scale cloud computing.

@@ -1,0 +1,7 @@
+.team-page {
+    flex: 1;
+}
+
+.team-page .container {
+    padding-bottom: 60px;
+}
