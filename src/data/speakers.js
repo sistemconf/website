@@ -8,6 +8,6 @@ export const speakersData = [// Example structure for future use. Currently not 
         company: 'Organization',
         bio: 'Short bio goes here.',
         sessions: ['Talk title'],
-        image: null, // Optionally import an image and reference it here later.
+        image: null, //Import an image, probably put it in assets/speakers/ later.
     },];
 

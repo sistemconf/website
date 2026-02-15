@@ -22,7 +22,7 @@
 .hero-logo {
     height: 120px;
     margin-bottom: 20px;
-    animation: fadeIn 1s ease;
+    animation: fadeIn 0.7s ease;
     opacity: 0;
     transform: translateY(8px);
     transition: opacity 600ms ease-out, transform 600ms ease-out;
