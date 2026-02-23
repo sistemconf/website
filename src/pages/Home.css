@@ -45,6 +45,90 @@
     opacity: 0.95;
 }
 
+.waitlist-card {
+    margin: 1.5rem auto 0;
+    padding: 1.25rem 1.5rem;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    max-width: 440px;
+    box-shadow: var(--shadow-md, 0 4px 12px rgba(0, 0, 0, 0.25));
+    text-align: left;
+}
+
+.waitlist-card h2 {
+    margin: 0 0 0.35rem;
+}
+
+.waitlist-copy {
+    margin: 0 0 0.85rem;
+    opacity: 0.9;
+}
+
+.waitlist-form {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.waitlist-form input {
+    flex: 1;
+    padding: 0.75rem 0.9rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+}
+
+.waitlist-form input:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.waitlist-form button {
+    padding: 0.75rem 1.15rem;
+    border: none;
+    border-radius: 10px;
+    background: #fff;
+    color: var(--primary-dark);
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 120ms ease, box-shadow 120ms ease;
+    box-shadow: var(--shadow-sm, 0 3px 8px rgba(0, 0, 0, 0.15));
+}
+
+.waitlist-form button:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md, 0 4px 12px rgba(0, 0, 0, 0.25));
+}
+
+.waitlist-form button:active {
+    transform: translateY(0);
+}
+
+.waitlist-form button:disabled {
+    opacity: 0.75;
+    cursor: not-allowed;
+}
+
+.waitlist-status {
+    min-height: 1.5rem;
+    margin-top: 0.65rem;
+    font-weight: 600;
+}
+
+.waitlist-status:empty {
+    min-height: 0;
+    margin-top: 0;
+}
+
+.waitlist-status {
+    color: #fff;
+}
+
+.waitlist-status.error {
+    color: #ffd7d7;
+}
+
 .coming-soon-box {
     margin-top: 1.5rem;
     padding: 1rem 1.5rem;
@@ -221,6 +305,18 @@
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25));
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -285,6 +381,17 @@
     .soc-logo {
         max-width: 80px;
         max-height: 48px;
+    }
+}
+
+@media (max-width: 640px) {
+    .waitlist-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .waitlist-form button {
+        width: 100%;
     }
 }
 

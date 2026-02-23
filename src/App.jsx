@@ -8,12 +8,14 @@ import Team from './pages/Team';
 import CodeOfConduct from './pages/CodeOfConduct';
 import FAQ from './pages/FAQ';
 import Sponsors from './pages/Sponsors';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
 function App() {
     return (<Router>
         <div className="app">
             <Navigation/>
+            <ScrollToTop/>
             <main className="main-content">
                 <Routes>
                     <Route path="/" element={<Home/>}/>

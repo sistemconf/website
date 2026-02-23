@@ -14,12 +14,40 @@ import ulLogo from '../assets/socs/ul.svg';
 
 function Home() {
     const [logoLoaded, setLogoLoaded] = useState(false);
+    const [formStatus, setFormStatus] = useState('idle');
+    const [isSubmitting, setIsSubmitting] = useState(false);
 
     const socs = [{name: 'DCU', logo: dcuLogo}, {name: 'MU', logo: muLogo}, {name: 'QCS', logo: qcsLogo}, {
         name: 'TCD', logo: tcdLogo
     }, {name: 'TUD', logo: tudLogo}, {name: 'UCC', logo: uccLogo}, {name: 'UCD', logo: ucdLogo}, {
         name: 'UG', logo: ugLogo
     }, {name: 'UL', logo: ulLogo},];
+
+    const handleWaitlistSubmit = async (event) => {
+        event.preventDefault();
+        if (isSubmitting) return;
+        setIsSubmitting(true);
+        setFormStatus('idle');
+
+        const form = event.currentTarget;
+
+        const formData = new FormData(form);
+        try {
+            const response = await fetch('https://formspree.io/f/xwvnwwab', {
+                method: 'POST', body: formData, headers: {'Accept': 'application/json'},
+            });
+
+            await response.json();
+
+            form.reset();
+            setFormStatus('success');
+        } catch (err) {
+            console.error('Waitlist submit error:', err);
+            setFormStatus('error');
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
 
     return (<div className="home">
         <section className="hero">
@@ -29,8 +57,21 @@ function Home() {
                      onLoad={() => setLogoLoaded(true)}/>
                 <h1>SISTEM 2026</h1>
                 <p className="tagline">Student Inter-Society Tech and Enterprise Meetup</p>
-                <div className="coming-soon-box">
-                    <p>Coming Q2 2026, Tickets Available Soon!</p>
+                <div className="waitlist-card">
+                    <h2>Join the waitlist</h2>
+                    <p className="waitlist-copy">Sign up to get an email when tickets go live.</p>
+                    <form className="waitlist-form" onSubmit={handleWaitlistSubmit}>
+                        <label className="visually-hidden" htmlFor="waitlist-email">Email</label>
+                        <input id="waitlist-email" name="email" type="email" required placeholder="you@example.com"
+                               autoComplete="email" disabled={isSubmitting}/>
+                        <button type="submit"
+                                disabled={isSubmitting}>{isSubmitting ? 'Submitting…' : 'Notify me'}</button>
+                    </form>
+                    <div className={`waitlist-status ${formStatus === 'error' ? 'error' : ''}`} role="status"
+                         aria-live="polite">
+                        {formStatus === 'success' && "Thanks! We'll reach out to you soon about the information."}
+                        {formStatus === 'error' && 'Something went wrong. Please try again in a moment.'}
+                    </div>
                 </div>
             </div>
         </section>
