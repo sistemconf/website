@@ -97,7 +97,8 @@ function SpeakerProposalForm() {
         </p>
         <p className="speakers-intro-text">
             Use the form below to submit a talk proposal. We review proposals on a rolling basis and will follow up
-            with you by email.
+            with you by email. A screen with an HDMI input will be available for projecting presentations, images,
+            or other visual material.
         </p>
 
         <form className="speakers-form" onSubmit={handleSubmit} noValidate>
@@ -193,7 +194,8 @@ function SpeakerProposalForm() {
 
             <p className="speakers-form-note">
                 We will send your proposal directly to the SISTEM organising team. If selected, we will reach out
-                to coordinate scheduling and logistics.
+                to coordinate scheduling and logistics. A screen with an HDMI input will be provided for speakers to
+                project any visual materials (presentations, images, etc.).
             </p>
 
             {submitSuccess && (<div className="speakers-success" role="status">

@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Schedule from './pages/Schedule';
 import Speakers from './pages/Speakers';
+import Lightning from './pages/Lightning';
 import Team from './pages/Team';
 import CodeOfConduct from './pages/CodeOfConduct';
 import FAQ from './pages/FAQ';
@@ -21,6 +22,7 @@ function App() {
                     <Route path="/" element={<Home/>}/>
                     <Route path="/schedule" element={<Schedule/>}/>
                     <Route path="/speakers" element={<Speakers/>}/>
+                    <Route path="/lightning" element={<Lightning/>}/>
                     <Route path="/team" element={<Team/>}/>
                     <Route path="/sponsors" element={<Sponsors/>}/>
                     <Route path="/coc" element={<CodeOfConduct/>}/>

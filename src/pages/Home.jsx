@@ -1,6 +1,6 @@
 import './Home.css';
 import {Link} from 'react-router-dom';
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
 import logo from '../assets/branding/SISTEM2026_Logo.png';
 import dcuLogo from '../assets/socs/dcu.svg';
 import muLogo from '../assets/socs/mu.png';
@@ -17,6 +17,17 @@ function Home() {
     const [formStatus, setFormStatus] = useState('idle');
     const [isSubmitting, setIsSubmitting] = useState(false);
 
+    useEffect(() => {
+        const scriptId = 'tito-inline-widget-script';
+        if (document.getElementById(scriptId)) return;
+
+        const script = document.createElement('script');
+        script.id = scriptId;
+        script.src = 'https://js.tito.io/v2/with/inline';
+        script.async = true;
+        document.head.appendChild(script);
+    }, []);
+
     const socs = [{name: 'DCU', logo: dcuLogo}, {name: 'MU', logo: muLogo}, {name: 'QCS', logo: qcsLogo}, {
         name: 'TCD', logo: tcdLogo
     }, {name: 'TUD', logo: tudLogo}, {name: 'UCC', logo: uccLogo}, {name: 'UCD', logo: ucdLogo}, {
@@ -30,19 +41,24 @@ function Home() {
         setFormStatus('idle');
 
         const form = event.currentTarget;
-
         const formData = new FormData(form);
+
         try {
             const response = await fetch('https://formspree.io/f/xwvnwwab', {
                 method: 'POST', body: formData, headers: {'Accept': 'application/json'},
             });
 
-            await response.json();
+            const result = await response.json();
+            if (!response.ok) {
+                console.error('Newsletter submit failed:', result);
+                setFormStatus('error');
+                return;
+            }
 
             form.reset();
             setFormStatus('success');
         } catch (err) {
-            console.error('Waitlist submit error:', err);
+            console.error('Newsletter submit error:', err);
             setFormStatus('error');
         } finally {
             setIsSubmitting(false);
@@ -57,19 +73,26 @@ function Home() {
                      onLoad={() => setLogoLoaded(true)}/>
                 <h1>SISTEM 2026</h1>
                 <p className="tagline">Student Inter-Society Tech and Enterprise Meetup</p>
-                <div className="waitlist-card">
-                    <h2>Join the waitlist</h2>
-                    <p className="waitlist-copy">Sign up to get an email when tickets go live.</p>
+                <p className="event-date">Saturday, April 25, 2026</p>
+
+                <div className="waitlist-card ticket-widget-card">
+                    <h2>Get your ticket!</h2>
+                    <tito-widget event="sistemconf/sistem-2026"></tito-widget>
+                </div>
+
+                <div className="waitlist-card newsletter-card">
+                    <h2>Join the newsletter</h2>
+                    <p className="waitlist-copy">Get email updates about talks, tickets, and event announcements.</p>
                     <form className="waitlist-form" onSubmit={handleWaitlistSubmit}>
                         <label className="visually-hidden" htmlFor="waitlist-email">Email</label>
                         <input id="waitlist-email" name="email" type="email" required placeholder="you@example.com"
                                autoComplete="email" disabled={isSubmitting}/>
                         <button type="submit"
-                                disabled={isSubmitting}>{isSubmitting ? 'Submitting…' : 'Notify me'}</button>
+                                disabled={isSubmitting}>{isSubmitting ? 'Submitting...' : 'Join newsletter'}</button>
                     </form>
                     <div className={`waitlist-status ${formStatus === 'error' ? 'error' : ''}`} role="status"
                          aria-live="polite">
-                        {formStatus === 'success' && "Thanks! We'll reach out to you soon about the information."}
+                        {formStatus === 'success' && "You're on the list. We'll email you event updates soon."}
                         {formStatus === 'error' && 'Something went wrong. Please try again in a moment.'}
                     </div>
                 </div>
@@ -81,16 +104,16 @@ function Home() {
                 <h2>Conference Highlights</h2>
                 <div className="highlights-grid">
                     <div className="highlight">
-                        <h3>1 Day</h3>
-                        <p>Of experts talking, and pizza</p>
+                        <h3>1 Weekend</h3>
+                        <p>Of Pizza, Experts' Talks, and Networking!</p>
                     </div>
                     <div className="highlight">
-                        <h3>5 Speakers</h3>
-                        <p>Sharing their expertise</p>
+                        <h3>6 Speakers</h3>
+                        <p>Sharing their expertise, and Lightning Talks!</p>
                     </div>
                     <div className="highlight">
                         <h3>6 Hours</h3>
-                        <p>Of talks and sessions</p>
+                        <p>Of talks and sessions, with breaks!</p>
                     </div>
                 </div>
             </div>
@@ -121,7 +144,13 @@ function Home() {
                         <h3>
                             Speakers
                         </h3>
-                        <p>Meet our expert speakers</p>
+                        <p>Register to be a Speaker!</p>
+                    </Link>
+                    <Link to="/lightning" className="nav-card">
+                        <h3>
+                            Lightning Talks
+                        </h3>
+                        <p>Register to give a Lightning Talk!</p>
                     </Link>
                     <Link to="/team" className="nav-card">
                         <h3>
@@ -133,7 +162,7 @@ function Home() {
                         <h3>
                             Sponsors
                         </h3>
-                        <p>Learn about sponsorship opportunities</p>
+                        <p>Learn about sponsorship opportunities, and Register Interest</p>
                     </Link>
                     <Link to="/faq" className="nav-card">
                         <h3>
