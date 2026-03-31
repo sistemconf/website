@@ -44,6 +44,11 @@ function Navigation() {
                     </Link>
                 </li>
                 <li className="nav-item">
+                    <Link to="/lightning" className="nav-link" onClick={closeMenu}>
+                        Lightning
+                    </Link>
+                </li>
+                <li className="nav-item">
                     <Link to="/team" className="nav-link" onClick={closeMenu}>
                         Team
                     </Link>
