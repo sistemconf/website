@@ -169,6 +169,44 @@
     color: #ffd7d7;
 }
 
+.discord-card {
+    margin: 1.5rem auto 0;
+    padding: 1.25rem 1.5rem;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    max-width: 440px;
+    box-shadow: var(--shadow-md, 0 4px 12px rgba(0, 0, 0, 0.25));
+    text-align: center;
+}
+
+.discord-card h2 {
+    margin: 0 0 0.35rem;
+}
+
+.discord-card p {
+    margin: 0 0 0.85rem;
+    opacity: 0.9;
+}
+
+.discord-card a {
+    display: inline-block;
+    padding: 0.75rem 1.15rem;
+    border: none;
+    border-radius: 10px;
+    background: #fff;
+    color: var(--primary-dark);
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 120ms ease, box-shadow 120ms ease;
+    box-shadow: var(--shadow-sm, 0 3px 8px rgba(0, 0, 0, 0.15));
+}
+
+.discord-card a:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md, 0 4px 12px rgba(0, 0, 0, 0.25));
+}
+
 .coming-soon-box {
     margin-top: 1.5rem;
     padding: 1rem 1.5rem;

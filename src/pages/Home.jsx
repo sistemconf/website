@@ -73,16 +73,11 @@ function Home() {
                      onLoad={() => setLogoLoaded(true)}/>
                 <h1>SISTEM 2026</h1>
                 <p className="tagline">Student Inter-Society Tech and Enterprise Meetup</p>
-                <p className="event-date">Saturday, April 25, 2026</p>
-
-                <div className="waitlist-card ticket-widget-card">
-                    <h2>Get your ticket!</h2>
-                    <tito-widget event="sistemconf/sistem-2026"></tito-widget>
-                </div>
+                <p className="event-date">Friday, June 5th, 2026</p>
 
                 <div className="waitlist-card newsletter-card">
-                    <h2>Join the newsletter</h2>
-                    <p className="waitlist-copy">Get email updates about talks, tickets, and event announcements.</p>
+                    <h2>Register for the Waitlist</h2>
+                    <p className="waitlist-copy">Get first preference for tickets, and receive updates!</p>
                     <form className="waitlist-form" onSubmit={handleWaitlistSubmit}>
                         <label className="visually-hidden" htmlFor="waitlist-email">Email</label>
                         <input id="waitlist-email" name="email" type="email" required placeholder="you@example.com"
@@ -95,6 +90,12 @@ function Home() {
                         {formStatus === 'success' && "You're on the list. We'll email you event updates soon."}
                         {formStatus === 'error' && 'Something went wrong. Please try again in a moment.'}
                     </div>
+                </div>
+
+                <div className="discord-card">
+                    <h2>Join our Discord</h2>
+                    <p>Connect with the community!</p>
+                    <a href="https://discord.gg/ZWN2KxZ95w" target="_blank" rel="noopener noreferrer">Join Discord</a>
                 </div>
             </div>
         </section>

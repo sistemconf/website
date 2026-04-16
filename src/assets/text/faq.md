@@ -4,7 +4,7 @@
 
 ### When is the conference?
 
-The SISTEM 2026 Conference will be held on Saturday the 25th of April, 2026. Please check back for exact dates.
+The SISTEM 2026 Conference will be held on Saturday the 5th of June 2026. Please check back for exact dates.
 
 ### Where will the conference be held?
 
